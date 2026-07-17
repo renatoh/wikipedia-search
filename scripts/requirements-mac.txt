@@ -1,0 +1,3 @@
+# MacBook — summarize_long_articles.py
+torch
+transformers

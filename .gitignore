@@ -1,0 +1,19 @@
+# Secrets
+secrets.properties
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Large data files (regenerate via scripts/parse_wiki_dump*.py)
+resources/*.jsonl

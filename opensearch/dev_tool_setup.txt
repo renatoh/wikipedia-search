@@ -1,0 +1,202 @@
+GET _nodes?filter_path=nodes.*.jvm.version,nodes.*.jvm.vm_name
+
+GET _ingest/pipeline/wiki-embedding-pipeline
+
+GET /wikipedia
+
+GET /wikipedia/_count
+
+#POST /wikipedia/_delete_by_query
+{
+  "query": { "match_all": {} }
+}
+
+GET /wikipedia/_search
+
+GET /wikipedia/_settings
+{
+  "size": 10,
+  "_source": ["title", "embedding","text"],
+  "query": { "match_all": {} }
+}
+
+DELETE /wikipedia
+
+#creating index with mapping, needs to be created at the end if pipeline is referrenced
+PUT /wikipedia
+{
+  "settings": {
+    "index.knn": true,
+    "index.default_pipeline": "wiki-embedding-pipeline",
+    "index.number_of_replicas": 0
+  },
+  "mappings": {
+    "properties": {
+      "id":     { "type": "keyword" },
+      "title":  {
+        "type": "text",
+        "fields": { "keyword": { "type": "keyword" } }
+      },
+      "text":   { "type": "text" },
+      "embedding": {
+        "type": "knn_vector",
+        "dimension": 1024,
+        "method": {
+          "name": "hnsw",
+          "engine": "faiss",
+          "space_type": "l2",
+          "parameters": {
+            "encoder": { "name": "sq", "parameters": { "bits": 16 } }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+PUT _cluster/settings
+{
+  "persistent": {
+    "plugins.ml_commons.trusted_connector_endpoints_regex": [
+      "^http://192\\.168\\.1\\.68:8000/.*$"
+    ]
+  }
+}
+
+# enable private addresses
+PUT _cluster/settings
+{
+  "persistent": {
+    "plugins.ml_commons.connector.private_ip_enabled": "true"
+  }
+}
+
+#create connector
+POST /_plugins/_ml/connectors/_create
+{
+  "name": "local-embed-connector",
+  "description": "Connector for local Qwen3-Embedding-4B service",
+  "version": "1",
+  "protocol": "http",
+  "parameters": {
+    "endpoint": "http://192.168.1.68:8000/embed"
+  },
+  "credential": { "no_auth": "true" },
+  "actions": [
+    {
+      "action_type": "predict",
+      "method": "POST",
+      "url": "${parameters.endpoint}",
+      "headers": { "Content-Type": "application/json" },
+      "request_body": "${parameters.input}",
+      "pre_process_function": "connector.pre_process.default.embedding",
+      "post_process_function": "connector.post_process.default.embedding"
+    }
+  ]
+}
+#md34Up8Bpv1M9GKHxcrP
+
+
+
+#create model
+POST /_plugins/_ml/models/_register
+{
+  "name": "qwen3-embedding-4b-local",
+  "function_name": "remote",
+  "description": "Local Qwen3-Embedding-4B via custom FastAPI service",
+  "connector_id": "md34Up8Bpv1M9GKHxcrP"
+}
+#pt36Up8Bpv1M9GKHBcqd
+
+#deploy model
+POST /_plugins/_ml/models/pt36Up8Bpv1M9GKHBcqd/_deploy
+
+#query all models
+GET /_plugins/_ml/models/_search
+{"query": {"match_all": {}}}
+
+#check if model state is deployed
+GET /_plugins/_ml/models/pt36Up8Bpv1M9GKHBcqd
+
+#create ingest pipeleine
+PUT _ingest/pipeline/wiki-embedding-pipeline
+{
+  "description": "Combine title+text then embed",
+  "processors": [
+    {
+      "script": {
+        "lang": "painless",
+        "source": "ctx.embedding_source = ctx.title + (char) 10 + (char) 10 + ctx.text"
+      }
+    },
+    {
+      "text_embedding": {
+        "model_id": "pt36Up8Bpv1M9GKHBcqd",
+        "field_map": {
+          "embedding_source": "embedding"
+        }
+      }
+    },
+    {
+      "remove": {
+        "field": "embedding_source",
+        "ignore_missing": true
+      }
+    }
+  ]
+}
+
+POST _ingest/pipeline/wiki-embedding-pipeline/_simulate
+{
+  "docs": [
+    {
+      "_index": "wikipedia",
+      "_id": "1",
+      "_source": {
+        "title": "Test Article",
+        "text": "This is a test article about testing."
+      }
+    }
+  ]
+}
+
+# change to pipeline in order to just embed the lead field an not save it to the document
+PUT _ingest/pipeline/wiki-embedding-pipeline
+{
+  "description": "Combine title+lead then embed",
+  "processors": [
+    {
+      "script": {
+        "lang": "painless",
+        "source": "ctx.embedding_source = ctx.title + (char) 10 + (char) 10 + ctx.lead"
+      }
+    },
+    {
+      "text_embedding": {
+        "model_id": "pt36Up8Bpv1M9GKHBcqd",
+        "field_map": { "embedding_source": "embedding" }
+      }
+    },
+    {
+      "remove": { "field": ["embedding_source", "lead"], "ignore_missing": true }
+    }
+  ]
+}
+
+# adding a search pipelein with reciprocal rank function
+PUT /_search/pipeline/hybrid-search-pipeline
+{
+  "description": "RRF combination for hybrid search",
+  "phase_results_processors": [
+    {
+      "score-ranker-processor": {
+        "combination": {
+          "technique": "rrf",
+          "rank_constant": 60
+        }
+      }
+    }
+  ]
+}
+

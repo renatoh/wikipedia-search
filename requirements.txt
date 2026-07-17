@@ -1,0 +1,6 @@
+mwparserfromhell
+opensearch-py
+torch
+transformers
+requests
+openai
