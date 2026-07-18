@@ -14,6 +14,8 @@ DEFAULT_INDEX = "wikipedia"
 DEFAULT_PIPELINE = "hybrid-search-pipeline"
 DEFAULT_TOP_K = 10
 DEFAULT_KNN_K = 50
+DEFAULT_OS_TIMEOUT_S = 30
+DEFAULT_EMBED_TIMEOUT_S = 30
 
 
 class SearchService:
@@ -26,6 +28,8 @@ class SearchService:
         pipeline: str = DEFAULT_PIPELINE,
         top_k: int = DEFAULT_TOP_K,
         knn_k: int = DEFAULT_KNN_K,
+        os_timeout_s: int = DEFAULT_OS_TIMEOUT_S,
+        embed_timeout_s: int = DEFAULT_EMBED_TIMEOUT_S,
         client: OpenSearch | None = None,
     ):
         self.embed_endpoint = embed_endpoint
@@ -33,15 +37,19 @@ class SearchService:
         self.pipeline = pipeline
         self.top_k = top_k
         self.knn_k = knn_k
+        self.embed_timeout_s = embed_timeout_s
         self.client = client or OpenSearch(
             hosts=[{"host": os_host, "port": os_port}],
             http_compress=True,
             use_ssl=False,
             verify_certs=False,
+            timeout=os_timeout_s,
         )
 
     def embed(self, text: str) -> list[float]:
-        response = requests.post(self.embed_endpoint, json=[text])
+        response = requests.post(
+            self.embed_endpoint, json=[text], timeout=self.embed_timeout_s
+        )
         response.raise_for_status()
         return response.json()[0]
 

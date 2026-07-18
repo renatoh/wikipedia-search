@@ -34,41 +34,24 @@ from services import SearchService  # noqa: E402
 
 DEFAULT_MODEL = "o4-mini"
 
-SYSTEM_PROMPT = """You are a Wikipedia research assistant.
-
-Hard rules:
-- ONLY use information returned by your tool calls to answer. Treat your \
-own prior knowledge, memory, and training data as unavailable — as if you \
-had none. Every fact in your answer must come from a tool result in this \
-conversation.
-- You MUST call `wikipedia_search` at least once before answering any \
-factual question. Do not answer from memory even if you think you know.
-- Never mention your training data, knowledge cutoff, that you are an AI/ \
-language model, or any date about yourself. The user does not want meta- \
-commentary — only the answer, grounded in the search results.
-- If the retrieved evidence is insufficient or contradictory, say exactly \
-that. Do NOT fall back to prior knowledge to fill gaps.
+SYSTEM_PROMPT = """You are a Wikipedia research assistant. Answer only \
+from the results of your tool calls, not from your own knowledge.
 
 Tools:
-- `wikipedia_search(query, top_k)` — hybrid BM25 + kNN search. Returns \
-{id, title, snippet}. The snippet is only the article's first ~300 words, \
-so the answer may live deeper in the article.
-- `wikipedia_get(id)` — fetch the FULL text of one article by its id (from \
-a search hit).
+- `wikipedia_search(query, top_k)` — returns {id, title, snippet}. The \
+snippet is just the article's first ~300 words.
+- `wikipedia_get(id)` — returns the full article text.
 
 Workflow:
-1. Call `wikipedia_search` with a focused query.
-2. Look at the returned titles. If ANY hit's title closely matches the \
-subject of the question, you MUST call `wikipedia_get` on its id before \
-answering. Do not trust the snippet — it is only the first ~300 words of \
-the article, and Wikipedia leads are often written before the event and \
-not updated (e.g. "the tournament will be held..." even after it's over). \
-The current facts almost always live deeper in the article body.
-3. Only hedge, refuse, or give a "not yet happened / scheduled" answer \
-AFTER you have retrieved the FULL text of the most relevant candidate(s) \
-via `wikipedia_get` and confirmed the fact truly isn't there.
-4. Prefer several focused searches over one broad one. Cite article titles \
-inline like [Title] when you use a fact from a result."""
+- Search first, then fetch the most relevant article with wikipedia_get \
+before answering. Snippets alone are rarely enough.
+- If the retrieved text does not contain the answer, say so — don't guess.
+
+Citations:
+- Reference articles inline as [Article Title].
+- End the answer with a "Sources:" section listing each article you used:
+  Sources:
+  - [Article Title] (id: 12345)"""
 
 def load_properties(path: Path) -> dict[str, str]:
     """Parse a simple key=value properties file. Blank lines and lines
@@ -158,6 +141,10 @@ class AgenticSearch:
         self.model = model or DEFAULT_MODEL
         self.max_iterations = max_iterations
         self.snippet_words = snippet_words
+        # Print on init so the active model is visible no matter which
+        # entry point (CLI, web UI, or programmatic use) constructed us.
+        base_url = getattr(self.client, "base_url", None)
+        print(f"[AgenticSearch] model={self.model} base_url={base_url}")
         # Prepend today's date so the model can reason about "current",
         # "recent", "upcoming", etc. without falling back to its training
         # cutoff for temporal grounding.
@@ -176,6 +163,13 @@ class AgenticSearch:
         return " ".join(words[:n])
 
     def _run_tool(self, name: str, arguments: dict) -> str:
+        # Compatibility: some models (e.g. Command R via Ollama's OpenAI
+        # shim) emit args in Cohere's native shape:
+        #   {"tool_name": "...", "parameters": {"query": "..."}}
+        # instead of the flat OpenAI shape {"query": "..."}. Unwrap.
+        if isinstance(arguments.get("parameters"), dict):
+            arguments = arguments["parameters"]
+
         if name == "wikipedia_search":
             return self._tool_search(arguments)
         if name == "wikipedia_get":
@@ -202,9 +196,21 @@ class AgenticSearch:
         return json.dumps({"query": query, "hits": hits}, ensure_ascii=False)
 
     def _tool_get(self, arguments: dict) -> str:
-        doc_id = str(arguments.get("id", "")).strip()
-        if not doc_id:
-            return json.dumps({"error": "missing 'id'"})
+        raw_id = arguments.get("id")
+        # Guard against JSON null / missing / literal "None" / "null" —
+        # some models emit these when they lose track of the real id.
+        if raw_id is None or str(raw_id).strip().lower() in ("", "none", "null"):
+            return json.dumps(
+                {
+                    "error": (
+                        "'id' must be a non-empty document id from a "
+                        "wikipedia_search hit (e.g. \"17742072\"). "
+                        "Call wikipedia_search first and copy the `id` "
+                        "field of the hit you want."
+                    )
+                }
+            )
+        doc_id = str(raw_id).strip()
         try:
             source = self.search.get(doc_id)
         except Exception as e:
@@ -222,6 +228,12 @@ class AgenticSearch:
 
     def ask(self, user_message: str, verbose: bool = False) -> str:
         self.messages.append({"role": "user", "content": user_message})
+        # Track whether the model actually drilled in during this turn.
+        # If it tries to finalize after only running searches, we inject a
+        # nudge and force another loop iteration.
+        did_search = False
+        did_get = False
+        nudged_already = False
 
         for i in range(self.max_iterations):
             # Force a tool call on the very first iteration so the model
@@ -241,6 +253,31 @@ class AgenticSearch:
 
             tool_calls = message.tool_calls or []
             if not tool_calls:
+                # Mechanical guard: don't let the model finalize an answer
+                # after only searching. Force one drill-in attempt.
+                if did_search and not did_get and not nudged_already:
+                    if verbose:
+                        print(
+                            "  · guard: model tried to finalize without "
+                            "wikipedia_get — injecting nudge and looping"
+                        )
+                    self.messages.append(
+                        {
+                            "role": "user",
+                            "content": (
+                                "Stop. You searched but never called "
+                                "wikipedia_get. Snippets alone are not "
+                                "enough — they can be stale or contain "
+                                "data from a prior edition of the event. "
+                                "Call wikipedia_get on the most relevant "
+                                "hit before answering. If you truly do "
+                                "not need more detail, explicitly say so "
+                                "and justify why the snippet is enough."
+                            ),
+                        }
+                    )
+                    nudged_already = True
+                    continue
                 return message.content or ""
 
             for call in tool_calls:
@@ -250,6 +287,10 @@ class AgenticSearch:
                     arguments = {}
                 if verbose:
                     print(f"  · tool: {call.function.name}({arguments})")
+                if call.function.name == "wikipedia_search":
+                    did_search = True
+                elif call.function.name == "wikipedia_get":
+                    did_get = True
                 tool_result = self._run_tool(call.function.name, arguments)
                 if verbose:
                     # Surface tool errors and hit counts so infra issues
