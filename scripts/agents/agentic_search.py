@@ -141,6 +141,7 @@ class AgenticSearch:
         self.model = model or DEFAULT_MODEL
         self.max_iterations = max_iterations
         self.snippet_words = snippet_words
+        self.last_trace: list[dict] = []
         # Print on init so the active model is visible no matter which
         # entry point (CLI, web UI, or programmatic use) constructed us.
         base_url = getattr(self.client, "base_url", None)
@@ -217,11 +218,20 @@ class AgenticSearch:
             return json.dumps({"error": str(e)})
         if not source:
             return json.dumps({"error": f"no document with id={doc_id}"})
+        # Cap article text at a size that comfortably fits in num_ctx=32k
+        # even with a couple of drill-ins per turn, but doesn't chop off
+        # the actually-important sections (recent tournament results,
+        # match-by-match tables, references — which usually sit at the
+        # END of chronological articles).
+        MAX_ARTICLE_CHARS = 30000
+        text = source.get("text", "") or ""
+        if len(text) > MAX_ARTICLE_CHARS:
+            text = text[:MAX_ARTICLE_CHARS] + "\n\n[...truncated...]"
         return json.dumps(
             {
                 "id": source.get("id"),
                 "title": source.get("title"),
-                "text": source.get("text", ""),
+                "text": text,
             },
             ensure_ascii=False,
         )
@@ -234,6 +244,9 @@ class AgenticSearch:
         did_search = False
         did_get = False
         nudged_already = False
+        # Fresh trace for this turn — the caller (e.g. the web UI) can
+        # inspect `agent.last_trace` after ask() returns to render it.
+        self.last_trace: list[dict] = []
 
         for i in range(self.max_iterations):
             # Force a tool call on the very first iteration so the model
@@ -245,6 +258,11 @@ class AgenticSearch:
                 messages=self.messages,
                 tools=TOOLS,
                 tool_choice=tool_choice,
+                # Bump Ollama's context window — the default (4096) silently
+                # truncates once we've pulled a couple of full articles into
+                # the message list, causing empty/garbled synthesis turns.
+                # Ignored by real OpenAI (harmless extra body field).
+                extra_body={"options": {"num_ctx": 32768}},
             )
             message = response.choices[0].message
             # Append the assistant turn verbatim so tool_call ids match on the
@@ -256,6 +274,10 @@ class AgenticSearch:
                 # Mechanical guard: don't let the model finalize an answer
                 # after only searching. Force one drill-in attempt.
                 if did_search and not did_get and not nudged_already:
+                    self.last_trace.append({"kind": "guard", "text": (
+                        "guard: model tried to finalize without wikipedia_get "
+                        "— injecting nudge and looping"
+                    )})
                     if verbose:
                         print(
                             "  · guard: model tried to finalize without "
@@ -278,7 +300,13 @@ class AgenticSearch:
                     )
                     nudged_already = True
                     continue
-                return message.content or ""
+                if not message.content:
+                    return (
+                        "(no answer from model — likely context overflow, "
+                        "a timeout, or an upstream error. Try 'Reset agent "
+                        "memory' and rephrase the question.)"
+                    )
+                return message.content
 
             for call in tool_calls:
                 try:
@@ -292,20 +320,32 @@ class AgenticSearch:
                 elif call.function.name == "wikipedia_get":
                     did_get = True
                 tool_result = self._run_tool(call.function.name, arguments)
-                if verbose:
-                    # Surface tool errors and hit counts so infra issues
-                    # (e.g. embed server down) don't look like model bugs.
-                    try:
-                        parsed = json.loads(tool_result)
-                        if "error" in parsed:
-                            print(f"    ↳ ERROR: {parsed['error']}")
-                        elif "hits" in parsed:
-                            titles = [h.get("title") for h in parsed["hits"][:3]]
-                            print(f"    ↳ {len(parsed['hits'])} hit(s): {titles}")
-                        elif "title" in parsed:
-                            print(f"    ↳ got: {parsed['title']} ({len(parsed.get('text', ''))} chars)")
-                    except Exception:
-                        pass
+                # Build a summary line for both stdout and the UI trace.
+                summary = ""
+                try:
+                    parsed = json.loads(tool_result)
+                    if "error" in parsed:
+                        summary = f"ERROR: {parsed['error']}"
+                    elif "hits" in parsed:
+                        titles = [h.get("title") for h in parsed["hits"][:3]]
+                        summary = f"{len(parsed['hits'])} hit(s): {titles}"
+                    elif "title" in parsed:
+                        summary = (
+                            f"got: {parsed['title']} "
+                            f"({len(parsed.get('text', ''))} chars)"
+                        )
+                except Exception:
+                    pass
+                self.last_trace.append(
+                    {
+                        "kind": "tool",
+                        "name": call.function.name,
+                        "args": arguments,
+                        "summary": summary,
+                    }
+                )
+                if verbose and summary:
+                    print(f"    ↳ {summary}")
                 self.messages.append(
                     {
                         "role": "tool",
@@ -337,6 +377,7 @@ class AgenticSearch:
             messages=self.messages,
             tools=TOOLS,
             tool_choice="none",
+            extra_body={"options": {"num_ctx": 32768}},
         )
         message = response.choices[0].message
         self.messages.append(message.model_dump(exclude_none=True))
