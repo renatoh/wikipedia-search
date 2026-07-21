@@ -1,7 +1,0 @@
-# Lightweight client-side scripts — no GPU/torch needed:
-# bulk_load.py, hybrid_search.py, search_repl.py,
-# parse_wiki_dump.py, parse_wiki_dump_lead.py
-opensearch-py
-requests
-mwparserfromhell
-openai

@@ -1,43 +1,47 @@
 """
-Reusable service wrapping the hybrid-search components used by the REPL:
-embedding the query, and running the hybrid / BM25-only / kNN-only queries
-against the `wikipedia` OpenSearch index.
+Reusable service wrapping the hybrid-search components used by the REPL and
+the agent: running the hybrid / BM25-only / kNN-only queries against the
+`wikipedia` OpenSearch index.
+
+Query-time embedding is done SERVER-SIDE by OpenSearch via the `neural`
+query clause, using the same ML Commons model that the ingest pipeline uses
+at index time (model_id below). The client never embeds queries itself —
+index-time and query-time embedding share a single code path, and the client
+has no dependency on the embed service.
 """
 
-import requests
 from opensearchpy import OpenSearch
 
-DEFAULT_EMBED_ENDPOINT = "http://linux:8000/embed"
 DEFAULT_OS_HOST = "linux"
 DEFAULT_OS_PORT = 9200
 DEFAULT_INDEX = "wikipedia"
 DEFAULT_PIPELINE = "hybrid-search-pipeline"
+# ML Commons model registered in OpenSearch (remote connector to the embed
+# service). Same model the ingest pipeline uses — see opensearch/dev_tool_setup.txt.
+DEFAULT_MODEL_ID = "pt36Up8Bpv1M9GKHBcqd"
 DEFAULT_TOP_K = 10
 DEFAULT_KNN_K = 50
 DEFAULT_OS_TIMEOUT_S = 30
-DEFAULT_EMBED_TIMEOUT_S = 30
 
 
 class SearchService:
     def __init__(
         self,
-        embed_endpoint: str = DEFAULT_EMBED_ENDPOINT,
         os_host: str = DEFAULT_OS_HOST,
         os_port: int = DEFAULT_OS_PORT,
         index: str = DEFAULT_INDEX,
         pipeline: str = DEFAULT_PIPELINE,
+        model_id: str = DEFAULT_MODEL_ID,
         top_k: int = DEFAULT_TOP_K,
         knn_k: int = DEFAULT_KNN_K,
         os_timeout_s: int = DEFAULT_OS_TIMEOUT_S,
-        embed_timeout_s: int = DEFAULT_EMBED_TIMEOUT_S,
         client: OpenSearch | None = None,
     ):
-        self.embed_endpoint = embed_endpoint
         self.index = index
         self.pipeline = pipeline
+        self.model_id = model_id
         self.top_k = top_k
         self.knn_k = knn_k
-        self.embed_timeout_s = embed_timeout_s
         self.client = client or OpenSearch(
             hosts=[{"host": os_host, "port": os_port}],
             http_compress=True,
@@ -46,19 +50,7 @@ class SearchService:
             timeout=os_timeout_s,
         )
 
-    def embed(self, text: str) -> list[float]:
-        response = requests.post(
-            self.embed_endpoint, json=[text], timeout=self.embed_timeout_s
-        )
-        response.raise_for_status()
-        return response.json()[0]
-
-    def hybrid_search(
-        self,
-        query_text: str,
-        vector: list[float],
-        top_k: int | None = None,
-    ) -> dict:
+    def hybrid_search(self, query_text: str, top_k: int | None = None) -> dict:
         body = {
             "size": top_k or self.top_k,
             "query": {
@@ -71,9 +63,10 @@ class SearchService:
                             }
                         },
                         {
-                            "knn": {
+                            "neural": {
                                 "embedding": {
-                                    "vector": vector,
+                                    "query_text": query_text,
+                                    "model_id": self.model_id,
                                     "k": self.knn_k,
                                 }
                             }
@@ -105,15 +98,16 @@ class SearchService:
         }
         return self.client.search(index=self.index, body=body)
 
-    def knn_search(self, vector: list[float], size: int | None = None) -> dict:
-        """Same knn sub-query as the hybrid, run standalone so its raw kNN
-        score is visible."""
+    def knn_search(self, query_text: str, size: int | None = None) -> dict:
+        """Same neural sub-query as the hybrid, run standalone so its raw kNN
+        score is visible. OpenSearch embeds the query text server-side."""
         body = {
             "size": size or self.knn_k,
             "query": {
-                "knn": {
+                "neural": {
                     "embedding": {
-                        "vector": vector,
+                        "query_text": query_text,
+                        "model_id": self.model_id,
                         "k": self.knn_k,
                     }
                 }
@@ -132,12 +126,11 @@ class SearchService:
         return response.get("_source")
 
     def search_all(self, query_text: str) -> dict:
-        """Embed once and run all three queries — the exact shape the REPL
-        needs to print combined + per-component scores side by side."""
-        vector = self.embed(query_text)
+        """Run all three queries — the exact shape the REPL needs to print
+        combined + per-component scores side by side. No client-side embed:
+        OpenSearch embeds the query text itself for the neural clauses."""
         return {
-            "vector": vector,
-            "hybrid": self.hybrid_search(query_text, vector),
+            "hybrid": self.hybrid_search(query_text),
             "bm25": self.bm25_search(query_text),
-            "knn": self.knn_search(vector),
+            "knn": self.knn_search(query_text),
         }

@@ -181,8 +181,8 @@ class AgenticSearch:
         query = arguments.get("query", "")
         top_k = min(max(int(arguments.get("top_k", 5)), 1), 10)
         try:
-            vector = self.search.embed(query)
-            result = self.search.hybrid_search(query, vector, top_k=top_k)
+            # OpenSearch embeds the query server-side via the neural clause.
+            result = self.search.hybrid_search(query, top_k=top_k)
         except Exception as e:
             return json.dumps({"error": str(e)})
 

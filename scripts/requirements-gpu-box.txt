@@ -1,9 +1,0 @@
-# Ubuntu GPU box — embed_server.py, parse_wiki_dump.py, bulk_load.py
-fastapi
-uvicorn
-torch
-sentence-transformers
-numpy
-mwparserfromhell
-opensearch-py
-transformers>=4.51.0,<=4.56.2
