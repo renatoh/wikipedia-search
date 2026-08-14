@@ -3,12 +3,11 @@ Tiny web UI for the agentic Wikipedia search.
 
 Each browser session gets its OWN `AgenticSearch` instance (held in a
 per-session gr.State), so concurrent users don't share the message list
-or trip over each other's tool-call ids. Provider (openai / ollama) is
-picked via `active=` in secrets.properties, or an optional CLI arg.
+or trip over each other's tool-call ids. The LLM runs locally via Ollama
+(fully offline); base_url / model can be overridden in config.properties.
 
 Usage:
-    python scripts/web/app.py               # uses active provider
-    python scripts/web/app.py ollama        # override for this run
+    python scripts/web/app.py
     # then open http://localhost:7860
 """
 
@@ -48,24 +47,23 @@ def format_trace(trace: list[dict]) -> str:
 
 
 def main() -> None:
-    provider = sys.argv[1] if len(sys.argv) > 1 else None
     # A "template" agent, only used at startup to print the banner and
     # expose the model name in the UI header. Actual per-session agents
     # are created lazily inside `chat()` below.
-    banner_agent = AgenticSearch(provider=provider)
+    banner_agent = AgenticSearch()
 
     def chat(message: str, _history, agent):
         # Lazy-init one agent per browser session. Gradio persists `agent`
         # across turns in the same session via gr.State.
         if agent is None:
-            agent = AgenticSearch(provider=provider)
+            agent = AgenticSearch()
         answer = agent.ask(message, verbose=True)
         return answer + format_trace(agent.last_trace), agent
 
     def reset(_agent):
         # Return a brand-new agent (equivalent to `agent.reset()` but also
         # replaces the State value) and clear the visible chat.
-        return AgenticSearch(provider=provider), []
+        return AgenticSearch(), []
 
     with gr.Blocks(title="Wikipedia Agentic Search") as demo:
         gr.Markdown(f"# Wikipedia Agentic Search\n**Model:** `{banner_agent.model}`")
@@ -101,7 +99,7 @@ def main() -> None:
         # returns {answer, trace}. Simpler contract than the ChatInterface
         # auto-API. Called via gradio_client with api_name="/ask".
         def ask_api(question: str) -> dict:
-            a = AgenticSearch(provider=provider)
+            a = AgenticSearch()
             answer = a.ask(question, verbose=False)
             return {"answer": answer, "trace": a.last_trace}
 

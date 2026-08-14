@@ -1,12 +1,14 @@
 """
-Agentic wikipedia search — o4-mini drives a tool-calling loop, calling
-`wikipedia_search` (backed by our hybrid SearchService) as many times as it
-wants, then produces a grounded answer.
+Agentic wikipedia search — a local LLM (via Ollama) drives a tool-calling
+loop, calling `wikipedia_search` (backed by our hybrid SearchService) as many
+times as it wants, then produces a grounded answer.
+
+Fully offline: the LLM runs on a local Ollama server, so no API key and no
+internet access are required.
 
 Chat history is preserved across turns so follow-up questions work.
 
-The OpenAI API key is read from `secrets.properties` at the project root
-(key: `openai_api_key`). That file is git-ignored.
+`base_url` and `model` are read from `config.properties` at the project root.
 
 Usage:
     python3 -m agents.agentic_search
@@ -26,13 +28,11 @@ if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 PROJECT_ROOT = SCRIPTS_DIR.parent
-SECRETS_PATH = PROJECT_ROOT / "secrets.properties"
+CONFIG_PATH = PROJECT_ROOT / "config.properties"
 
 from openai import OpenAI  # noqa: E402  (imported after sys.path fix)
 
 from services import SearchService  # noqa: E402
-
-DEFAULT_MODEL = "o4-mini"
 
 SYSTEM_PROMPT = """You are a Wikipedia research assistant. Answer only \
 from the results of your tool calls, not from your own knowledge.
@@ -129,16 +129,15 @@ class AgenticSearch:
         search_service: SearchService | None = None,
         client: OpenAI | None = None,
         model: str | None = None,
-        provider: str | None = None,
         max_iterations: int = 8,
         snippet_words: int = 300,
     ):
         self.search = search_service or SearchService()
         if client is None:
-            client, resolved_model = _build_client(provider)
+            client, resolved_model = _build_client()
             model = model or resolved_model
         self.client = client
-        self.model = model or DEFAULT_MODEL
+        self.model = model
         self.max_iterations = max_iterations
         self.snippet_words = snippet_words
         self.last_trace: list[dict] = []
@@ -261,7 +260,6 @@ class AgenticSearch:
                 # Bump Ollama's context window — the default (4096) silently
                 # truncates once we've pulled a couple of full articles into
                 # the message list, causing empty/garbled synthesis turns.
-                # Ignored by real OpenAI (harmless extra body field).
                 extra_body={"options": {"num_ctx": 32768}},
             )
             message = response.choices[0].message
@@ -384,46 +382,26 @@ class AgenticSearch:
         return message.content or "(no answer produced)"
 
 
-def _build_client(provider: str | None = None) -> tuple[OpenAI, str]:
-    """Build an OpenAI-compatible client from secrets.properties.
+def _build_client() -> tuple[OpenAI, str]:
+    """Build an OpenAI-compatible client pointed at a local Ollama server.
 
-    Providers are named profiles in the properties file, e.g. `openai.*`
-    and `ollama.*`. If `provider` is None, the `active=` key selects the
-    default. Recognized per-profile keys:
-
-      <name>.base_url  — optional (empty = real OpenAI)
-      <name>.model     — required
-      <name>.api_key   — required for real OpenAI; ignored (any value ok)
-                         for local servers like Ollama.
+    `base_url` and `model` are read from config.properties (the single
+    source of truth). Ollama ignores the API key, so no real key (and no
+    internet) is needed.
     """
-    props = load_properties(SECRETS_PATH)
-    provider = (provider or props.get("active", "openai")).strip()
-
-    prefix = f"{provider}."
-    base_url = props.get(prefix + "base_url", "").strip() or None
-    model = props.get(prefix + "model", "").strip() or DEFAULT_MODEL
-    api_key = props.get(prefix + "api_key", "").strip()
-
-    if base_url:
-        # Local / OpenAI-compatible server — SDK requires *some* string.
-        api_key = api_key or "not-needed"
-    else:
-        if not api_key or api_key == "REPLACE_ME":
-            raise RuntimeError(
-                f"'{provider}.api_key' not set in {SECRETS_PATH}. "
-                f"Either set it, or run with a different provider "
-                f"(e.g. `python agentic_search.py ollama`)."
-            )
-
-    return OpenAI(api_key=api_key, base_url=base_url), model
+    props = load_properties(CONFIG_PATH)
+    base_url = props.get("base_url", "").strip()
+    model = props.get("model", "").strip()
+    if not base_url or not model:
+        raise RuntimeError(
+            f"Set both 'base_url' and 'model' in {CONFIG_PATH}."
+        )
+    return OpenAI(api_key="not-needed", base_url=base_url), model
 
 
 def _repl() -> None:
-    # Optional positional arg: provider name (matches a *.model prefix in
-    # secrets.properties). If omitted, falls back to `active=` in the file.
-    provider = sys.argv[1] if len(sys.argv) > 1 else None
-    agent = AgenticSearch(provider=provider)
-    print(f"agentic wikipedia search — provider: {provider or 'active'}, model: {agent.model}")
+    agent = AgenticSearch()
+    print(f"agentic wikipedia search — model: {agent.model}")
     print("type a question, 'reset' to clear history, or 'exit'/'quit' to stop\n")
 
     while True:

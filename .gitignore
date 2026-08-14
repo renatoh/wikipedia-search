@@ -1,6 +1,3 @@
-# Secrets
-secrets.properties
-
 # Python
 __pycache__/
 *.py[cod]
