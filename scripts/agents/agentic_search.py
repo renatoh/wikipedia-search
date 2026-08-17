@@ -155,6 +155,32 @@ class AgenticSearch:
         """Drop conversation history, keep the system prompt."""
         self.messages = self.messages[:1]
 
+    @property
+    def relevant_articles(self) -> list[dict]:
+        """Articles the agent judged relevant on the last ask() — i.e. the
+        ones it chose to fetch in full via wikipedia_get. De-duplicated by id,
+        in fetch order. Empty if it never drilled into an article."""
+        seen: set = set()
+        articles: list[dict] = []
+        for evt in self.last_trace:
+            fetched = evt.get("fetched")
+            if fetched and fetched.get("id") not in seen:
+                seen.add(fetched.get("id"))
+                articles.append(fetched)
+        return articles
+
+    def _log_relevant(self, verbose: bool) -> None:
+        """Print the consolidated relevant-article(s) summary. Called at each
+        exit of ask() so it lands in whatever log the caller is watching."""
+        if not verbose:
+            return
+        relevant = self.relevant_articles
+        if relevant:
+            titles = ", ".join(f"{a['title']} (id: {a['id']})" for a in relevant)
+            print(f"  · relevant article(s): {titles}")
+        else:
+            print("  · relevant article(s): none fetched")
+
     def _first_words(self, text: str, n: int) -> str:
         """Return the first n whitespace-delimited words of `text`. Cheap
         approximation of the article's lead section — 300 words is roughly
@@ -298,6 +324,7 @@ class AgenticSearch:
                     )
                     nudged_already = True
                     continue
+                self._log_relevant(verbose)
                 if not message.content:
                     return (
                         "(no answer from model — likely context overflow, "
@@ -319,19 +346,23 @@ class AgenticSearch:
                     did_get = True
                 tool_result = self._run_tool(call.function.name, arguments)
                 # Build a summary line for both stdout and the UI trace.
+                # For a successful wikipedia_get, also capture the fetched
+                # article (id + title) — the agent's own relevance judgment.
                 summary = ""
+                fetched = None
                 try:
                     parsed = json.loads(tool_result)
                     if "error" in parsed:
                         summary = f"ERROR: {parsed['error']}"
                     elif "hits" in parsed:
-                        titles = [h.get("title") for h in parsed["hits"][:3]]
+                        titles = [h.get("title") for h in parsed["hits"]]
                         summary = f"{len(parsed['hits'])} hit(s): {titles}"
                     elif "title" in parsed:
                         summary = (
                             f"got: {parsed['title']} "
                             f"({len(parsed.get('text', ''))} chars)"
                         )
+                        fetched = {"id": parsed.get("id"), "title": parsed.get("title")}
                 except Exception:
                     pass
                 self.last_trace.append(
@@ -340,6 +371,7 @@ class AgenticSearch:
                         "name": call.function.name,
                         "args": arguments,
                         "summary": summary,
+                        "fetched": fetched,
                     }
                 )
                 if verbose and summary:
@@ -379,6 +411,7 @@ class AgenticSearch:
         )
         message = response.choices[0].message
         self.messages.append(message.model_dump(exclude_none=True))
+        self._log_relevant(verbose)
         return message.content or "(no answer produced)"
 
 

@@ -101,7 +101,11 @@ def main() -> None:
         def ask_api(question: str) -> dict:
             a = AgenticSearch()
             answer = a.ask(question, verbose=False)
-            return {"answer": answer, "trace": a.last_trace}
+            return {
+                "answer": answer,
+                "trace": a.last_trace,
+                "relevant_articles": a.relevant_articles,
+            }
 
         gr.api(fn=ask_api, api_name="ask")
 
