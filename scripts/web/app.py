@@ -12,7 +12,9 @@ Usage:
 """
 
 import sys
+import time
 from pathlib import Path
+import gradio as gr
 
 # Make `scripts/` importable so `from agents import AgenticSearch` works
 # when this file is run directly (right-click Run in PyCharm, python app.py).
@@ -20,7 +22,7 @@ SCRIPTS_DIR = Path(__file__).resolve().parent.parent
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
-import gradio as gr  # noqa: E402
+# noqa: E402
 
 from agents import AgenticSearch  # noqa: E402
 
@@ -57,7 +59,10 @@ def main() -> None:
         # across turns in the same session via gr.State.
         if agent is None:
             agent = AgenticSearch()
+        start = time.time()
         answer = agent.ask(message, verbose=True)
+
+        print(f"Answering question took:{round(time.time()-start, 3)}s")
         return answer + format_trace(agent.last_trace), agent
 
     def reset(_agent):

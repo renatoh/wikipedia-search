@@ -19,6 +19,7 @@ import json
 import sys
 from datetime import date
 from pathlib import Path
+import time
 
 # Make `scripts/` importable so `from services import ...` works when the
 # file is run directly (e.g. right-click Run in PyCharm), not only when
@@ -141,6 +142,8 @@ class AgenticSearch:
         self.max_iterations = max_iterations
         self.snippet_words = snippet_words
         self.last_trace: list[dict] = []
+        self.last_total_seconds: float = 0.0
+        self._t_start: float = 0.0
         # Print on init so the active model is visible no matter which
         # entry point (CLI, web UI, or programmatic use) constructed us.
         base_url = getattr(self.client, "base_url", None)
@@ -170,8 +173,10 @@ class AgenticSearch:
         return articles
 
     def _log_relevant(self, verbose: bool) -> None:
-        """Print the consolidated relevant-article(s) summary. Called at each
-        exit of ask() so it lands in whatever log the caller is watching."""
+        """Record total elapsed time and, when verbose, print the consolidated
+        relevant-article(s) + timing summary. Called at each exit of ask() so
+        it lands in whatever log the caller is watching."""
+        self.last_total_seconds = round(time.perf_counter() - self._t_start, 3)
         if not verbose:
             return
         relevant = self.relevant_articles
@@ -180,6 +185,7 @@ class AgenticSearch:
             print(f"  · relevant article(s): {titles}")
         else:
             print("  · relevant article(s): none fetched")
+        print(f"  · total time: {self.last_total_seconds:.2f}s")
 
     def _first_words(self, text: str, n: int) -> str:
         """Return the first n whitespace-delimited words of `text`. Cheap
@@ -262,6 +268,7 @@ class AgenticSearch:
         )
 
     def ask(self, user_message: str, verbose: bool = False) -> str:
+
         self.messages.append({"role": "user", "content": user_message})
         # Track whether the model actually drilled in during this turn.
         # If it tries to finalize after only running searches, we inject a
@@ -272,12 +279,16 @@ class AgenticSearch:
         # Fresh trace for this turn — the caller (e.g. the web UI) can
         # inspect `agent.last_trace` after ask() returns to render it.
         self.last_trace: list[dict] = []
+        # Wall-clock start for the whole question (all LLM turns + tools).
+        self._t_start = time.perf_counter()
 
         for i in range(self.max_iterations):
             # Force a tool call on the very first iteration so the model
             # can't skip retrieval and answer from parametric memory. After
             # that, "auto" lets it synthesize once it has enough evidence.
             tool_choice = "required" if i == 0 else "auto"
+
+            t0 = time.perf_counter()
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=self.messages,
@@ -288,6 +299,11 @@ class AgenticSearch:
                 # the message list, causing empty/garbled synthesis turns.
                 extra_body={"options": {"num_ctx": 32768}},
             )
+            llm_secs = time.perf_counter() - t0
+            self.last_trace.append({"kind": "llm", "seconds": round(llm_secs, 3)})
+            if verbose:
+                print(f"  · llm turn: {llm_secs:.2f}s")
+
             message = response.choices[0].message
             # Append the assistant turn verbatim so tool_call ids match on the
             # next request — required by the Chat Completions tool protocol.
@@ -344,7 +360,9 @@ class AgenticSearch:
                     did_search = True
                 elif call.function.name == "wikipedia_get":
                     did_get = True
+                t0 = time.perf_counter()
                 tool_result = self._run_tool(call.function.name, arguments)
+                tool_secs = time.perf_counter() - t0
                 # Build a summary line for both stdout and the UI trace.
                 # For a successful wikipedia_get, also capture the fetched
                 # article (id + title) — the agent's own relevance judgment.
@@ -372,10 +390,11 @@ class AgenticSearch:
                         "args": arguments,
                         "summary": summary,
                         "fetched": fetched,
+                        "seconds": round(tool_secs, 3),
                     }
                 )
                 if verbose and summary:
-                    print(f"    ↳ {summary}")
+                    print(f"    ↳ {summary}  [{tool_secs:.2f}s]")
                 self.messages.append(
                     {
                         "role": "tool",
@@ -402,6 +421,7 @@ class AgenticSearch:
                 ),
             }
         )
+        t0 = time.perf_counter()
         response = self.client.chat.completions.create(
             model=self.model,
             messages=self.messages,
@@ -409,9 +429,15 @@ class AgenticSearch:
             tool_choice="none",
             extra_body={"options": {"num_ctx": 32768}},
         )
+        llm_secs = time.perf_counter() - t0
+        self.last_trace.append({"kind": "llm", "seconds": round(llm_secs, 3)})
+        if verbose:
+            print(f"  · llm turn (forced final): {llm_secs:.2f}s")
         message = response.choices[0].message
         self.messages.append(message.model_dump(exclude_none=True))
         self._log_relevant(verbose)
+
+
         return message.content or "(no answer produced)"
 
 
@@ -454,8 +480,10 @@ def _repl() -> None:
             continue
 
         try:
+            start = timeit.timeit()
+            print("start!!")
             answer = agent.ask(question, verbose=True)
-            print(f"\nassistant> {answer}\n")
+            print(f"\nassistant> {answer}\n in {timeit.timeit()-start}")
         except Exception as e:
             print(f"error: {e}\n")
 

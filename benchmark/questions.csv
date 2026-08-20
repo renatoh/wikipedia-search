@@ -1,0 +1,101 @@
+id,question,era,complexity
+1,"Which city hosted the 2026 Winter Olympics?",post_dec_2025,simple
+2,"Who won Super Bowl LX in 2026?",post_dec_2025,simple
+3,"Which country topped the medal table at the 2026 Winter Olympics?",post_dec_2025,simple
+4,"Who won the men's singles title at the 2026 Australian Open?",post_dec_2025,simple
+5,"Which film won Best Picture at the 2026 Academy Awards?",post_dec_2025,simple
+6,"Who won the 2026 NBA Championship?",post_dec_2025,simple
+7,"Which two teams contested the 2026 UEFA Champions League final?",post_dec_2025,simple
+8,"When was Qwen 3.6 released?",post_dec_2025,simple
+9,"Who won the women's singles title at the 2026 Australian Open?",post_dec_2025,simple
+10,"Which country won the 2026 ICC Men's T20 World Cup?",post_dec_2025,simple
+11,"Who won the 2026 Six Nations Championship?",post_dec_2025,simple
+12,"Which country or act won the 2026 Eurovision Song Contest?",post_dec_2025,simple
+13,"Which countries co-hosted the 2026 FIFA World Cup?",post_dec_2025,simple
+14,"Who won the 2026 Grammy Award for Album of the Year?",post_dec_2025,simple
+15,"Who won the 2026 Masters Tournament in golf?",post_dec_2025,simple
+16,"Who won the 2026 Daytona 500?",post_dec_2025,simple
+17,"When did the 2026 Winter Paralympics take place?",post_dec_2025,simple
+18,"Which country won the most gold medals at the 2026 Winter Olympics?",post_dec_2025,simple
+19,"Who won the 2026 Indianapolis 500?",post_dec_2025,simple
+20,"Which country won the 2026 IIHF World Championship?",post_dec_2025,simple
+21,"Who won Best Director at the 2026 Academy Awards?",post_dec_2025,simple
+22,"Who won the 2026 French Open men's singles title?",post_dec_2025,simple
+23,"Which team won the 2026 Stanley Cup?",post_dec_2025,simple
+24,"When did the 2026 FIFA World Cup begin?",post_dec_2025,simple
+25,"Which driver won the 2026 Monaco Grand Prix?",post_dec_2025,simple
+26,"How did the top three medal-winning nations at the 2026 Winter Olympics compare to their 2022 Winter Olympics results?",post_dec_2025,complex
+27,"Compare the men's and women's singles champions of the 2026 Australian Open, including their nationalities.",post_dec_2025,complex
+28,"What was the winning team's path through the knockout rounds of the 2026 UEFA Champions League?",post_dec_2025,complex
+29,"How did Germany perform in the group stage of the 2026 FIFA World Cup, and which teams were in their group?",post_dec_2025,complex
+30,"Were the Best Picture and Best Director winners at the 2026 Academy Awards for the same film?",post_dec_2025,complex
+31,"How did the United States perform as a co-host in the group stage of the 2026 FIFA World Cup?",post_dec_2025,complex
+32,"Compare the host cities and dates of the 2026 Winter Olympics and the 2026 Winter Paralympics.",post_dec_2025,complex
+33,"What were notable results in the round of 32 of the 2026 FIFA World Cup?",post_dec_2025,complex
+34,"How did the 2026 NBA Championship winner perform throughout the playoffs?",post_dec_2025,complex
+35,"What are the main differences between Qwen 3.6 and Qwen 3, and when was each released?",post_dec_2025,complex
+36,"Compare the Grand Slam records of the 2026 Australian Open men's champion and runner-up.",post_dec_2025,complex
+37,"Which teams advanced from Group B of the 2026 FIFA World Cup, and how did they finish?",post_dec_2025,complex
+38,"What was the outcome of the 2026 Hungarian parliamentary election and how did it affect the government?",post_dec_2025,complex
+39,"Compare the gold medal counts of the top two nations at the 2026 Winter Olympics.",post_dec_2025,complex
+40,"What were the key results of Switzerland's 2026 FIFA World Cup campaign as recorded so far?",post_dec_2025,complex
+41,"How did the 2026 Six Nations Championship winner perform across their matches?",post_dec_2025,complex
+42,"What were the major developments in the Israel-Iran conflict during the first half of 2026?",post_dec_2025,complex
+43,"How did the 2026 ICC Men's T20 World Cup final unfold?",post_dec_2025,complex
+44,"Which countries won medals in figure skating at the 2026 Winter Olympics?",post_dec_2025,complex
+45,"Which films were nominated for Best Picture at the 2026 Academy Awards, and which won?",post_dec_2025,complex
+46,"How did the top three entries perform at the 2026 Eurovision Song Contest?",post_dec_2025,complex
+47,"Compare the 2026 Australian Open men's champion with the 2026 French Open men's champion.",post_dec_2025,complex
+48,"How did the three co-host nations perform in the group stage of the 2026 FIFA World Cup?",post_dec_2025,complex
+49,"What notable records or milestones were set at the 2026 Winter Olympics?",post_dec_2025,complex
+50,"Compare the winner of the 2026 Masters Tournament with the previous year's Masters champion.",post_dec_2025,complex
+51,"In which years did Marie Curie win Nobel Prizes?",pre_2026,simple
+52,"Which country holds the record for the most FIFA World Cup titles?",pre_2026,simple
+53,"What is the origin of the phrase ""the buck stops here""?",pre_2026,simple
+54,"When did Alan Turing die?",pre_2026,simple
+55,"Who painted the Mona Lisa?",pre_2026,simple
+56,"What is the capital of Australia?",pre_2026,simple
+57,"Which country won the 2022 FIFA World Cup?",pre_2026,simple
+58,"Who was the first person to walk on the Moon?",pre_2026,simple
+59,"In what year did World War II end?",pre_2026,simple
+60,"What is the chemical symbol for gold?",pre_2026,simple
+61,"Who wrote the novel ""1984""?",pre_2026,simple
+62,"In what year did the Berlin Wall fall?",pre_2026,simple
+63,"Who was the first President of the United States?",pre_2026,simple
+64,"What is the tallest mountain in the world?",pre_2026,simple
+65,"Which planet is known as the Red Planet?",pre_2026,simple
+66,"Who developed the theory of general relativity?",pre_2026,simple
+67,"In what year was the United States Declaration of Independence signed?",pre_2026,simple
+68,"What is the longest river in the world?",pre_2026,simple
+69,"Who composed the symphony that includes the ""Ode to Joy""?",pre_2026,simple
+70,"What is the smallest country in the world by area?",pre_2026,simple
+71,"Who is credited with discovering penicillin?",pre_2026,simple
+72,"In what year did the Titanic sink?",pre_2026,simple
+73,"What is the currency of Japan?",pre_2026,simple
+74,"Which ancient Greek philosopher tutored Alexander the Great?",pre_2026,simple
+75,"What is the hardest known natural material?",pre_2026,simple
+76,"What are the leading scientific theories for the extinction of the dinosaurs?",pre_2026,complex
+77,"How did Marie Curie's two Nobel Prizes differ in field and subject?",pre_2026,complex
+78,"What were the main differences in the causes of World War I and World War II?",pre_2026,complex
+79,"What were the main factors that led to the fall of the Western Roman Empire?",pre_2026,complex
+80,"How did the Renaissance influence European art and science?",pre_2026,complex
+81,"Compare the philosophies of Plato and Aristotle.",pre_2026,complex
+82,"What was the estimated population of the Roman Empire at its peak, and roughly when was that?",pre_2026,complex
+83,"How did the Industrial Revolution change working and living conditions in Britain?",pre_2026,complex
+84,"What are the leading theories about the origin of the Moon?",pre_2026,complex
+85,"Compare the contributions of Isaac Newton and Albert Einstein to physics.",pre_2026,complex
+86,"What were the key events and outcome of the Cuban Missile Crisis?",pre_2026,complex
+87,"How did the printing press affect the spread of information in Europe?",pre_2026,complex
+88,"What are the main differences between Lamarck's and Darwin's theories of evolution?",pre_2026,complex
+89,"How did the construction of the Panama Canal impact global trade?",pre_2026,complex
+90,"Compare the space programs of the United States and the Soviet Union during the Cold War.",pre_2026,complex
+91,"What were the main causes and consequences of the French Revolution?",pre_2026,complex
+92,"How does the greenhouse effect contribute to climate change?",pre_2026,complex
+93,"Compare the reigns of Elizabeth I and Queen Victoria of England.",pre_2026,complex
+94,"What were the major achievements of the Apollo program?",pre_2026,complex
+95,"How did the Black Death affect medieval European society?",pre_2026,complex
+96,"What are the main arguments in the debate over the authorship of Shakespeare's plays?",pre_2026,complex
+97,"Compare the causes of the American and French Revolutions.",pre_2026,complex
+98,"How did Mendel's experiments lay the foundation for modern genetics?",pre_2026,complex
+99,"What factors contributed to the outbreak of the First World War?",pre_2026,complex
+100,"How did the discovery of the structure of DNA change biology?",pre_2026,complex

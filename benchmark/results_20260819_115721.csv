@@ -1,0 +1,1388 @@
+id,era,complexity,question,answer,total_seconds,llm_calls,llm_seconds,tool_calls,tool_seconds,search_calls,get_calls,relevant_articles,error
+1,post_dec_2025,simple,Which city hosted the 2026 Winter Olympics?,"The **2026 Winter Olympics** (officially the XXV Olympic Winter Games) were jointly hosted by two Italian cities: **Milan** (Milano) and **Cortina d'Ampezzo**. This was historically significant as the first Olympic Games to be officially co-hosted by two cities.
+
+*   **Milan** primarily hosted the ice events, including ceremonies at Stadio San Siro (opening ceremony) and the Verona Arena (closing ceremony).
+*   The remaining snow and sliding events were hosted in clusters around **Cortina d'Ampezzo**, Livigno, and Fiemme (Predazzo/Tesero), alongside other venues in the Lombardy, Veneto, and Trentino-Alto Adige/Südtirol regions.
+
+The Games were held from 6 to 22 February 2026.
+
+Sources:
+- [2026 Winter Olympics] (id: 38416091)",24.208,3,24.142,2,0.065,1,1,"[{""id"": ""38416091"", ""title"": ""2026 Winter Olympics""}]",
+2,post_dec_2025,simple,Who won Super Bowl LX in 2026?,"The **Seattle Seahawks** won Super Bowl LX in 2026.
+
+Playing against the New England Patriots on February 8, 2026, at Levi's Stadium in Santa Clara, California, the Seahawks secured a **29–13** victory. This marked the franchise's second NFL championship (their previous win was in 2013 during Super Bowl XLVIII). Running back **Kenneth Walker III** was named the Super Bowl MVP after rushing for 135 yards.
+
+Sources:
+- [Super Bowl LX] (id: 63727016)",32.706,3,32.625,2,0.082,1,1,"[{""id"": ""63727016"", ""title"": ""Super Bowl LX""}]",
+3,post_dec_2025,simple,Which country topped the medal table at the 2026 Winter Olympics?,"At the 2026 Winter Olympics, which were held in Milan and Cortina d'Ampezzo from February 6 to 22, **Norway** topped the medal table.
+
+Norwegian athletes won a record-breaking **18 gold medals** and a total of **41 medals**, surpassing their previous records set at the 2018 and 2022 Winter Olympics.
+
+Sources:
+- [2026 Winter Olympics medal table] (id: 82241843)",66.029,3,65.951,2,0.078,1,1,"[{""id"": ""82241843"", ""title"": ""2026 Winter Olympics medal table""}]",
+4,post_dec_2025,simple,Who won the men's singles title at the 2026 Australian Open?,"At the **2026 Australian Open**, the men's singles title was won by **Carlos Alcaraz**.
+
+Alcaraz defeated Novak Djokovic in the final with a score of 2–6, 6–2, 6–3, 7–5. This victory marked Alcaraz's first Australian Open title and his seventh major title overall. With this win, he became the ninth player—and the youngest man—to complete the career Grand Slam in singles.
+
+Alcaraz overcame Djokovic to end the Serbian champion's perfect 10–0 record in Australian Open finals. The two-time defending champion, Jannik Sinner, was eliminated in the semifinals by Djokovic.
+
+**Final Match Details:**
+*   **Winner:** Carlos Alcaraz [1]
+*   **Runner-up:** Novak Djokovic [4]
+*   **Score:** 2–6, 6–2, 6–3, 7–5
+*   **Duration:** The final was a rematch of the previous year's quarterfinal match.
+
+Sources:
+- [2026 Australian Open – Men's singles](id: 81715568)",33.645,3,33.57,2,0.075,1,1,"[{""id"": ""81715568"", ""title"": ""2026 Australian Open – Men's singles""}]",
+5,post_dec_2025,simple,Which film won Best Picture at the 2026 Academy Awards?,"At the 2026 Academy Awards (the 98th ceremony), held on March 15, 2026, the film **One Battle After Another** won Best Picture. 
+
+Produced by Adam Somner, Sara Murphy, and Paul Thomas Anderson, the film went on to receive a leading six awards that night, also winning for Best Director, Best Cinematography, Best Film Editing, Best Production Design, and the inaugural Academy Award for Best Casting.
+
+Sources:
+- [98th Academy Awards] (id: 79369474)",33.593,3,33.51,2,0.082,1,1,"[{""id"": ""79369474"", ""title"": ""98th Academy Awards""}]",
+6,post_dec_2025,simple,Who won the 2026 NBA Championship?,"The **New York Knicks** won the 2026 NBA Championship. 
+
+As Eastern Conference champions, they defeated Western Conference champion San Antonio Spurs in the best-of-seven series, winning four games to one. This victory marked the franchise's third NBA title and their first championship since 1973. Knicks guard Jalen Brunson was named the Finals Most Valuable Player after scoring a series-high 45 points in the clinching Game 5.
+
+Sources:
+- [2026 NBA Finals](id: 82427430)",43.881,4,43.784,2,0.096,1,1,"[{""id"": ""82427430"", ""title"": ""2026 NBA Finals""}]",
+7,post_dec_2025,simple,Which two teams contested the 2026 UEFA Champions League final?,"The two teams that contested the 2026 UEFA Champions League final were:
+
+1. **Paris Saint-Germain** (French club and defending champions)
+2. **Arsenal** (English club)
+
+The final was played at Puskás Aréna in Budapest, Hungary on May 30, 2026. Paris Saint-Germain won the match 4–3 on penalties after a 1–1 draw following extra time, securing their second UEFA Champions League title and becoming the second club to win back-to-back titles in the modern UEFA Champions League era (matching Real Madrid's feat in 2016–17).
+
+Sources:
+- [2026 UEFA Champions League final] (id: 76987191)",21.171,3,21.079,2,0.091,1,1,"[{""id"": ""76987191"", ""title"": ""2026 UEFA Champions League final""}]",
+8,post_dec_2025,simple,When was Qwen 3.6 released?,"Based on the Wikipedia article for Qwen, the **Qwen 3.6** model family was released in **April 2026**. 
+
+During this release:
+* The proprietary models **Qwen3.6-Plus** and **Qwen3.5-Omni** were made available through Alibaba's cloud platform and chatbots.
+* The open-weight model **Qwen3.6-35B-A3B** (a Mixture of Experts model using 3 billion of its 35 billion parameters) was released under the Apache 2.0 license in the same month.
+
+Sources:
+- Qwen (id: 78475283)",20.926,3,20.853,2,0.074,1,1,"[{""id"": ""78475283"", ""title"": ""Qwen""}]",
+9,post_dec_2025,simple,Who won the women's singles title at the 2026 Australian Open?,"Elena Rybakina won the women's singles title at the 2026 Australian Open. She defeated top seed Aryna Sabalenka in the final, 6–4, 4–6, 6–4, to capture her second major championships [2026 Australian Open – Women's singles].
+
+Sources:
+- [2026 Australian Open – Women's singles] (id: 81715708)",40.428,4,40.375,2,0.054,1,1,"[{""id"": ""81715708"", ""title"": ""2026 Australian Open – Women's singles""}]",
+10,post_dec_2025,simple,Which country won the 2026 ICC Men's T20 World Cup?,"India won the 2026 ICC Men's T20 World Cup. They defeated New Zealand by 96 runs in the final, which was held on March 8, 2026, at the Narendra Modi Stadium in Ahmedabad. This victory marked India's third overall title in the tournament and made them the first nation to successfully defend their championship by winning two consecutive editions.
+
+Sources:
+- [2026 Men's T20 World Cup] (id: 69284234)",61.949,4,61.859,2,0.09,1,1,"[{""id"": ""69284234"", ""title"": ""2026 Men's T20 World Cup""}]",
+11,post_dec_2025,simple,Who won the 2026 Six Nations Championship?,"In the 2026 Six Nations Championship, **France** won the title.
+
+They defended their crown successfully by defeating England 48–46 in their final match of the tournament on March 14, 2026. The victory allowed France to edge out Ireland—who secured a repeat Triple Crown—by just two points in the final standings.
+
+Key highlights from the tournament included:
+*   **Player of the Tournament:** Louis Bielle-Biarrey (France), who also set a record for most tries in a single championship with 9.
+*   **Top Point Scorer:** Thomas Ramos (France) with 74 points, who scored the match-winning penalty against England.
+*   **Notable Results:** Italy recorded their first-ever win over England, Scotland broke their record for highest score against France (50–40), and Wales ended a 15-match losing streak in the tournament by beating Italy on the final day.
+
+Sources:
+- [2026 Six Nations Championship] (id: 80005683)",37.805,3,37.721,2,0.084,1,1,"[{""id"": ""80005683"", ""title"": ""2026 Six Nations Championship""}]",
+12,post_dec_2025,simple,Which country or act won the 2026 Eurovision Song Contest?,"**Bulgaria** won the 2026 Eurovision Song Contest.
+
+The winning entry was ""**Bangaranga**,"" performed by **Dara**. With a total of **516 points**, the song secured victory through both the jury vote and the televote, marking Bulgaria's first win in the history of the competition.
+
+Sources:
+- Eurovision Song Contest 2026 (id: 79992910)",81.648,4,81.529,2,0.118,1,1,"[{""id"": ""79992910"", ""title"": ""Eurovision Song Contest 2026""}]",
+13,post_dec_2025,simple,Which countries co-hosted the 2026 FIFA World Cup?,"The 2026 FIFA World Cup was co-hosted by three countries: **Canada**, **Mexico**, and the **United States**. 
+
+By fetching the full article, we can confirm that this tournament made history as the first FIFA World Cup to be hosted by three nations. The matches were split across 16 host cities: 11 in the United States, 3 in Mexico, and 2 in Canada.
+
+Sources:
+- [2026 FIFA World Cup] (id: 36581929)",45.675,4,45.591,2,0.084,1,1,"[{""id"": ""36581929"", ""title"": ""2026 FIFA World Cup""}]",
+14,post_dec_2025,simple,Who won the 2026 Grammy Award for Album of the Year?,"The 2026 Grammy Award for Album of the Year was won by **Bad Bunny** for his album ***Debí Tirar Más Fotos***. 
+
+Presented at the 68th Annual Grammy Awards, which took place on February 1, 2026, this victory made Bad Bunny the first Latino artist to win the award for a Spanish-language album.
+
+Sources:
+- [68th Annual Grammy Awards] (id: 79128292)",40.294,5,40.115,3,0.178,2,1,"[{""id"": ""79128292"", ""title"": ""68th Annual Grammy Awards""}]",
+15,post_dec_2025,simple,Who won the 2026 Masters Tournament in golf?,"In golf, **Rory McIlroy** won the 2026 Masters Tournament, securing his second consecutive title. He finished with a total score of 276 (−12), winning by one stroke over runner-up Scottie Scheffler. 
+
+With this victory, McIlroy joined an elite group of players—Jack Nicklaus, Nick Faldo, and Tiger Woods—who have won the tournament at two consecutive times. The event took place from April 9–12, 2026, at Augusta National Golf Club.
+
+Sources:
+- [2026 Masters Tournament] (id: 82215987)",37.013,3,36.93,2,0.083,1,1,"[{""id"": ""82215987"", ""title"": ""2026 Masters Tournament""}]",
+16,post_dec_2025,simple,Who won the 2026 Daytona 500?,"**Tyler Reddick** won the 2026 Daytona 500.
+
+Driving the No. 45 Toyota for **23XI Racing**, Reddick avoided a late-race wreck and passed second-place finisher Chase Elliott just before the start/finish line on the final lap to claim his first Daytona 500 victory. The race was held on February 15, 2026, at Daytona International Speedway.
+
+Ricky Stenhouse Jr. finished in second place, and Joey Logano rounded out the top three.
+
+Sources:
+- [2026 Daytona 500] (id: 81427567)",32.938,3,32.855,2,0.082,1,1,"[{""id"": ""81427567"", ""title"": ""2026 Daytona 500""}]",
+17,post_dec_2025,simple,When did the 2026 Winter Paralympics take place?,"Based on Wikipedia, the **2026 Winter Paralympics** were held from **March 4 to March 15, 2026**, with preliminary wheelchair curling competition beginning two days before the official opening ceremony. 
+
+The main events of the Games officially took place from **March 6 to March 15, 2026**. The competition was hosted across multiple venues in Lombardy and Northeast Italy, including Milan, Cortina d'Ampezzo, and Val di Fiemme.",33.116,4,33.053,2,0.063,1,1,"[{""id"": ""41045653"", ""title"": ""2026 Winter Paralympics""}]",
+18,post_dec_2025,simple,Which country won the most gold medals at the 2026 Winter Olympics?,"Based on the official medal table for the 2026 Winter Olympics held in Milan and Cortina d'Ampezzo, **Norway** won the most gold medals. Norwegian athletes secured a record-breaking **18 gold medals**, surpassing their previous single-Games record of 16 set at the 2022 Winter Olympics, and also led the overall standings with 41 total medals.
+
+Sources:
+- [2026 Winter Olympics medal table] (id: 82241843)",45.29,4,45.223,2,0.066,1,1,"[{""id"": ""82241843"", ""title"": ""2026 Winter Olympics medal table""}]",
+19,post_dec_2025,simple,Who won the 2026 Indianapolis 500?,"**Felix Rosenqvist** won the 2026 Indianapolis 500, driving the No. 60 Meyer Shank Racing with Curb-Agajanian Honda.
+
+Rosenqvist qualified on pole position and executed an alternate fuel strategy that allowed him to take the lead for the first time on lap 154. A dramatic one-lap shootout to the finish ensued, resulting in Rosenqvist beating David Malukas by just **0.0233 seconds**. This marked the closest margin of victory in the history of the Indianapolis 500 (breaking the previous record of 0.043 seconds set in 1992). 
+
+The win also gave Meyer Shank Racing their second Indy 500 victory overall, following Hélio Castroneves' win in 2021. The race itself was historic for other reasons as well, featuring a record-breaking 70 lead changes throughout the event.",25.442,3,25.355,2,0.086,1,1,"[{""id"": ""80783201"", ""title"": ""2026 Indianapolis 500""}]",
+20,post_dec_2025,simple,Which country won the 2026 IIHF World Championship?,"Finland won the 2026 IIHF World Championship. They defeated the host nation, Switzerland, with a score of 1–0 in overtime, securing their fifth title in the tournament's history. Norway also made history by claiming its first-ever IIHF medal after defeating Canada for third place.
+
+Sources:
+- [2026 IIHF World Championship] (id: 70881893)",43.356,4,43.277,2,0.079,1,1,"[{""id"": ""70881893"", ""title"": ""2026 IIHF World Championship""}]",
+21,post_dec_2025,simple,Who won Best Director at the 2026 Academy Awards?,"**Paul Thomas Anderson** won Best Director at the 2026 Academy Awards (the 98th Academy Awards) for his work on the film ***One Battle After Another***. 
+
+The ceremony took place on March 15, 2026. Other nominees in the category included Chloé Zhao (*Hamnet*), Josh Safdie (*Marty Supreme*), Joachim Trier (*Sentimental Value*), and Ryan Coogler (*Sinners*).
+
+Sources:
+- [98th Academy Awards] (id: 79369474)",62.969,4,62.816,3,0.152,2,1,"[{""id"": ""79369474"", ""title"": ""98th Academy Awards""}]",
+22,post_dec_2025,simple,Who won the 2026 French Open men's singles title?,"Based on the full article for the 2026 tournament, **Alexander Zverev** won the men's singles title. He defeated Flavio Cobolli in the final with a score of **6–1, 4–6, 6–4, 6–7(5–7), 6–1**. 
+
+This was Zverev's first major singles title and made him the first German man (since Henner Henkel in 1937) to win the French Open.",38.434,4,38.353,2,0.08,1,1,"[{""id"": ""83032925"", ""title"": ""2026 French Open – Men's singles""}]",
+23,post_dec_2025,simple,Which team won the 2026 Stanley Cup?,"The **Carolina Hurricanes** won the 2026 Stanley Cup. 
+
+They defeated the Vegas Golden Knights four games to two in a series that began on June 2 and ended on June 14, 2026. The victory was Carolina's second Stanley Cup championship in franchise history (having previously won in 2006) and their first appearance since the 2002 Final. Hurricanes captain **Jordan Staal** was awarded the Conn Smythe Trophy as the most valuable player of the playoffs.
+
+Sources:
+- [2026 Stanley Cup Final]",36.029,3,35.95,2,0.079,1,1,"[{""id"": ""80157147"", ""title"": ""2026 Stanley Cup Final""}]",
+24,post_dec_2025,simple,When did the 2026 FIFA World Cup begin?,"The **2026 FIFA World Cup** began on **June 11, 2026**.
+
+The opening match of the tournament took place at the Estadio Azteca in Mexico City between Mexico and their opponent (as per the specific group assignments detailed in the article's schedule tables, though the full text is truncated). This marked the return to a traditional June–July schedule for the World Cup. The finals are scheduled to conclude on July 19, 2026.
+
+Sources:
+- [2026 FIFA World Cup](id: 36581929)",24.494,3,24.431,2,0.063,1,1,"[{""id"": ""36581929"", ""title"": ""2026 FIFA World Cup""}]",
+25,post_dec_2025,simple,Which driver won the 2026 Monaco Grand Prix?,"**Kimi Antonelli** won the 2026 Monaco Grand Prix, driving for Mercedes. 
+
+He converted his pole position into a victory on June 7, 2026, becoming the youngest driver in history to win the Monaco Grand Prix and the youngest to achieve a Grand Slam (pole position, win, leading every lap, setting the fastest lap). Lewis Hamilton (Ferrari) finished in second place, while Pierre Gasly (Alpine) completed the podium in third. 
+
+Gasly originally finished seventh on the track but was promoted to third after FIA stewards overturned his two five-second pit lane speeding penalties following Alpine's successful Right of Review [2026 Monaco Grand Prix].",18.342,3,18.268,2,0.072,1,1,"[{""id"": ""81144946"", ""title"": ""2026 Monaco Grand Prix""}]",
+26,post_dec_2025,complex,How did the top three medal-winning nations at the 2026 Winter Olympics compare to their 2022 Winter Olympics results?,"Based on the official medal tables and country-specific reports, the top three gold medal-winning nations at the 2026 Winter Olympics were Norway, the United States, and the Netherlands. Here is how their results compared to the 2022 Beijing Games:
+
+### 1. Norway 
+* **2026 Result:** Topped the medal table with **18 gold medals** and **41 total medals**. This performance broke the previous all-time records for both categories at a single Winter Olympics.
+* **2022 Comparison:** Finished first with **16 gold medals** and **37 total medals** (which had set the previous records).
+* **Key Takeaway:** Norway maintained its dominant position, improving from 2022 by adding two more gold medals and four overall medals across the quadrennial cycle.
+
+### 2. United States
+* **2026 Result:** Finished in second place with **12 gold medals** and **33 total medals**. This marked the team’s most successful Winter Olympics ever in terms of gold medals.
+* **2022 Comparison:** Finished third with **9 gold medals** and **25 total medals**, which had already been an improvement over their previous finishes at four.
+* **Key Takeaway:** The U.S. achieved its highest-ever gold medal count, improving by three golds and eight overall medals compared to the Beijing Games, elevating the team from third place to second.
+
+### 3. Netherlands 
+* **2026 Result:** Finished in a tie for third place with **10 gold medals** and **20 total medals**. These results set a new national record for the most gold medals won by the Dutch squad at a single Winter Olympics.
+* **2022 Comparison:** Finished fifth with **8 gold medals** and **17 total medals**, matching their medal totals from 2014 and 2018.
+* **Key Takeaway:** The Netherlands improved its national record again, bringing home two more gold medals and three overall medals compared to 2022, which translated into a rise of two spots in the final standings (tied for third instead of fifth).
+
+Sources:
+- [2026 Winter Olympics medal table] (id: 82241843)
+- [2022 Winter Olympics medal table] (id: 68469651)
+- [United States at the 2026 Winter Olympics] (id: 79491764)
+- [United States at the 2022 Winter Olympics] (id: 63860497)
+- [Netherlands at the 2026 Winter Olympics] (id: 79571704)
+- [Netherlands at the 2022 Winter Olympics] (id: 68144327)
+- [2026 Winter Olympics] (id: 38416091)",296.354,9,295.684,12,0.669,9,3,"[{""id"": ""82241843"", ""title"": ""2026 Winter Olympics medal table""}, {""id"": ""68469651"", ""title"": ""2022 Winter Olympics medal table""}, {""id"": ""79252983"", ""title"": ""Germany at the 2026 Winter Olympics""}]",
+27,post_dec_2025,complex,"Compare the men's and women's singles champions of the 2026 Australian Open, including their nationalities.","Based on my research, here's a comparison of the men's and women's singles champions of the 2026 Australian Open:
+
+## Men's Singles Champion: **Carlos Alcaraz** (Spain) 🇪🇸
+
+- **Result:** Defeated Novak Djokovic in the final, 2–6, 6–2, 6–3, 7–5
+- **Notable achievements:** 
+  - Won his first Australian Open title and seventh major title overall
+  - Became the ninth player and youngest man to complete the career Grand Slam in singles
+  - Became the youngest man in the Open Era to reach the singles final of all four majors
+  - Ended Djokovic's unbeaten 10–0 record in Australian Open finals
+
+## Women's Singles Champion: **Elena Rybakina** (Kazakhstan) 🇰🇿
+
+- **Result:** Defeated Aryna Sabalenka in the final, 6–4, 4–6, 6–4
+- **Notable achievements:**
+  - Won her second major title (after winning Wimbledon 2022)
+  - Became only the fourth woman (after Jennifer Capriati, Serena Williams, and Madison Keys) to defeat both the world No. 1 and No. 2 players en route to an Australian Open title
+  - Reached the final without losing a set
+
+## Key Comparison Points:
+
+- **Nationalities:** Alcaraz is from Spain, while Rybakina is a Russian-born player who competes for Kazakhstan (having switched federations in 2018)
+- **Major titles at time of victory:** Alcaraz claimed his seventh major; Rybakina won her second
+- **Final match outcome:** Both champions won their respective finals as top seeds and No. 1 ranked players, though they lost the opening set
+- **Tournament significance:** Alcaraz completed the career Grand Slam with this victory, while Rybakina added another major to bolster her status in women's tennis
+
+Sources:
+- [2026 Australian Open – Men's singles] (id: 81715568)
+- [2026 Australian Open – Women's singles] (id: 81715708)
+- [Carlos Alcaraz] (id: 63121147)
+- [Elena Rybakina] (id: 55541443)",44.658,4,44.429,6,0.229,4,2,"[{""id"": ""81715568"", ""title"": ""2026 Australian Open – Men's singles""}, {""id"": ""81715708"", ""title"": ""2026 Australian Open – Women's singles""}]",
+28,post_dec_2025,complex,What was the winning team's path through the knockout rounds of the 2026 UEFA Champions League?,"Based on the available search results, here is the known path of the winning team in the **2025–26 UEFA Champions League** (the competition concluding in 2026):
+
+* **Winner:** Paris Saint-Germain (PSG) successfully defended their title.
+* **League Phase Entry:** PSG entered the knockout stage via the **Knockout Phase play-offs**, having finished 11th in the expanded league phase standings (teams ranked 9–24 enter these two-legged play-offs).
+* **Knockout Rounds:** Following the play-offs, PSG advanced through the **Round of 16**, **Quarter-finals**, and **Semi-finals**. While the bracket structure confirmed PSG's progression through these rounds, the specific opponents they faced in each match (the other seeded/unseeded teams drawn against them) are not detailed in the provided search results.
+* **Final:** On May 30, 2026, at the Puskás Aréna in Budapest, Hungary, PSG defeated English club **Arsenal** to win the tournament. The final ended 1–1 after extra time, with Paris Saint-Germain winning 4–3 on penalties. This victory made them the second club to win back-to-back titles since the tournament was renamed.
+
+*(Note: As the specific draw results and match-by-match opponents for the play-offs through the semi-finals are not contained within the current article snippets, the complete path by opponent is incomplete.)*",151.428,9,151.003,8,0.425,6,2,"[{""id"": ""74127997"", ""title"": ""2025–26 UEFA Champions League""}, {""id"": ""80042598"", ""title"": ""2025–26 Paris Saint-Germain FC season""}]",
+29,post_dec_2025,complex,"How did Germany perform in the group stage of the 2026 FIFA World Cup, and which teams were in their group?","According to the 2026 FIFA World Cup records, **Germany** was placed in **Group E**. The other teams in their group were **Curaçao**, **Ivory Coast**, and **Ecuador**.
+
+**Performance:**
+*   **Result:** Germany topped Group E (finished first), which secured their place in the Round of 32. This marked an improvement over the previous two tournaments, where they had failed to progress past the group stage.
+*   **Key Matches:** In their opening match against World Cup debutants Curaçao, Germany delivered a dominant performance, winning **7–1**. Their seven goals were noted as their highest output in a single World Cup match since the 2014 semi-final loss to Brazil (though they won that match 7-1). They also secured a victory against Ivory Coast.
+*   **Notable Outcome:** In their final group stage match, Germany suffered an upset loss to Ecuador. Despite this defeat, Germany's opening wins were enough for them to finish atop the group and advance to face Paraguay in the knockout stage. Ecuador defeated Germany but managed to finish third, advancing as one of the eight best third-place teams across all groups.",102.228,9,101.865,8,0.361,6,2,"[{""id"": ""36581929"", ""title"": ""2026 FIFA World Cup""}, {""id"": ""81660195"", ""title"": ""2026 FIFA World Cup Group E""}]",
+30,post_dec_2025,complex,Were the Best Picture and Best Director winners at the 2026 Academy Awards for the same film?,"No, they were not for the same film at the 98th Academy Awards (held on March 15, 2026). Both Best Picture and Best Director were awarded to **""One Battle After Another""**. 
+
+- **Best Picture** was won by *One Battle After Another* (producers: Adam Somner, Sara Murphy, and Paul Thomas Anderson)
+- **Best Director** was won by **Paul Thomas Anderson** for *One Battle After Another*
+
+So both awards went to the same film — it received a leading six awards at the ceremony, including Best Casting (the inaugural recipient of that newly created category).
+
+Sources:
+- [98th Academy Awards] (id: 79369474)",31.884,4,31.739,3,0.144,2,1,"[{""id"": ""79369474"", ""title"": ""98th Academy Awards""}]",
+31,post_dec_2025,complex,How did the United States perform as a co-host in the group stage of the 2026 FIFA World Cup?,"As a co-host of the 2026 FIFA World Cup, the United States was placed in **Group D** alongside Paraguay, Australia, and Turkey. They finished at the top of their group with a record of two wins and one loss. 
+
+Their performance in the group stage played out as follows:
+
+*   **United States 4–1 Paraguay (Matchday 1):** The U.S. started strong with an early own goal by Paraguay's Damián Bobadilla in the 7th minute. Folarin Balogun then scored a brace (a low side-foot finish and a left-footed drive) to put the Americans ahead 3–0 by halftime. Giovanni Reyna added a late fourth goal after Turkey's Maurício pulled one back in the 73rd minute. The historic win made Balogun the first American player since 1930 to score twice in a single World Cup match, and it marked the first time the U.S. scored four goals in an international tournament match.
+*   **United States 2–0 Australia (Matchday 2):** The U.S. secured their advancement to the knockout stage with this comfortable victory. An own goal by Australian defender Cameron Burgess early in the match and a second-half strike from U.S. right-back Alex Freeman sealed the win. With this result, the U.S. became just the second team overall (after Group A winner Mexico) to qualify for the Round of 32.
+*   **Turkey 1–0 United States (Matchday 3):** In their final group stage match—a ""dead rubber"" because the Americans were already guaranteed group winners—their fate was sealed before kickoff despite a narrow stoppage-time loss. Kaan Ayhan scored a dramatic late goal off a substitution, handing Turkey its first World Cup win since 2002 and making the U.S. the second co-host (out of the U.S., Mexico, and Canada) to suffer a defeat in the group stage. 
+
+**Overall Tournament Outcome:**
+Finishing with top honors in Group D (5 points), the United States advanced directly to the Round of 32, where they were scheduled to face Bosnia and Herzegovina. Across the three matches, their defense held remarkably well against Paraguay and Australia, conceding zero non-opponent goals before conceding once in the dead-rubber match versus Turkey.",61.301,3,61.201,2,0.099,1,1,"[{""id"": ""81660193"", ""title"": ""2026 FIFA World Cup Group D""}]",
+32,post_dec_2025,complex,Compare the host cities and dates of the 2026 Winter Olympics and the 2026 Winter Paralympics.,"Based on the Wikipedia articles retrieved, here is a comparison of the host cities and dates of the 2026 Winter Olympics and 2026 Winter Paralympics:
+
+## Host Cities
+
+**Both events shared identical host cities:**
+- **Milan** and **Cortina d'Ampezzo** (officially branded as ""Milano Cortina 2026"")
+  
+This was the first Winter Olympic Games to be officially co-hosted by two cities. Both Milan and Cortina d'Ampezzo won their bid together on June 24, 2019, at the 134th IOC Session in Lausanne, Switzerland, defeating Stockholm-Åre, Sweden.
+
+**Venues across regions:**
+- **Milan cluster**: Primarily hosted ice events (ice hockey, speed skating, figure skating, short track speed skating)
+- **Cortina d'Ampezzo cluster**: Hosted alpine skiing (women), biathlon, bobsleigh, luge, and skeleton
+- **Valtellina cluster** (Livigno): Hosted alpine skiing (men), ski mountaineering, snowboarding, and freestyle skiing
+- **Fiemme Valley cluster**: Hosted Nordic combined, cross-country skiing, and ski jumping
+
+## Dates
+
+| Event | Competition Start | Opening Ceremony | Closing Ceremony | Dates | Total Duration |
+|-------|------------------|------------------|------------------|-------|----------------|
+| **2026 Winter Olympics** | February 4, 2026 (curling) | February 6, 2026 | February 22, 2026 | **February 6–22, 2026** | 17 days (competition began Feb 4) |
+| **2026 Winter Paralympics** | March 4, 2026 (wheelchair curling) | March 6, 2026 | March 15, 2026 | **March 6–15, 2026** | 9 days (competition began Mar 4) |
+
+## Key Similarities and Differences
+
+**Similarities:**
+- Same co-host cities: Milan and Cortina d'Ampezzo
+- Events competed at multiple sites across the same three Italian regions: Lombardy, Veneto, and Trentino-Alto Adige/Südtirol
+- Both events featured shared branding and mascots (Tina for Olympics, Milo for Paralympics)
+
+**Differences:**
+- The Winter Olympics ran longer (17 days of competition) compared to the Winter Paralympics (9 days of competition)
+- The Olympics were held roughly one month before the Paralympics (February vs. March 2026)
+- Different opening ceremony venues: Stadio San Siro in Milan for the Olympics, and Verona Arena in Verona for the Paralympics
+
+Sources:
+- 2026 Winter Olympics (id: 38416091)
+- 2026 Winter Paralympics (id: 41045653)",59.569,3,59.432,4,0.137,2,2,"[{""id"": ""38416091"", ""title"": ""2026 Winter Olympics""}, {""id"": ""41045653"", ""title"": ""2026 Winter Paralympics""}]",
+33,post_dec_2025,complex,What were notable results in the round of 32 of the 2026 FIFA World Cup?,"The **2026 FIFA World Cup round of 32**, played from June 28 to July 3, marked the first time in tournament history that a knockout stage featured more than sixteen teams. The matches were filled with historic upsets, record-breaking feats, and dramatic late goals.
+
+Notable results included:
+
+*   **Paraguay defeats Germany (1–1, wins on penalties):** In one of the biggest upsets of the round, Paraguay reached their first knockout victory since 2010 after defeating the four-time champions in a shootout following a 1-1 draw. Julio Enciso scored Paraguay's first-ever World Cup knockout goal. Following the upset, Paraguayan President Santiago Peña declared a national holiday to celebrate the win. 
+*   **Morocco defeats Netherlands (Goalless AET, wins on penalties):** In a match decided by penalties, Morocco eliminated the Netherlands for their third consecutive World Cup exit via penalty shootouts. Dutch striker Cody Gakpo scored an emotional goal but was overcome with emotion afterwards due to his partner's recent miscarriage. Morocco won the shootout thanks to crucial saves and missed Dutch attempts.
+*   **Belgium defeats Senegal (3–2):** This match will be remembered for its historic late drama. Senegal led 2–0 until Belgium mounted a dramatic comeback, with Youri Tielemans scoring both an equalizer in stoppage time to force extra time and the eventual winner from a penalty at the **124th minute**. Tielemans' kick officially broke the record for the latest goal ever scored in FIFA World Cup history. It was also only the second time in over a decade that a team overturned a two-goal deficit to advance from a knockout match.
+*   **France defeats Sweden (3–0):** Captain Kylian Mbappé scored all three goals, making him the all-time leading scorer in World Cup knockout rounds with 10 goals. France also became the first team to score three or more times in five consecutive World Cup matches.
+*   **Norway defeats Ivory Coast (2–1):** Norway advanced to their first knockout-stage victory thanks to a strike from Erling Haaland in the 86th minute, which brought his tournament tally to five goals in just three games, putting him in contention for the Golden Boot.
+*   **United States defeats Bosnia and Herzegovina (2–0):** As co-hosts, the United States advanced with goals from Folarin Balogun and Malik Tillman. The match was marred by significant controversy when a red card issued to Balogun was later overturned following an intervention involving U.S. President Donald Trump.
+*   **Canada defeats South Africa (1–0):** Canada secured their first-ever Round of 16 berth thanks to a stoppage-time winner by Stephen Eustáquio. This match also marked the first time a host nation (Canada) played outside its own borders due to not securing a top-two group finish.
+*   **Portugal defeats Croatia (2–1):** Cristiano Ronaldo scored a penalty against Croatia, becoming the oldest goalscorer in a World Cup knockout match. Gonzalo Ramos scored a late 94th-minute header to seal the victory.
+*   **Spain defeats Austria (3–0):** Spain reached their first knockout-stage win since the 2010 World Cup final, with Mikel Oyarzabal scoring twice against Austria.
+
+Other notable results included **Brazil defeating Japan (2–1)** after a late comeback, **England overcoming DR Congo (2–1) with two second-half goals from Harry Kane**, and **Mexico beating Ecuador (2–0)** despite the match being delayed by an hour due to thunderstorms.",125.092,5,124.83,4,0.262,3,1,"[{""id"": ""81667041"", ""title"": ""2026 FIFA World Cup round of 32""}]",
+34,post_dec_2025,complex,How did the 2026 NBA Championship winner perform throughout the playoffs?,"Based on my research, the **New York Knicks** won the 2026 NBA Championship by defeating the San Antonio Spurs 4-1 in the Finals. Here is how they performed throughout the playoffs:
+
+## Regular Season Preparation
+The Knicks finished with a **53–29 record**, earning the 3rd seed in the Eastern Conference. They also won the NBA Cup earlier in the season.
+
+## Playoffs Performance
+
+### First Round vs. Atlanta Hawks (6th seed): Won 4-2
+- Started by splitting the first two games at home
+- Lost Game 4 on the road to trail 2-2, but then won Games 5 and 6 on the road
+- Set an NBA playoff record with a **47-point halftime lead** over Atlanta in Game 6, along with a franchise-record 51-point margin of victory
+- The Knicks had their blowout/decisive win in Game 6
+
+### Conference Semifinals vs. Philadelphia 76ers (7th seed): Won 4-0 (Sweep)
+- Dominated the series outscoring Philadelphia by **89 points** across all four games, the third most lopsided non-first-round series in NBA history
+- Opened with Game 1 won 137–98
+
+### Conference Finals vs. Cleveland Cavaliers (4th seed): Won 4-0 (Sweep)
+- Advanced to the Finals after another decisive sweep
+- Reached **11 consecutive playoff wins** during this run and their playoff journey
+
+### 2026 NBA Finals vs. San Antonio Spurs: Won 4-1
+- **Game 1:** Won on the road in San Antonio (105–104) – became only the 3rd team in NBA Finals history to win the first two games away from home
+- **Game 2:** Won again on the road for a 2-0 series lead
+- **Game 3:** Lost at home, 115–111, ending their 13-game winning streak
+- **Game 4:** Achieved the **largest comeback in NBA Finals history**, overcoming a 29-point deficit (down 81-52 in the third quarter) to win 107-106 on OG Anunoby's game-winning tip-in with 1.2 seconds remaining
+- **Game 5:** Won on the road to clinch the championship, ending their **53-year title drought**
+
+## Notable Records Set
+- Became the **second team in NBA history** (after the 2017 Warriors) to win **13 consecutive playoff games**
+- Set the single-season record for **point differential (+283)** and average margin of victory (+14.9)
+- Became the first team to win both the NBA Cup and NBA Championship in the same season
+- Were the only team to win an NBA championship while trailed by double-digits in each of their playoff wins
+
+**Jalen Brunson** was named NBA Finals MVP after averaging 32.6 points per game, becoming the first Knickerbocker since Willis Reed in 1973 to win the award.",71.49,5,71.349,4,0.14,2,2,"[{""id"": ""79524481"", ""title"": ""2026 NBA playoffs""}, {""id"": ""80108544"", ""title"": ""2025–26 New York Knicks season""}]",
+35,post_dec_2025,complex,"What are the main differences between Qwen 3.6 and Qwen 3, and when was each released?","Based on the Wikipedia articles regarding the **Qwen** family of large language models, here are the release dates and key differences between Qwen 3 and Qwen 3.6:
+
+### Release Dates
+*   **Qwen 3:** Released on **April 28, 2025**.
+*   **Qwen 3.6:** Released in **April 2026** (one month after the intermediate Qwen 3.5 update released in February 2026).
+
+### Main Differences
+
+**1. Licensing and Access Model**
+The most significant difference lies in how Alibaba Cloud distributes these versions:
+*   **Qwen 3:** This release was largely unified as an open-source project (licensed under Apache 2.0), with the exception of its most powerful ""Max"" variants which were kept proprietary. The standard family was designed to be heavily accessible to developers and researchers.
+*   **Qwen 3.6:** By April 2026, Alibaba had shifted toward a hybrid model for advanced capabilities. While the core Qwen 3.6 model remained open-source, its more advanced sibling, **Qwen3.6-Plus** (along with Omni models), was released as strictly **proprietary**, accessible only via Alibaba's cloud platform and chatbot websites rather than open weights.
+
+**2. Parameter Efficiency and Architecture**
+*   **Qwen 3:** Introduced a diverse range of parameters including dense models (ranging from 0.6B up to 32B) and large Mixture-of-Experts (MoE) models such as the highly capable **235B-A22B** (235 billion total parameters with only 22 billion active). It was trained on 36 trillion tokens across 119 languages.
+*   **Qwen 3.6:** Focused its open-weight release on a more specialized, highly efficient MoE model: the **Qwen3.6-35B-A3B**. This model features 35 billion total parameters but only activates 3 billion during inference, prioritizing speed and efficiency over raw scale.
+
+**3. Functional Capabilities and Modes**
+*   **Qwen 3:** Distinguished itself by introducing specialized variants for different reasoning workflows, such as **Qwen3 Instruct** (text generation only) and **Qwen3 Thinking** (dedicated to complex reasoning chains).
+*   **Qwen 3.6:** By 2026, the model's capabilities had expanded to include advanced multimodal outputs. The proprietary lineage of this version (like Qwen3-Max-Thinking mentioned in predecessor releases) demonstrated the ability to generate text, pictures, and video simultaneously, moving beyond pure text interactions into complex multimodal reasoning within Alibaba's ecosystem.",60.955,3,60.859,3,0.096,2,1,"[{""id"": ""78475283"", ""title"": ""Qwen""}]",
+36,post_dec_2025,complex,Compare the Grand Slam records of the 2026 Australian Open men's champion and runner-up.,"Based on the search results, here is the comparison of the Grand Slam records between **Carlos Alcaraz** (the 2026 Australian Open champion) and **Novak Djokovic** (the runner-up):
+
+## Major Titles Comparison
+
+| Tournament | Carlos Alcaraz | Novak Djokovic |
+|------------|---------------|----------------|
+| **Australian Open** | 1 title (2026) | 10 titles (2008, 2011, 2012, 2013, 2015, 2016, 2019, 2020, 2021, 2023) |
+| **French Open** | 2 titles (2024, 2025) | 3 titles (2016, 2021, 2023) |
+| **Wimbledon** | 2 titles (2023, 2024) | 7 titles (2011, 2014, 2015, 2018, 2019, 2021, 2022) |
+| **US Open** | 2 titles (2022, 2025) | 4 titles (2011, 2015, 2018, 2023) |
+
+## Cumulative Records
+
+| Record | Carlos Alcaraz | Novak Djokovic |
+|--------|---------------|----------------|
+| **Total Major Titles** | 7 | 24 (all-time record) |
+| **Major Finals Reached** | 8 | 38 (all-time record) |
+| **Major Runner-up Finishes** | 1 | 14 |
+
+## Key Context
+
+- **Alcaraz**, at age 23, completed his **Career Grand Slam** after winning the 2026 Australian Open, becoming the ninth player and youngest man in history (at age 22 years, 272 days) to complete a Career Grand Slam. His single runner-up finish came at Wimbledon 2025, where he lost to Jannik Sinner.
+
+- **Djokovic**, at 38 years old, holds the all-time record for most Grand Slam singles titles (24). He also had a remarkable 2026 Australian Open performance, becoming the oldest man to reach an Australian Open final and equalling/reducing numerous records including most main draw appearances (21) and match wins (over 100) at the tournament.
+
+This was also a landmark moment for Djokovic as Alcaraz ended his perfect **10–0 record** in Australian Open finals [2026 Australian Open – Men's singles].",132.293,7,131.948,8,0.343,5,3,"[{""id"": ""63121147"", ""title"": ""Carlos Alcaraz""}, {""id"": ""16100029"", ""title"": ""Novak Djokovic""}, {""id"": ""2092499"", ""title"": ""List of Grand Slam men's singles champions""}]",
+37,post_dec_2025,complex,"Which teams advanced from Group B of the 2026 FIFA World Cup, and how did they finish?","According to the records for **Group B** of the 2026 FIFA World Cup (held from June 12 to 24), three teams successfully advanced:
+
+*   **Switzerland (1st Place - Group Winners):** Switzerland topped the group after a strong campaign that included an opening draw followed by two consecutive victories. As group winners, they advanced directly to the Round of 32 to play Algeria.
+*   **Canada (2nd Place - Runners-up):** The co-hosts finished second in the standings after securing their first-ever FIFA World Cup victory against Qatar. They advanced to face South Africa in the Round of 32.
+*   **Bosnia and Herzegovina (3rd Place):** Bosnia & Herzegovina placed third based on goal difference. Their performance secured them a spot as one of the eight best third-place teams across all groups, allowing them to progress to the knockout stage where they faced the United States.
+
+**Qatar** finished in fourth place after losing their final two group matches and was eliminated from the tournament during the group stage.",26.285,3,26.204,2,0.08,1,1,"[{""id"": ""81660182"", ""title"": ""2026 FIFA World Cup Group B""}]",
+38,post_dec_2025,complex,What was the outcome of the 2026 Hungarian parliamentary election and how did it affect the government?,"Based on the **2026 Hungarian parliamentary election** results, here is the outcome and its impact on the government:
+
+### Election Outcome
+*   **Landslide Victory for Tisza Party:** On April 12, 2026, the opposition **Tisza Party**, led by Péter Magyar (a former Fidesz member), won a historic landslide victory. They secured **141 seats** out of 199 in the National Assembly.
+*   **Historical Record:** This marked the first time since 2006 that the incumbent ruling coalition, **Fidesz–KDNP**, failed to win an election. The Tisza Party achieved both the highest number of votes and the largest percentage of seats ever won by a single party in a free Hungarian election.
+*   **Opposition Fragmentation:** To prevent vote-splitting, numerous parties (including the Hungarian Socialist Party) withdrew from the race. Consequently, the only other political force to cross the electoral threshold was the far-right **Our Homeland Movement**.
+
+### Effects on the Government
+*   **End of the Orbán Era:** The results led to the defeat of Prime Minister **Viktor Orbán**, ending his sixteenth year in office and dismantling his 16-year rule, which had transformed Hungary into what many described as an ""illiberal state.""
+*   **Leadership Transition:** Following a meeting with President Tamás Sulyok on April 15, Péter Magyar was proposed to form the government. He was subsequently elected Prime Minister by the National Assembly on May 9, 2026.
+*   **Constitutional Changes:** The Tisza Party secured a **two-thirds supermajority** (133+ seats), which grants them the legislative authority to amend Hungary's Fundamental Law (the constitution).
+*   **Geopolitical Shift:** Analysts characterized the election as a major victory for the European Union and liberal democracy, reversing an anti-EU and pro-Russia drift. It was also viewed as a significant defeat for Russian influence under Vladimir Putin and the second Trump administration in the United States.",52.884,3,52.811,2,0.073,1,1,"[{""id"": ""79337461"", ""title"": ""2026 Hungarian parliamentary election""}]",
+39,post_dec_2025,complex,Compare the gold medal counts of the top two nations at the 2026 Winter Olympics.,"Based on the information found, here is the comparison of gold medal counts for the top two nations at the **2026 Winter Olympics** in Milan-Cortina:
+
+| Rank | Nation | Gold Medals |
+|------|--------|-------------|
+| 1 | **Norway** | 18 |
+| 2 | **United States** | 12 |
+
+**Summary:**
+- **Norway** topped the medal table with **18 gold medals** and 41 total medals, setting a new record for the most gold medals won at a single Winter Olympics (surpassing their previous record of 16).
+- The **United States** finished in second place with **12 gold medals** and 33 total medals, marking the team's most successful Winter Olympics in gold medal count.
+
+Norway led the United States by **6 gold medals**. The Netherlands and Italy each won 10 gold medals, tying for third place (with Italy finishing fourth due to having fewer silver medals than the Netherlands).",44.52,7,44.122,6,0.397,5,1,"[{""id"": ""82241843"", ""title"": ""2026 Winter Olympics medal table""}]",
+40,post_dec_2025,complex,What were the key results of Switzerland's 2026 FIFA World Cup campaign as recorded so far?,"According to records from Wikipedia regarding the **2026 FIFA World Cup** (hosted across the United States, Canada, and Mexico), Switzerland's key results as recorded are as follows:
+
+### Group Stage (Group B)
+Switzerland finished as the top team in their group with three wins and one draw. The matches were played in Santa Clara and Inglewood (USA) and Vancouver (Canada). 
+*   **Match 1:** Ended in a **1–1 Draw** at Santa Clara (Clayton International Stadium, USA), with Breel Embolo scoring for Switzerland.
+*   **Match 2:** A **4–1 Victory** in Inglewood (SoFi Stadium, USA) on June 18, 2026. The goals were scored by Johan Manzambi (2), Rubén Vargas, and Granit Xhaka.
+*   **Match 3:** A **2–1 Victory** in Vancouver (BMO Field, Canada). Scorers were Rubén Vargas and Johan Manzambi.
+
+### Knockout Stage
+*   **Round of 32:** Switzerland defeated Algeria **2–0** in Vancouver to advance to the next round. The goals were scored by Breel Embolo and Dan Ndoye.
+*   **Round of 16:** The Swiss team advanced to the Round of 16 stage, which is recorded as an upcoming fixture scheduled for Vancouver against a yet-to-be-determined opponent in the available reports.",129.123,6,128.868,5,0.254,4,1,"[{""id"": ""42402232"", ""title"": ""Switzerland at the FIFA World Cup""}]",
+41,post_dec_2025,complex,How did the 2026 Six Nations Championship winner perform across their matches?,"Based on my research of the Wikipedia article on the 2026 Six Nations Championship, I can provide you with how France (the winner) performed across their matches.
+
+**France won the 2026 Men's Six Nations Championship by two table points over Ireland.** Here's how they performed in each of their five matches:
+
+**Round 1 (February 5): France 16–6 Ireland**
+- Played at Stade de France in Saint-Denis on a Thursday night
+- Player of the Match: Mickaël Guillard
+- France claimed the inaugural Solidarity Trophy with this victory
+- The match was scheduled for a Thursday night to avoid clashing with the 2026 Winter Olympics opening ceremony
+
+**Round 2 (February): France 57–27 Wales**
+- Played at the Millennium Stadium in Cardiff
+- Player of the Match: Matthieu Jalibert
+- This was France's highest-scoring match against Wales, surpassing the 51 points scored in 1998
+- The 57,744 attendance was the lowest ever for a Six Nations match in Cardiff
+
+**Round 3 (February): France 18–7 Italy**
+- Played at home (Stade de France)
+- Player of the Match: Emmanuel Meafou
+- France retained the Giuseppe Garibaldi Trophy
+
+**Round 4 (March 9): Scotland 50–40 France**
+- Played at Murrayfield Stadium in Edinburgh
+- This was a record-breaking match, with the combined score of 90 being the highest between the two teams
+- Scotland's total of 50 points was their highest recorded against France
+- The defeat meant France scored the most points ever by a losing team in Six Nations history at that time
+
+**Round 5 (March 14): France 48–46 England**
+- Played at Stade de France in Saint-Denis
+- Player of the Match: Louis Bielle-Biarrey
+- This dramatic match was won with the final kick—a penalty by tournament top scorer Thomas Ramos
+- The 94-point aggregate score was the highest in 113 games between the two teams
+- This victory secured France's second successive Six Nations title, edging out Ireland (the Triple Crown winners) by two table points
+
+**Season Record:** France won 4 matches and lost 1, finishing as champions with 18 championship match points.
+
+Louis Bielle-Biarrey was named Player of the Tournament for the second successive year, scoring 9 tries (a tournament record). Thomas Ramos was the top point scorer with 74 points.
+
+Sources:
+- [2026 Six Nations Championship] (id: 80005683)",92.061,4,91.907,3,0.153,2,1,"[{""id"": ""80005683"", ""title"": ""2026 Six Nations Championship""}]",
+42,post_dec_2025,complex,What were the major developments in the Israel-Iran conflict during the first half of 2026?,"In late February 2026, the regional conflict between Israel and Iran escalated into a full-scale war known as the **2026 Iran war**. The major developments during the first half of the year included the following:
+
+*   **Outbreak of War and Leadership Assassination:** On February 28, 2026, the United States and Israel launched coordinated military operations—codenamed *Operation Epic Fury* (U.S.) and *Operation Roaring Lion* (Israel)—against Iranian targets. These strikes targeted nuclear facilities and military bases, resulting in the death of Iran’s Supreme Leader **Ali Khamenei** and thousands of Islamic Revolutionary Guard Corps (IRGC) personnel.
+
+*   **Regional Escalation and Hezbollah's Entry:** Iran retaliated with ballistic missiles and drones against Israel as well as U.S. military bases across the Persian Gulf. Two days after the initial strikes, on March 2, the Iranian-backed group **Hezbollah** launched rocket attacks on northern Israel, sparking the separate but concurrent **2026 Lebanon war**. Following Iranian fire striking their territory, nations including Saudi Arabia, the United Arab Emirates, and Kuwait also engaged in combat against Iranian interests.
+
+*   **Strait of Hormuz Crisis:** To exert economic pressure, Iran blockaded the Strait of Hormuz, stalling maritime traffic and causing a global fuel crisis due to supply disruptions. The U.S. responded by imposing a naval blockade on Iran.
+
+*   **Diplomatic Ceasefires:** Following intense fighting throughout March—including significant cyber warfare that caused a massive internet blackout in Iran—parties agreed to a two-week ceasefire beginning on April 8. Following the failure of the ""Islamabad Talks"" on April 12–13, which led the U.S. to reimpose a blockade, a final memorandum to end the war was announced on June 14 and signed on **June 17** between then-U.S. President Donald Trump and Iranian President Masoud Pezeshkian.
+
+Sources:
+- [2026 Iran war](https://en.wikipedia.org/w/api.php?utf8=✓&format=json&action=query&prop=revisions%7Ccategories%7Cimages%7Cinfo%7Cpageprops%7Ccoordinates%7Clanglinks&pageids=82533582&rvprop=content&cllimit=max&redirects=) (id: 82533582)
+- [Iran–Israel conflict](https://en.wikipedia.org/w/api.php?utf8=✓&format=json&action=query&prop=revisions%7Ccategories%7Cimages%7Cinfo%7Cpageprops%7Ccoordinates%7Clanglinks&pageids=76694649&rvprop=content&cllimit=max&redirects=) (id: 76694649)",62.646,3,62.567,2,0.079,1,1,"[{""id"": ""82533582"", ""title"": ""2026 Iran war""}]",
+43,post_dec_2025,complex,How did the 2026 ICC Men's T20 World Cup final unfold?,"Based on the records of the **2026 ICC Men's T20 World Cup final**, here is how the match unfolded:
+
+**Overview and Toss**
+Played on March 8, 2026, at the Narendra Modi Stadium in Ahmedabad, India, the final featured defending champions India against New Zealand [2026 Men's T20 World Cup final]. New Zealand won the toss and elected to field first.
+
+**India's Innings**
+Under a new captaincy led by Suryakumar Yadav, India posted an aggressive total of **255/5** in 20 overs. 
+* The innings was sparked by an explosive opening partnership of 98 runs in just seven overs between Sanju Samson and Abhishek Sharma. Both reached half-centuries quickly; Samson topped the scoring with 89 runs off 46 balls, while Abhishek scored his fifty in 18 deliveries.
+* Ishan Kishan joined the party with a rapid twenty-three-ball half-century, sharing another massive 105-run partnership with Samson.
+* India's momentum was momentarily arrested by New Zealand bowler James Neesham, who dismissed both Samson and Kishan in the 16th over. Captain Yadav fell for a duck in that same over, but Shivam Dube helped finish strong off the final two overs.
+
+**New Zealand's Chase**
+Chasing a mammoth target of 256, New Zealand started brightly but ultimately crumbled under pressure.
+* Opener Tim Seifert scored a blistering fifty (52 runs) in just 23 balls, accounting for most of his team's early success.
+* However, the middle order collapsed as Indian pacer Jasprit Bumrah took center stage. Bumrah delivered a match-winning spell of **4 wickets for 15 runs** across four overs, dismantling the New Zealand batting lineup.
+* New Zealand were bundled out for just **159** in 18.6 overs, with no other batter making a significant contribution.
+
+**Result and Significance**
+India won the match by a massive margin of **96 runs** to successfully defend their title [2026 Men's T20 World Cup final]. 
+
+This victory marked historic milestones for India:
+* It was India's third T20 World Cup title overall (previously winning in 2007 and 2024).
+* India became the first team in tournament history to win three T20 World Cups.
+* They were the first hosts to win a world cup on home soil and the first team to win back-to-back tournaments.
+* Captain Suryakumar Yadav became just the fourth Indian captain to lift a major ICC trophy, joining Kapil Dev, MS Dhoni, and Rohit Sharma.
+
+**Sources:**
+- [2026 Men's T20 World Cup final]",53.832,3,53.754,2,0.078,1,1,"[{""id"": ""78416043"", ""title"": ""2026 Men's T20 World Cup final""}]",
+44,post_dec_2025,complex,Which countries won medals in figure skating at the 2026 Winter Olympics?,"Based on the results of the figure skating events at the 2026 Winter Olympics, medals were won by athletes from **eight** different countries. Here is the breakdown of which country won a medal in each event:
+
+*   **Men's Singles:** **Kazakhstan** (Gold), **Japan** (Silver and Bronze)
+*   **Women's Singles:** **United States** (Gold), **Japan** (Silver and Bronze)
+*   **Pair Skating:** **Japan** (Gold), **Georgia** (Silver), **Germany** (Bronze)
+*   **Ice Dance:** **France** (Gold), **United States** (Silver), **Canada** (Bronze)
+*   **Team Event:** **United States** (Gold), **Japan** (Silver), **Italy** (Bronze)
+
+In total, the countries that won medals in figure skating at the 2026 Winter Olympics were Kazakhstan, Japan, the United States, Georgia, Germany, France, Canada, and Italy.
+
+Sources:
+- [Figure skating at the 2026 Winter Olympics] (id: 78368701)
+- [Figure skating at the 2026 Winter Olympics – Men's singles] (id: 82107528)
+- [Figure skating at the 2026 Winter Olympics – Women's singles] (id: 82110767)
+- [Figure skating at the 2026 Winter Olympics – Pair skating] (id: 82110766)
+- [Figure skating at the 2026 Winter Olympics – Ice dance] (id: 82107561)",56.191,6,55.959,5,0.231,4,1,"[{""id"": ""78368701"", ""title"": ""Figure skating at the 2026 Winter Olympics""}]",
+45,post_dec_2025,complex,"Which films were nominated for Best Picture at the 2026 Academy Awards, and which won?","At the **98th Academy Awards**, held on March 15, 2026, the winner for **Best Picture** was:
+
+*   ***One Battle After Another*** (Producer of record: Adam Somner, Sara Murphy, and Paul Thomas Anderson)
+
+The full list of nominees was as follows:
+*   *Bugonia*
+*   *F1*
+*   *Frankenstein*
+*   *Hamnet*
+*   *Marty Supreme*
+*   *Sentimental Value*
+*   ***One Battle After Another*** 
+*   *Sinners*
+*   *The Secret Agent*
+*   *Train Dreams*
+
+Sources:
+- [98th Academy Awards] (id: 79369474)",36.296,4,36.185,3,0.111,2,1,"[{""id"": ""79369474"", ""title"": ""98th Academy Awards""}]",
+46,post_dec_2025,complex,How did the top three entries perform at the 2026 Eurovision Song Contest?,"The top three entries at the 2026 Eurovision Song Contest performed as follows:
+
+*   **1st Place – Bulgaria:** The country achieved its first-ever victory in the contest with the entry **""Bangaranga""** by **Dara**. It finished with a record-breaking **516 points** and was unique for securing both the top score from the professional juries and the televote.
+*   **2nd Place – Israel:** Represented by **Noam Bettan** with the song **""Michelle""**, which earned a total of **343 points**.
+*   **3rd Place – Moldova:** Represented by **Alexandra Căpitănescu** with the song **""Choke Me""**, finishing with **296 points**.
+
+Sources:
+- [Eurovision Song Contest 2026] (id: 79992910)",48.174,3,48.094,2,0.08,1,1,"[{""id"": ""79992910"", ""title"": ""Eurovision Song Contest 2026""}]",
+47,post_dec_2025,complex,Compare the 2026 Australian Open men's champion with the 2026 French Open men's champion.,"Based on the Wikipedia articles for both tournaments:
+
+## 2026 Australian Open Champion: Carlos Alcaraz
+
+Carlos Alcaraz defeated Novak Djokovic in the final (2–6, 6–2, 6–3, 7–5) to claim his first Australian Open title and seventh major title overall. This victory was historic—Alcaraz became **the ninth player and youngest man to complete a career Grand Slam** in singles, as well as the youngest man in the Open Era to reach the singles final of all four majors. He also ended Djokovic's previously unbeaten 10–0 record in Australian Open finals. Alcaraz was the #1 seed entering the tournament with 12,050 points.
+
+Notably, Alcaraz lost to Zverev in the semifinals (a grueling 5-hour-27-minute match—the longest Australian Open semifinal in history).
+
+## 2026 French Open Champion: Alexander Zverev
+
+Alexander Zverev defeated Flavio Cobolli in a five-set final (6–1, 4–6, 6–4, 6–7(5–7), 6–1) to win his **first major title**, having previously been the runner-up three times. This was also the third consecutive year the French Open men's singles final went to five sets.
+
+Zverev made history as:
+- The first German man to win the French Open since Henner Henkel in 1937
+- The first German to win any singles major since Boris Becker won the 1996 Australian Open
+- Only the third man born in the 1990s to win a singles major (after Dominic Thiem and Daniil Medvedev)
+
+Zverev was seeded #2 entering with 5,705 points. The two-time reigning champions—Alcaraz and Sinner—both failed to defend their titles at Roland Garros, with Alcaraz withdrawing due to a wrist injury and Sinner losing in round two.
+
+## Key Comparisons
+
+| | Carlos Alcaraz (AO) | Alexander Zverev (FO) |
+|---|---|---|
+| **Major titles at time of victory** | 7th major | 1st major |
+| **Historic achievement** | Youngest career Grand Slam winner | First German French Open men's champion since 1937 |
+| **Seed ranking** | #1 seed | #2 seed |
+| **Defeated in final by/against** | Defeated Djokovic | Defeated Cobolli (first-time finalist) |
+
+Sources:
+- [2026 Australian Open – Men's singles](id: 81715568)
+- [2026 French Open – Men's singles](id: 83032925)",41.635,3,41.499,4,0.136,2,2,"[{""id"": ""81715568"", ""title"": ""2026 Australian Open – Men's singles""}, {""id"": ""83032925"", ""title"": ""2026 French Open – Men's singles""}]",
+48,post_dec_2025,complex,How did the three co-host nations perform in the group stage of the 2026 FIFA World Cup?,"Based on the articles about the three host nations' groups, here is how each performed during the 2026 FIFA World Cup group stage:
+
+## **Mexico (Group A) – Group Winners**
+Mexico was the only co-host to remain undefeated, achieving a perfect record in their first-ever nine-point group stage performance. They went on to win all three consecutive matches:
+- **Beat South Africa 2–0** – Goals from Julián Quiñones and Raúl Jiménez
+- **Beat South Korea 1–0** – Goal from Luis Romo (became the first team to qualify for the round of 32)
+- **Beat Czech Republic 3–0** – Completing their perfect 3–0 group stage
+
+They advanced as Group A winners, facing Ecuador (third-place team of Group E) in the round of 32.
+
+## **Canada (Group B) – Runners-Up**
+Canada had mixed results, earning their first-ever World Cup victory but ultimately finishing second:
+- **Drew Bosnia and Herzegovina 1–1** – Cyle Larin scored to give Canada their first-ever point at a World Cup (they had previously lost all three matches in 1986 and 2022)
+- **Beat Qatar** – Canada won their first ever World Cup match in history, with Jonathan David scoring a hat-trick (the biggest win by a non-UEFA/CONMEBOL nation in World Cup history)
+- **Lost to Switzerland 2–1**
+
+They advanced as Group B runners-up, facing South Africa (Group A runner-up) in the round of 32.
+
+## **United States (Group D) – Group Winners**
+The United States were guaranteed to top the group after winning their first two matches:
+- **Beat Paraguay 4–1** – The U.S. scored four goals for the first time in World Cup history, with Folarin Balogun scoring a brace
+- **Beat Australia 2–0** (own goals by Canada's Cameron Burgess... wait, that doesn't make sense - it was Australia's own players)
+
+Let me correct: It was Australia's Cameron Burgess who committed an own goal. This win qualified the US for the round of 32 shortly after Mexico became the first team to qualify.
+- **Lost to Turkey 3–2** – Turkey scored a dramatic stoppage-time winner, making this the second defeat for a co-host in the tournament, but it was already ""dead rubber"" as the U.S. had been assured of top spot
+
+They advanced as Group D winners, facing Bosnia and Herzegovina (third-place team from Group B) in the round of 32.
+
+---
+
+**Summary:** Mexico topped their group undefeated; Canada reached the knockout stage as runners-up with their historic first World Cup win; and the United States won their group despite a late loss to Turkey. All three co-hosts advanced from the group stage to the round of 32.
+
+Sources:
+- [2026 FIFA World Cup Group A] (id: 81660180)
+- [2026 FIFA World Cup Group B] (id: 81660182)
+- [2026 FIFA World Cup Group D] (id: 81660193)",57.147,4,56.962,5,0.184,2,3,"[{""id"": ""81660180"", ""title"": ""2026 FIFA World Cup Group A""}, {""id"": ""81660182"", ""title"": ""2026 FIFA World Cup Group B""}, {""id"": ""81660193"", ""title"": ""2026 FIFA World Cup Group D""}]",
+49,post_dec_2025,complex,What notable records or milestones were set at the 2026 Winter Olympics?,"The **2026 Milan-Cortina Winter Olympics** featured numerous major milestones and notable records across team, individual, and event-specific categories:
+
+### **Games-Wide Milestones**
+*   **Dual Host Cities:** For the first time in history, the Games were officially co-hosted by two cities. Ice events were primarily hosted in Milan, while other sports were held in clusters around Cortina d'Ampezzo, Livigno, and Fiemme [2026 Winter Olympics].
+*   **Two Cauldrons:** To symbolize the dual hosting, Olympic cauldrons were lit in both Milan and Cortina d'Ampezzo for the first time ever [2026 Winter Olympics].
+*   **New Sports & Formats:** The debut of ski mountaineering took place (featuring a men’s sprint, women’s sprint, and mixed relay). Additionally, the Games featured the highest percentage of women's participation in history at that point (47%) [2026 Winter Olympics]. 
+*   **NHL Return:** Professional NHL players participated in the men's ice hockey tournament for the first time since 2014 [2026 Winter Olympics].
+*   **New IOC President:** It was the first Olympic Games held under the leadership of IOC President Kirsty Coventry [2026 Winter Olympics].
+
+### **Country & Team Records**
+*   **Norway's Historic Dominance:** Norway finished atop the medal table with **18 gold medals and 41 total medals**, setting new records for the most golds and overall medals won by any nation at a single Winter Olympics [2026 Winter Olympics].
+*   **Brazil's First Medals:** Brazil won its first-ever Winter Olympic medal (including a gold), becoming the first tropical, Latin American, and South American National Olympic Committee to reach the podium [2026 Winter Olympics].
+*   **Georgia's First Medals:** Georgia also secured its first-ever Winter Olympic medals [2026 Winter Olympics].
+*   **Italy's Record Host Performance:** Despite finishing fourth overall due to tie-breaking rules, Italy set a new record for total medals won by the host nation (30) [2026 Winter Olympics].
+
+### **Individual Athlete Records**
+*   **Johannes Høsflot Klæbo:** The Norwegian cross-country skier won 6 gold medals at a single Winter Olympics, breaking the previous record. He also extended his career total to 11 gold medals, setting the all-time record for most gold medals by any Winter Olympian [2026 Winter Olympics medal table].
+
+### **Skating Records (1 Olympic Record & 1 World Record in skating)**
+Ten Olympic records and one world record were set during the skating events:
+*   **World Record:** In short-track speed skating (Women's 500m Semifinal), Xandra Velzeboer of the Netherlands clocked **41.399 seconds** [World and Olympic records set at the 2026 Winter Olympics].
+*   **Short-Track & Figure Skating ORs:** The Dutch Mixed 2000m speed skating relay team set an Olympic Record (2:35.537), and Japan's Riku Miura and Ryuichi Kihara set a Free Skate Olympic Record in figure skating with 158.13 points [World and Olympic records set at the 2026 Winter Olympics].
+*   **Speed Skating ORs:** Multiple Olympic Records were set, including:
+    *   Women's 3000m (Francesca Lollobrigida, Italy) [World and Olympic records set at the 2026 Winter Olympics]
+    *   Men's 1000m (Jordan Stolz, USA) [World and Olympic records set at the 2026 Winter Olympics]
+    *   Women's 500m (Femke Kok, Netherlands) [World and Olympic records set at the 2026 Winter Olympics]
+    *   Men's 1500m (Ning Zhongyan, China) [World and Olympic records set at the 2026 Winter Olympics]
+
+Sources:
+- [2026 Winter Olympics] (id: 38416091)
+- [2026 Winter Olympics medal table] (id: 82241843)
+- [World and Olympic records set at the 2026 Winter Olympics] (id: 82356668)",56.501,3,56.417,3,0.084,1,2,"[{""id"": ""82356668"", ""title"": ""World and Olympic records set at the 2026 Winter Olympics""}, {""id"": ""38416091"", ""title"": ""2026 Winter Olympics""}]",
+50,post_dec_2025,complex,Compare the winner of the 2026 Masters Tournament with the previous year's Masters champion.,"The winner of the **2026 Masters Tournament** is **Rory McIlroy**, who successfully defended his title to become one of the few players in history to win consecutive Majors at Augusta National. The previous year's Masters champion (2025) was also **Rory McIlroy**.
+
+Here is a comparison of the details from their back-to-back victories:
+
+### 1. Nature of the Victory
+*   **2026:** McIlroy won his second consecutive tournament by beating runner-up Scottie Scheffler by **one stroke**. This victory joined Jack Nicklaus, Nick Faldo, and Tiger Woods as the only players to repeat as Masters champion. He also set a record for the largest 36-hole lead in Masters history (six strokes).
+*   **2025:** McIlroy won his **first ever** Masters title on his 11th attempt, completing the modern-day Career Grand Slam (becoming the first European to do so). He defeated Justin Rose in a dramatic sudden-death playoff on the 18th hole after both players finished regulation tied at one-under par.
+
+### 2. Final Scores and Round Breakdowns
+*   **2026:** McIlroy finished at **276 (-12)**. His rounds were: 67, 65, 73, 71. Despite losing his share of the lead late in the fourth round, he managed to hold off a final-round surge by Rose and Scheffler (who shot a bogey-free 68).
+*   **2025:** McIlroy finished with a total score of **277 (-11)** for regulation. His rounds were: 72, 66, 66, and 73.
+
+### 3. Key Challenges Faced
+*   **2026:** The course had been altered by a lengthening of the par-4 17th hole (now named Nandina), and McIlroy was playing in front of the defending major champion Scottie Scheffler, who entered as the betting favorite.
+*   **2025:** Dealing with lingering course damage from Hurricane Helene (September 2024), particularly tree removals that impacted sightlines on holes 12 and 16. McIlroy also had to contend with Justin Rose, who set a record for leading the tournament most number of times (five) during the final three rounds.
+
+### Summary of Final Standings
+*   **2026:** 1st: Rory McIlroy (-12), 2nd: Scottie Scheffler (-11).
+*   **2025:** 1st: Rory McIlroy (-11, Playoff), 2nd: Justin Rose (-11, Playoff), 3rd: Patrick Reed (-9).",99.137,3,99.02,4,0.117,2,2,"[{""id"": ""82215987"", ""title"": ""2026 Masters Tournament""}, {""id"": ""77622301"", ""title"": ""2025 Masters Tournament""}]",
+51,pre_2026,simple,In which years did Marie Curie win Nobel Prizes?,"Based on the historical record retrieved, Marie Curie won Nobel Prizes in two distinct fields and years:
+
+*   **1903**: She shared the Nobel Prize in Physics with her husband Pierre Curie and Henri Becquerel for their research on radiation phenomena (specifically radioactivity).
+*   **1911**: She was awarded the Nobel Prize in Chemistry for the discovery of the elements radium and polonium.
+
+She remains the first person to win two Nobel Prizes and the only person to win them in two different scientific fields.
+
+Sources:
+- [Marie Curie] (id: 20408)",35.4,4,35.328,2,0.072,1,1,"[{""id"": ""20408"", ""title"": ""Marie Curie""}]",
+52,pre_2026,simple,Which country holds the record for the most FIFA World Cup titles?,"**Brazil** holds the record for the most FIFA World Cup titles, having won the tournament **five times**. 
+
+According to the full Wikipedia article on the FIFA World Cup: *""With five wins, Brazil is the only team to have played in every tournament.""* The other nations listed as multi-time winners are Germany and Italy (four titles each), Argentina (three titles), France and Uruguay (two titles each), and England and Spain (one title each).
+
+Sources:
+- [FIFA World Cup] (id: 11370)",45.481,4,45.39,2,0.09,1,1,"[{""id"": ""11370"", ""title"": ""FIFA World Cup""}]",
+53,pre_2026,simple,"What is the origin of the phrase ""the buck stops here""?","Based on my research, here is the origin of the phrase ""the buck stops here"":
+
+## Origin of the Phrase
+
+**From Poker to Presidency:** The underlying expression ""passing the buck"" originated from **poker games**, where a marker or counter was used to indicate whose turn it was to deal cards. During the American Frontier era, this marker was often a knife with a **buckhorn handle**. Because buckhorns were used for these markers, the piece came to be called ""the buck."" If a player did not wish to deal, they could pass the responsibility to the next person by passing along ""the buck,"" hence ""passing the buck"" became an expression for shirking responsibility [Buck passing].
+
+**President Truman's Sign:** The specific phrase **""the buck stops here""** was popularized by **U.S. President Harry S. Truman**, who kept a sign with that exact wording on his desk in the Oval Office. This became famous as it represented Truman's policy of taking full personal responsibility for decisions as president [Buck passing].
+
+**Where Did the Sign Come From?** According to historical records, Truman received this sign as a **gift from a prison warden who was also an avid poker player**, which is fitting given the phrase's gambling origins [Buck passing].
+
+**The Missouri Connection:** Interestingly, the reverse of the sign reads **""I'm from Missouri.""** This references both Truman's home state and U.S. Representative Willard Duncan Vandiver's famous statement: *""I'm from Missouri. You've got to show me""*—referring to Missourians' skeptical approach [Buck passing].
+
+The phrase has since become iconic in American politics, with subsequent presidents (including Jimmy Carter, Donald Trump, and Joe Biden) also referencing it or displaying similar sentiments about personal accountability [Buck passing].",36.758,6,36.457,5,0.3,4,1,"[{""id"": ""3221453"", ""title"": ""Buck passing""}]",
+54,pre_2026,simple,When did Alan Turing die?,"Alan Turing died on **June 7, 1954**, at the age of 41. His death was caused by cyanide poisoning; an inquest determined it to be suicide, although the evidence is also consistent with accidental poisoning [Alan Turing].",16.556,3,16.488,2,0.067,1,1,"[{""id"": ""1208"", ""title"": ""Alan Turing""}]",
+55,pre_2026,simple,Who painted the Mona Lisa?,"The *Mona Lisa* was painted by the Italian Renaissance artist **Leonardo da Vinci**. It is considered an archetypal masterpiece of the Italian Renaissance and is arguably the most famous painting in the world.
+
+According to art historians, Leonardo likely began working on the portrait between 1503 and 1506, though he may have continued refining it as late as 1517. The subject is traditionally believed to be **Lisa del Giocondo**, the wife of a wealthy Florentine merchant named Francesco del Giocondo.
+
+The painting is an oil-on-poplar panel work that has historically been associated with Italy but eventually entered the collection of King Francis I of France and is currently housed in the Louvre Museum in Paris.
+
+Sources:
+- [Mona Lisa] (id: 70889)",29.49,3,29.42,2,0.07,1,1,"[{""id"": ""70889"", ""title"": ""Mona Lisa""}]",
+56,pre_2026,simple,What is the capital of Australia?,"The capital of Australia is **Canberra**.
+
+Canberra serves as the seat of government for the new nation and is located within the Australian Capital Territory (ACT).[Article Title]",30.191,4,30.072,3,0.118,2,1,"[{""id"": ""51983"", ""title"": ""Canberra""}]",
+57,pre_2026,simple,Which country won the 2022 FIFA World Cup?,"**Argentina** won the 2022 FIFA World Cup. They defeated the defending champions, France, in the final with a 4–2 victory on penalties after the match ended in a 3–3 draw following extra time. The tournament, held in Qatar from November 20 to December 18, 2022, marked Argentina's third World Cup title (previously winning in 1978 and 1986) and their first since 1986.
+
+Sources:
+- [2022 FIFA World Cup] (id: 17742072)",20.048,3,19.983,2,0.065,1,1,"[{""id"": ""17742072"", ""title"": ""2022 FIFA World Cup""}]",
+58,pre_2026,simple,Who was the first person to walk on the Moon?,"The first person to walk on the moon was **Neil Armstrong**, an American astronaut.
+
+Armstrong, who served as Commander for the mission, became the first human to step onto the lunar surface on July 20, 1969, during the NASA mission **Apollo 11**. He descended from the Lunar Module *Eagle* and famously declared, ""That's one small step for [a] man, one giant leap for mankind."" He was followed approximately 19 minutes later by fellow astronaut Edwin ""Buzz"" Aldrin.
+
+Sources:
+- Apollo 11 (id: 662)",35.955,3,35.868,2,0.087,1,1,"[{""id"": ""662"", ""title"": ""Apollo 11""}]",
+59,pre_2026,simple,In what year did World War II end?,"World War II ended in **1945**. 
+
+The war officially concluded with the surrenders of the Axis powers that year:
+*   **In Europe**, Germany surrendered unconditionally on May 8, 1945 (known as V-E Day).
+*   **Globally/In Asia**, Japan formalized its surrender by signing the surrender document aboard the USS *Missouri* on September 2, 1945. While Japan announced its intention to surrender on August 15, the formal signing marked the official end of hostilities worldwide [World War II].",21.359,3,21.286,2,0.073,1,1,"[{""id"": ""32927"", ""title"": ""World War II""}]",
+60,pre_2026,simple,What is the chemical symbol for gold?,"Based on the retrieved article, the chemical symbol for gold is **Au** (derived from the Latin word *Aurum*), and it has an atomic number of 79 [Gold].
+
+Sources:
+- Gold (id: 12240)",62.582,7,62.371,5,0.21,4,1,"[{""id"": ""12240"", ""title"": ""Gold""}]",
+61,pre_2026,simple,"Who wrote the novel ""1984""?","The novel *1984* (also titled *Nineteen Eighty-Four*) was written by the English writer **George Orwell**. It was published on June 8, 1949, as his ninth and final completed book [Nineteen Eighty-Four].
+
+Sources:
+- [Nineteen Eighty-Four] (id: 23454753)",24.186,4,24.056,3,0.129,2,1,"[{""id"": ""23454753"", ""title"": ""Nineteen Eighty-Four""}]",
+62,pre_2026,simple,In what year did the Berlin Wall fall?,"Based on the retrieved article from *Wikipedia*, the Berlin Wall fell in **1989**, specifically opening to the public on November 9, 1989. 
+
+Sources:
+- [Fall of the Berlin Wall] (id: 61917089)",26.451,4,26.375,2,0.076,1,1,"[{""id"": ""61917089"", ""title"": ""Fall of the Berlin Wall""}]",
+63,pre_2026,simple,Who was the first President of the United States?,"Based on the full article, **George Washington** was the first President of the United States. He served two terms from 1789 to 1797.
+
+Before his presidency, Washington was a Founding Father and a major general who served as commander-in-chief of the Continental Army during the American Revolutionary War. He presided over the Constitutional Convention in 1787, which drafted the Constitution, before being unanimously elected president by the Electoral College in both 1788 and 1792.
+
+Sources:
+- [George Washington] (id: 11968)",36.89,4,36.798,2,0.092,1,1,"[{""id"": ""11968"", ""title"": ""George Washington""}]",
+64,pre_2026,simple,What is the tallest mountain in the world?,"The answer to ""what is the tallest mountain in the world"" depends on how you measure it, as there is no single standard definition:
+
+**Highest above sea level**: **Mount Everest** (Sagarmāthā/Qomolangma) is the highest mountain on Earth when measured by altitude above mean sea level. It sits on the China–Nepal border and was officially surveyed in 2020 by both countries to be **8,848.86 meters (29,032 ft)**. This is the most common definition people use when asking this question.
+
+**Tallest from base to peak**: **Mauna Kea** in Hawaii is technically taller if you measure from its base on the ocean floor to its summit. It rises over 10,000 meters (33,500 ft) from the ocean bottom, though only about 4,207 m (13,803 ft) rise above sea level.
+
+**Farthest from Earth's center**: **Mount Chimborazo**, a volcano in Ecuador, has its summit farthest from the center of the Earth due to Earth's equatorial bulge. At elevations well below Everest's 8,849 m, Chimborazo is more than **2 km (1.2 miles) farther from Earth's center** than Everest because it sits near the equator while Everest lies at a higher latitude.
+
+So Mount Everest is the highest above sea level, but Mauna Kea and Chimborazo hold other ""tallest"" records depending on the measurement method.
+
+Sources:
+- [Tallest mountain] (id: 20095916)
+- [Mount Everest] (id: 42179)",35.794,5,35.644,4,0.151,2,2,"[{""id"": ""20095916"", ""title"": ""Tallest mountain""}, {""id"": ""42179"", ""title"": ""Mount Everest""}]",
+65,pre_2026,simple,Which planet is known as the Red Planet?,"Based on the full text of the Wikipedia article for **""Red Planet""**, the planet known by this nickname is **Mars**. 
+
+The article explicitly references ""Mars, the planet, due to its surface color."" Mars appears reddish in the night sky because its soil and rocks are rich in iron(III) oxide (rust).",80.001,7,79.814,5,0.187,4,1,"[{""id"": ""45913"", ""title"": ""Red Planet""}]",
+66,pre_2026,simple,Who developed the theory of general relativity?,"The theory of general relativity, also known as the general theory of relativity or Einstein's theory of gravity, was developed and published by **Albert Einstein** [General relativity].
+
+Einstein began his search for a relativistic theory of gravitation in 1907 with a thought experiment involving an observer in free fall. After eight years of work that culminated in the presentation of the core equations to the Prussian Academy of Science in November 1915, the final form of general relativity was published by him in May 1916. While mathematician Marcel Grossmann provided the Riemannian geometry framework that allowed Einstein to formulate the theory's physical ideas, Einstein is credited as the primary developer and publisher of the theory itself [General relativity].
+
+Sources:
+- [General relativity] (id: 12024)",43.581,4,43.503,2,0.077,1,1,"[{""id"": ""12024"", ""title"": ""General relativity""}]",
+67,pre_2026,simple,In what year was the United States Declaration of Independence signed?,"The United States Declaration of Independence was signed in **1776**.
+
+While the Second Continental Congress adopted the Declaration on **July 4, 1776**, most of the 56 delegates actually signed the document on **August 2, 1776**. A few delegates added their signatures later that same year (September through November).
+
+Sources:
+- Signing of the United States Declaration of Independence (id: 32226668)
+- United States Declaration of Independence (id: 31874)",27.14,3,27.067,2,0.073,1,1,"[{""id"": ""32226668"", ""title"": ""Signing of the United States Declaration of Independence""}]",
+68,pre_2026,simple,What is the longest river in the world?,"According to Wikipedia's ""List of river systems by length,"" the **Nile River** in Africa is generally considered to be the longest river in the world, with a traditional length of approximately **6,650 kilometers (4,130 miles)**.
+
+However, there is an ongoing scientific debate regarding whether the Nile or the **Amazon River** in South America holds the title.
+*   **The Traditional View:** The Nile has historically been recognized as the longest river.
+*   **The Controversy:** In 2007 and 2008, some scientists claimed that the Amazon might be longer (approx. 6,400 km) based on different measurements of its source and estuary. However, a peer-reviewed article published in 2009 concluded that the Nile is indeed longer.
+
+The Nile flows through ten countries—Egypt, Sudan, South Sudan, Ethiopia, Eritrea, Uganda, Tanzania, Kenya, Rwanda, and Burundi—and empties into the Mediterranean Sea. The Amazon, the runner-up in length on this list, has a significantly larger drainage area (7,000,000 km² vs. the Nile's 3,254,555 km²).
+
+Sources:
+- [List of river systems by length]",36.454,3,36.374,2,0.08,1,1,"[{""id"": ""922586"", ""title"": ""List of river systems by length""}]",
+69,pre_2026,simple,"Who composed the symphony that includes the ""Ode to Joy""?","Ludwig van Beethoven composed **Symphony No. 9** in D minor (Op. 125), which includes the ""Ode to Joy"" as the theme of its final (fourth) movement. Completed in 1824, it was the first major symphony to use vocal parts and chorus. Beethoven set Friedrich Schiller's poem ""An die Freude"" (""Ode to Joy"") to music for this choral finale.
+
+Sources:
+- Symphony No. 9 (Beethoven) (id: 3436)",59.625,4,59.546,2,0.078,1,1,"[{""id"": ""3436"", ""title"": ""Symphony No. 9 (Beethoven)""}]",
+70,pre_2026,simple,What is the smallest country in the world by area?,"Based on Wikipedia data, **Vatican City** (officially the Vatican City State) is the smallest country in the world by area. 
+
+Established as an independent entity in 1929 through the Lateran Treaty between the Holy See and the Kingdom of Italy, Vatican City is a landlocked sovereign city-state that acts as an enclave entirely surrounded by Rome, Italy. Governed as an ecclesiastical or sacerdotal-monarchical state ruled by the Pope, it serves as the administrative center of the Catholic Church. 
+
+As noted in its records, it holds the distinction of being the world's smallest sovereign state in both total land area and population (which is around 800–900 people). Its territory includes significant religious and cultural landmarks such as St. Peter's Basilica, the Sistine Chapel, the Vatican Apostolic Library, the Vatican Museums, and the Vatican Gardens.
+
+Sources:
+- [Vatican City] (id: 32408)",48.937,4,48.816,3,0.12,2,1,"[{""id"": ""32408"", ""title"": ""Vatican City""}]",
+71,pre_2026,simple,Who is credited with discovering penicillin?,"Based on the retrieved articles, **Alexander Fleming** is credited with discovering penicillin.
+
+The Scottish physician first experimentally demonstrated in **1928** that a *Penicillium* mould (specifically a variant of *P. notatum*, now known as *P. rubens*) secreted an antibacterial substance when working at St Mary's Hospital in London. He observed that the mould killed staphylococcus bacteria growing nearby on a culture plate—a phenomenon he famously noted by saying, ""That's funny.""
+
+Fleming named the substance ""penicillin"" in 1929. While Fleming identified and isolated the substance, it was later purified and developed into a usable drug by a team of scientists at the University of Oxford led by **Howard Florey** and **Ernst Chain**. All three men shared the 1945 Nobel Prize in Physiology or Medicine for their work on penicillin.
+
+Sources:
+- [Discovery of penicillin] (id: 24333167)
+- [Penicillin] (id: 23312)",33.618,3,33.541,2,0.077,1,1,"[{""id"": ""24333167"", ""title"": ""Discovery of penicillin""}]",
+72,pre_2026,simple,In what year did the Titanic sink?,"The RMS *Titanic* sank in **1912** (specifically, in the early hours of April 15).",27.188,4,27.1,2,0.087,1,1,"[{""id"": ""19285924"", ""title"": ""Titanic""}]",
+73,pre_2026,simple,What is the currency of Japan?,"The official currency of Japan is the **Japanese yen** (¥; ISO code: **JPY**). 
+
+Issued and regulated by the Bank of Japan, the yen is the third-most traded currency in foreign exchange markets globally. The modern decimal system was introduced in 1871, replacing complex historical feudal coinage and paper notes. As of recent updates in July 2024, Japan has introduced new banknotes (Series F) featuring prominent historical figures such as Kitasato Shibasaburō, Tsuda Umeko, and Shibusawa Eiichi, alongside updated security features to combat counterfeiting.",34.773,5,34.658,3,0.112,2,1,"[{""id"": ""34392"", ""title"": ""Japanese yen""}]",
+74,pre_2026,simple,Which ancient Greek philosopher tutored Alexander the Great?,"Based on the Wikipedia search results, **Aristotle** was the ancient Greek philosopher who tutored Alexander the Great. 
+
+According to the article on Aristotle, he began tutoring Alexander at the request of Philip II of Macedon in 343 BC. Aristotle taught Alexander at the private school of Mieza in the gardens of the Nymphs, near Pella. The education likely covered subjects such as ethics and politics, along with standard literary texts like Homer's *Iliad* (which Aristotle later gifted to an annotated copy to Alexander). Their time together lasted several years until Alexander was about sixteen, at which point he returned to Pella and was appointed regent of Macedon by his father.",17.791,3,17.698,2,0.094,1,1,"[{""id"": ""308"", ""title"": ""Aristotle""}]",
+75,pre_2026,simple,What is the hardest known natural material?,"Based on the full text of the Wikipedia article **Diamond**, the hardest known natural material is **diamond**.
+
+### Key Facts:
+*   **Mohs Scale:** Diamond defines the top tier of the Mohs scale of mineral hardness, scoring a perfect **10 out of 10**. 
+*   **Quantitative Hardness:** On quantitative scales like the Vickers Hardness test, diamond measures between **70 and 150 gigapascals (GPa)**.
+*   **Atomic Structure:** Its exceptional durability arises from its crystal structure. In pure carbon, atoms are arranged in a rigid tetrahedral network known as **diamond cubic**. Each carbon atom is covalently bonded to four other atoms via strong $sp^3$ bonds. Because of this arrangement, diamond has the greatest number of atoms per unit volume of any known substance, making it both incredibly hard and the least compressible material found in nature.
+*   **Natural Occurrence vs. Theoretical Rivals:** 
+    *   While another carbon allotrope called **lonsdaleite** (hexagonal diamond), found in meteorites, has been theoretically predicted to be up to 58% harder than cubic diamond in computational models, natural specimens consistently show much lower hardness (typically 7–8 on the Mohs scale) due to structural defects and impurities.
+    *   Other synthetic materials like rhenium diboride ($ReB_2$) or wurtzite boron nitride (w-BN) can match or exceed diamond's indentation hardness when manufactured in laboratories, but they do not occur naturally as bulk materials on Earth.
+
+Diamond’s extreme hardness also gives it the highest thermal conductivity and sound velocity of any known natural substance, properties utilized extensively in industrial cutting, polishing, and high-pressure experiments (e.g., diamond anvil cells).",97.69,8,97.395,6,0.294,5,1,"[{""id"": ""8082"", ""title"": ""Diamond""}]",
+76,pre_2026,complex,What are the leading scientific theories for the extinction of the dinosaurs?,"Current scientific consensus identifies the **Cretaceous–Paleogene (K–Pg) extinction event**, occurring around 66 million years ago, as the time when non-avian dinosaurs died out. The leading theories focus on rapid environmental disruption caused by either a cosmic impact or massive terrestrial volcanism, with the former currently being the dominant explanation.
+
+### 1. The Impact Hypothesis (Alvarez Hypothesis)
+This is the most widely accepted theory, proposing that an asteroid approximately **10 kilometers (6 miles) wide** struck the Earth.
+
+*   **The Strike:** The impact created the **Chicxulub crater**, now buried beneath the Yucatán Peninsula in Mexico.
+*   **Mechanism of Extinction:** The collision threw massive amounts of dust and aerosols into the atmosphere, causing a lingering ""impact winter."" This debris blocked sunlight, which halted photosynthesis in plants and plankton, causing them to die off. As the base of the food web collapsed, larger species—especially those requiring large amounts of food like non-avian dinosaurs—starved.
+*   **Supporting Evidence:** The primary evidence is a thin global layer of sediment called the **K–Pg boundary**, which contains high concentrations of iridium (a metal rare on Earth's surface but common in asteroids). The discovery of the Chicxulub crater itself and chemical analysis confirming ""ejecta"" (rock vaporized by the impact) dating to exactly that time provides strong support.
+
+### 2. The Volcanism Hypothesis (Deccan Traps)
+A competing and influential theory suggests that massive volcanic activity played a primary or significant role in the extinction.
+
+*   **The Deccan Traps:** In modern-day India, a series of enormous volcanic eruptions known as the Deccan Traps began roughly 200,000 years before the extinction event and continued for hundreds of thousands of years.
+*   **Mechanism of Extinction:** These floods of basalt lava released significant amounts of carbon dioxide and sulfur dioxide into the atmosphere. This could have caused severe global climate fluctuations, including extreme warming and acid rain, stressing ecosystems long before the asteroid even arrived.
+
+### 3. The ""Dual Trigger"" Theory
+Recent research often synthesizes these two theories. A January 2020 study reported that while volcanism likely stressed ecosystems in the late Cretaceous, the environmental modeling suggests it alone could not trigger a mass extinction of the magnitude seen. Instead, the prevailing modern view is that **volcanism weakened global biospheres**, making them far more vulnerable to the catastrophic shockwave of the final asteroid impact.
+
+### Other Factors
+*   **Sea Level Regression:** Scientists note that sea levels were falling during this period (transgression/regression), which would have destroyed shallow marine habitats and reduced habitat for terrestrial animals, though these are viewed as contributing factors rather than primary causes.",39.698,3,39.593,3,0.106,2,1,"[{""id"": ""44503418"", ""title"": ""Cretaceous–Paleogene extinction event""}]",
+77,pre_2026,complex,How did Marie Curie's two Nobel Prizes differ in field and subject?,"Based on the Wikipedia article, Marie Curie's two Nobel Prizes differed in both field and subject as follows:
+
+**First Nobel Prize (1903)**
+- **Field:** Physics
+- **Subject:** ""Joint researches on the radiation phenomena discovered by Professor Henri Becquerel""
+- She shared this prize with her husband Pierre Curie and Henri Becquerel for their collaborative work studying radioactivity. This was a study of a physical phenomenon—how certain substances emit rays spontaneously.
+
+**Second Nobel Prize (1911)**
+- **Field:** Chemistry
+- **Subject:** ""The discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element""
+- This prize was awarded solely to Marie Curie for her chemical work: identifying two new chemical elements (polonium and radium), isolating radium in its pure form, and studying its chemical properties and compounds.
+
+In summary, the 1903 Prize recognized **radioactivity as a physical phenomenon** (physics), while the 1911 Prize honored **the discovery and characterization of new chemical elements** through laboratory isolation and analysis (chemistry). Marie Curie remains the only person to win Nobel Prizes in two different scientific fields.
+
+Sources:
+- Marie Curie (id: 20408)",24.677,3,24.608,2,0.07,1,1,"[{""id"": ""20408"", ""title"": ""Marie Curie""}]",
+78,pre_2026,complex,What were the main differences in the causes of World War I and World War II?,"Based on the articles, the main differences in the causes of World War I and World War II are:
+
+## Nature of the Causes
+
+**World War I** is characterized by a complex web of **long-term structural factors**, including:
+- A complex web of alliances and alignments between competing Great Powers
+- Militarism, arms races, and a ""cult of the offensive""
+- Imperial rivalries and political/territorial/economic competition among European powers
+- The growth of nationalism, particularly in the Balkans
+- The breakdown of the European balance of power following German unification and Ottoman decline
+- Unresolved territorial disputes
+
+In contrast, **World War II** was driven by **deliberate expansionist ideologies**:
+- Nazi Germany's quest for ""Lebensraum"" (living space) and racial supremacy
+- Fascist Italy's imperial ambitions (""Spazio vitale"")
+- Japanese militarism and desire for resource control in Asia (""Asia for the Asians"")
+- These ideologies were explicitly stated goals rather than implicit tensions
+
+## Triggering Events
+
+**World War I** was precipitated by a **trigger event**: the assassination of Archduke Franz Ferdinand by Bosnian Serb nationalist Gavrilo Princip. This led to the July Crisis, where diplomatic misperceptions, fatalistic beliefs that war was ""inevitable,"" and the cascade of alliance commitments dragged powers into conflict that many historians argue was not deliberately planned by any single state.
+
+**World War II** was triggered by **premeditated aggression**: Nazi Germany's deliberate invasion of Poland on September 1, 1939. While this was the immediate spark, it was preceded by years of calculated aggressive moves including the remilitarization of the Rhineland, Anschluss with Austria, and the annexation of Czechoslovakia—actions made possible by a policy of appeasement by Britain and France.
+
+## The Role of the Treaty of Versailles
+
+A critical difference is that **World War II** was uniquely rooted in resentment over **the Treaty of Versailles**, which punished Germany with heavy reparations, military restrictions, territorial dismemberment, and the ""War Guilt Clause."" The article describes how German revanchism over these terms fueled the Nazi regime's rise and provided a major propaganda tool.
+
+**World War I** had no such predecessor treaty; instead, it was caused by ongoing imperial competition and alliance dynamics in Europe.
+
+## Economic Factors
+
+Economically, **World War II** involved the **Great Depression** of the 1930s, which:
+- Destroyed faith in liberal democracy worldwide
+- Enabled authoritarian regimes to gain power, particularly in Germany
+- Created desperation that leaders exploited for expansionist purposes
+
+**World War I** was driven by economic and colonial competition—particularly the Anglo-German naval arms race—but not by a global economic collapse.
+
+## International Institutions
+
+**World War II** saw the **failure of the League of Nations**, an international peacekeeping organization that proved powerless to stop aggression against Ethiopia, Manchuria, and Czechoslovakia. Britain and France's initial ""appeasement"" policy further emboldened Axis powers.
+
+**World War I** occurred before such institutions existed; it was caused by a shifting alliance system among sovereign states.
+
+## Summary
+
+While both wars involved nationalism and territorial disputes, **WWI** was more of a systemic failure where competing empires and alliances accidentally spiraled out of control following an assassination. **WWII** was the result of intentionally aggressive totalitarian regimes pursuing explicit ideological goals (expansion, racial supremacy) against a backdrop of Versailles humiliation and economic crisis, with the international community largely failing to respond effectively until it was too late.
+
+Sources:
+- Causes of World War I (id: 1318008)
+- Causes of World War II (id: 765642)",52.002,3,51.871,4,0.13,2,2,"[{""id"": ""1318008"", ""title"": ""Causes of World War I""}, {""id"": ""765642"", ""title"": ""Causes of World War II""}]",
+79,pre_2026,complex,What were the main factors that led to the fall of the Western Roman Empire?,"Based on historical scholarship and Wikipedia sources, the fall of the Western Roman Empire resulted from a combination of interconnected factors spanning centuries. Here are the main causes identified by modern historians:
+
+## External Factors
+
+**Barbarian Invasions and Migration:** Increasing pressure from invading peoples outside Roman culture played a crucial role. In 376 CE, large numbers of Goths and other non-Roman people fled the Huns and entered the Empire. Despite this being normal practice at the time, Roman forces were unable to subjugate them as they normally would have [Fall of the Western Roman Empire]. By the late fourth century, further groups crossed the Rhine in 406 CE (Vandals, Alans, Suebi) and other frontiers. The Migration Period saw masses of Germanic peoples—including Visigoths, Ostrogoths, Vandals, Burgundians, and Franks—eventually establishing their own kingdoms over former Roman territory [Migration Period; Historiography of the fall of the Western Roman Empire].
+
+## Internal Political Factors
+
+**Civil Wars and Instability:** The empire suffered from recurring civil wars and political instability. Notably, after two destructive civil wars in 395 CE, Theodosius I died and divided the Empire between his warring ministers and two incapable sons [Fall of the Western Roman Empire; Historiography of the fall of the Western Roman Empire]. This left a collapsing field army and never effectively consolidated central rule again.
+
+**Weak Leadership:** The competence of emperors declined significantly. By 476, the position of Western Roman Emperor wielded negligible military, political, or financial power [Fall of the Western Roman Empire]. Much of the fifth century saw ""figurehead"" emperors while actual power rested with Germanic military strongmen like Stilicho, Aetius, and Ricimer [Historiography of the fall of the Western Roman Empire].
+
+## Economic Factors
+
+**Financial Crises and Excessive Military Expenditure:** The empire suffered multiple severe crises during the third century. Excessive military expenditure, coupled with civil wars due to unstable succession, caused increased taxation that harmed industry [Fall of the Western Roman Empire]. Cities lost revenue from local taxes, and public building projects declined. Some scholars identified a great increase in the purchasing power of gold as an index of growing economic inequality between a gold-rich elite and cash-poor peasantry [Fall of the Western Roman Empire].
+
+## Environmental and Health Factors
+
+**Disease:** Epidemics significantly weakened the empire. The Antonine Plague (165–180 CE) impaired attempts to repel invaders, while the Plague of Cyprian (from 250 CE onwards) caused massive mortality in the third century [Fall of the Western Roman Empire; Historiography of the fall of the Western Roman Empire]. Pandemics contributed to demographic changes, economic crises, and food shortages.
+
+**Climate Change:** Ancient Roman climate historians identify a ""Roman Climatic Optimum"" from 200 BCE to 150 CE that made agriculture prosperous. From about 150, however, the climate worsened, bringing droughts and cooler temperatures. After 450, the Late Antique Little Ice Age may have directly contributed in multiple ways [Fall of the Western Roman Empire]. Some environmental historians also cite deforestation and soil erosion as contributors [Historiography of the fall of the Western Roman Empire].
+
+## Social and Cultural Factors
+
+**Religious Changes:** The rise of Christianity transformed Roman society. While debates exist about how this contributed to the fall, it led to religious disputes, shifted wealth to church institutions, and potentially distracted traditional civic virtues. Modern scholarship notes that the eastern Empire was even more Christian yet survived [Fall of the Western Roman Empire; Historiography of the fall of the Western Roman Empire].
+
+**Military Changes:** The armed forces became increasingly staffed by barbarian recruits and officers who may have had divided loyalties. Payrolls were inflated, allowing pay to be diverted while exemptions from duty could be sold [Fall of the Western Roman Empire]. Corruption in the army meant soldiers focused on extortion rather than military exercises.
+
+**Social Inequality:** The richest senatorial families became largely immune from taxation and engrossed more wealth while becoming detached from military traditions. At a local level, town councils lost power to ""local despots beyond reach of the law"" [Fall of the Western Roman Empire].
+
+## The Final Collapse
+
+The process culminated in 476 CE when Odoacer, a Germanic chieftain, deposed the last Western emperor Romulus Augustulus and sent the imperial insignia to Constantinople [Fall of the Western Roman Empire; Historiography of the fall of the Western Roman Empire]. However, many historians now prefer the concept of ""transformation"" rather than ""fall,"" emphasizing that Roman culture and institutions continued throughout Late Antiquity well beyond 476 [Historiography of the fall of the Western Roman Empire].
+
+Sources:
+- [Fall of the Western Roman Empire] (id: 923406)
+- [Historiography of the fall of the Western Roman Empire] (id: 1123369)
+- [Migration Period] (id: 103155)",51.801,3,51.694,3,0.106,1,2,"[{""id"": ""923406"", ""title"": ""Fall of the Western Roman Empire""}, {""id"": ""1123369"", ""title"": ""Historiography of the fall of the Western Roman Empire""}]",
+80,pre_2026,complex,How did the Renaissance influence European art and science?,"The Renaissance fundamentally transformed European intellectual and cultural life by breaking away from medieval traditions and laying the groundwork for modern thought and aesthetics. This transformation occurred across two primary domains: art and science.
+
+### Influence on European Art
+Renaissance art marked a decisive shift toward realism, humanism, and technical innovation:
+*   **Linear Perspective and Realism:** Inspired by the rediscovery of classical learning and contemporary scientific knowledge, artists developed linear perspective to make paintings appear three-dimensional and window-like into reality [Renaissance art]. Pioneers like Brunelleschi and Alberti formalized these techniques, while artists began studying light, shadow (chiaroscuro), and foreshortening to achieve lifelike representation [Renaissance art] [Renaissance].
+*   **Humanism and the Individual:** The humanist philosophy placed man at the center of the universe. This led to a more individualistic view of humanity in art, combining Christian themes with revived classical mythology and a focus on secular life and human emotion [Renaissance art] [Renaissance].
+*   **Technical Innovations:** Artisans refined techniques such as *sfumato* (soft blending of tones) and the mastery of oil paint (imported from Northern Europe by artists like Jan van Eyck), allowing for greater color vibrancy and detailed naturalism [Renaissance art]. In architecture, builders utilized Roman orders, columns, and symmetrical arches to emulated and improve upon classical forms [Renaissance art] [Renaissance].
+
+### Influence on European Science
+The Renaissance catalyzed a radical revolution in how Europeans understood the natural world, directly preceding the Scientific Revolution of the 17th century:
+*   **The Printing Press and Knowledge Dissemination:** Johannes Gutenberg's movable type printing press ended the medieval manuscript culture where facts were scarce. By the end of the 15th century, over 20 million volumes had been printed in Europe [Renaissance] [Science in the Renaissance]. This allowed scholars to easily compare their own observations with those of others, turning natural philosophy into a cumulative and collective enterprise [Renaissance] [Science in the Renaissance].
+*   **Geography and the ""New World"":** The rediscovery of Ptolemy's *Geographia* combined with Age of Discovery expeditions radically altered European cartography. The encounter with the Americas contradicted classical texts, proving ancient authorities wrong and fundamentally changing the European worldview regarding Earth's geography [Renaissance] [Science in the Renaissance].
+*   **Astronomy:** Building on newly recovered Greek manuscripts and advanced mathematical tools, astronomers began challenging the millennia-old Ptolemaic geocentric model. Nicolaus Copernicus eventually proposed a heliocentric (sun-centered) system, asserting that Earth rotates on its axis and revolves around the Sun [Science in the Renaissance].
+*   **Medicine, Anatomy, and Mathematics:** The era saw an explosion in experimental investigation. Physicians like Andreas Vesalius advanced human anatomy through systematic dissection, while William Harvey refined the description of the circulatory system [Science in the Renaissance]. Mathematically, scholars translated nearly all major surviving Greek works (like those of Archimedes and Euclid) and merged them with Islamic mathematical traditions to advance mechanics, optics, and the study of physical laws, moving physics and philosophy apart as distinct disciplines [Science in the Renaissance].
+
+In summary, the Renaissance's fusion of classical revival, humanist philosophy, and technological breakthroughs (like printing) shifted Europe from a medieval framework to an early modern age focused on empirical observation, secular inquiry, and artistic realism.
+
+Sources:
+- [Renaissance] (id: 25532)
+- [Renaissance art] (id: 311401)
+- [Science in the Renaissance] (id: 4175709)",76.51,3,76.407,4,0.101,1,3,"[{""id"": ""25532"", ""title"": ""Renaissance""}, {""id"": ""311401"", ""title"": ""Renaissance art""}, {""id"": ""4175709"", ""title"": ""Science in the Renaissance""}]",
+81,pre_2026,complex,Compare the philosophies of Plato and Aristotle.,"Based on the provided articles, Plato and Aristotle—teacher and student respectively—established the foundations of Western philosophy through their contrasting approaches to reality, knowledge, and practical life. Their primary philosophical differences can be categorized as follows:
+
+### Metaphysics: The Theory of Forms vs. Moderate Realism
+The core disagreement between the two centers on the nature of reality (the ""problem of universals"").
+*   **Plato** developed the **Theory of Forms**, arguing that reality is divided into two realms. One is the apparent, material world which we perceive with our senses; this world is an ever-changing, imperfect copy. The other is a real, unseen, and unchanging realm of ""Forms"" (archetypes like ""tableness,"" justice, or beauty) that are grasped only by reason. For Plato, universals exist separately from the physical objects that try to imitate them.
+*   **Aristotle**, in contrast, practiced **Moderate Realism**. He rejected the notion of a separate world of Forms, arguing instead for **hylomorphism**: every substance is a combination of matter and form. For Aristotle, universals do exist, but they are not separate; they only exist when ""instantiated"" within particular substances (e.g., the form of an apple exists *within* each actual apple). He also used the concepts of **potentiality** and **actuality** to explain how change occurs in the natural world.
+
+### Epistemology: Reason vs. Empiricism
+*   **Plato** was deeply skeptical of the sensory world. Because the material universe is constantly in flux (influenced by Heraclitus), he believed relying on the senses only yields unstable ""opinions"" rather than true knowledge. True understanding comes through **dialectic and reason**, allowing the soul to recollect eternal, non-perceptible truths it knew before being born into a body (the theory of recollection).
+*   **Aristotle** is credited with founding **empirical science and systematic logic**. Unlike his teacher, Aristotle believed knowledge was derived from observing the natural world and using logical structures known as **syllogisms** (the ""Organon""). While Plato focused on what he called ""demonstration"" of eternal truths, Aristotle focused on the study of causes through observation—a method that laid the groundwork for modern biology.
+
+### The Soul and Human Nature
+*   **Plato** viewed the soul as immortal, distinct from the body, and subject to reincarnation. He divided the soul into three parts—reason, spirit, and appetite—located in different parts of the body.
+*   **Aristotle** criticized Plato’s view that the soul takes up physical space or exists independently. In his treatise *On the Soul*, he defined the soul as the ""form"" or essence of a living being—it is what endows a body with life, growth, and sensation. He categorized souls into vegetative, sensitive, and rational types, viewing matter and form (soul) not as two separate entities, but as one inseparable reality.
+
+### Ethics
+*   **Plato** grounded ethics in metaphysics. He posited the **""Form of the Good""** as the supreme source of all truth. In his view, ""knowledge is virtue,"" meaning that if a person truly understands goodness through reason, they will naturally act virtuously; vice stems from ignorance.
+*   **Aristotle** treated ethics as a ""practical science"" (most notably in the *Nicomachean Ethics*). Rather than chasing abstract Forms, he focused on the practical question of how to live a flourishing life (*eudaimonia*) through habituation and virtue—a legacy that has seen a major resurgence in modern ethical thought.
+
+### Politics
+*   **Plato** envisioned an ideal state governed by a rigid tripartite class system mirroring the soul: Workers (appetite), Warriors/Guardians (spirit), and **Philosopher Kings** (reason). He famously feared democracy, believing it would inevitably decay into tyranny, and even argued for banning certain forms of poetry and rhetoric from his ideal republic.
+*   **Aristotle** took a more pragmatic approach to politics as part of the Lyceum's research. As the tutor to Alexander the Great, he was deeply involved in actual governance and statecraft. His political views were ethnocentric (""leader to the Greeks, and a despot to the barbarians""), yet his systematic study of constitutions established politics as a legitimate field of scientific inquiry.
+
+While Plato looked upward toward a perfect, abstract world beyond our physical eyes, Aristotle taught that we must look down into and catalog the natural world around us.",84.215,3,84.122,4,0.092,2,2,"[{""id"": ""22954"", ""title"": ""Plato""}, {""id"": ""308"", ""title"": ""Aristotle""}]",
+82,pre_2026,complex,"What was the estimated population of the Roman Empire at its peak, and roughly when was that?","Based on historical estimates, particularly those discussed in demographers like Kyle Harper and W. V. Harris, the population of the Roman Empire at its peak was roughly **59 to 75 million people**.
+
+This demographic peak occurred during the **2nd century CE**, specifically just before the outbreak of the Antonine Plague around **165 AD**. Prior to this, under Augustus in 14 CE, estimates placed the population closer to 45–60 million. From there, it grew at a slow annual rate (about 0.1%) for two centuries, reaching its maximum of approximately **75 million** before health crises and conflicts began to reduce it.",49.502,4,49.406,2,0.096,1,1,"[{""id"": ""27766105"", ""title"": ""Demography of the Roman Empire""}]",
+83,pre_2026,complex,How did the Industrial Revolution change working and living conditions in Britain?,"Based on historical records, the Industrial Revolution fundamentally transformed life in Great Britain by shifting society from an agrarian-based system to an urbanized, industrial one. These changes had profound effects on both working and living environments:
+
+**Changes in Working Conditions**
+*   **The Factory System:** Work moved out of the home and into large factories such as cotton mills, ironworks, and coal mines. Labor became highly regimented, disciplined, and focused on high productivity.
+*   **Hazardous Environments:** Because labor laws were absent, factories had few safety measures, making accidents commonplace. Poor ventilation in enclosed industrial spaces led to the widespread development of respiratory diseases among workers. 
+*   **Exploitation of Child Labor:** Children as young as four or five entered the workforce because they were compliant and could be paid lower wages than adults. They worked under dangerous machinery and were often punished severely for mistakes. In coal mines, young children crawled through narrow spaces where unsafe structures frequently caused bodily distortions, crippled limbs, or death from poor air quality.
+
+**Changes in Living Conditions**
+*   **Urbanization:** Millions migrated from rural areas to industrial belts in the Scottish Lowlands, South Wales, northern England, and the English Midlands. 
+*   **Overcrowding and Disease:** The rapid influx of workers into cities led to severely overcrowded and unsanitary housing for the working class. This environment became a breeding ground for fatal epidemics such as typhoid, cholera, and smallpox, which were exacerbated by a lack of sick leave.
+*   **Standard of Living Debate:** Historians debate the long-term economic impacts while acknowledging initial hardships. While early observers noted that manual labor worsened significantly between 1782 and 1821, the era ultimately saw an increase in real wages; for example, the average worker's real wage doubled between 1819 and 1851, and consumer goods became more accessible to the lower classes.
+
+**Reforms and Regulation**
+The extreme conditions eventually led to government intervention through a series of legislative actions:
+*   **Factory and Mines Acts:** Starting with the limited *Holidays and Morals of Apprentices Act (1802)*, Parliament passed several acts restricting child labor. The *Act of 1833* limited working hours for women and children and mandated two hours of schooling per day while establishing government factory inspectors. 
+*   **Safety Regulations:** The *Mines and Collieries Act (1842)* banned women and girls from working underground, as well as children under ten. Subsequent acts in 1844 and 1847 (the ""Ten-hour Bill"") capped the workday for women and young people at ten to twelve hours.
+*   **Education:** The *Elementary Education Act of 1870* provided access to education for all children, which became compulsory by 1880, gradually replacing child labor with school attendance.",27.718,3,27.622,2,0.095,1,1,"[{""id"": ""17223915"", ""title"": ""Life in Great Britain during the Industrial Revolution""}]",
+84,pre_2026,complex,What are the leading theories about the origin of the Moon?,"Based on scientific research and modeling, here are the leading theories regarding the origin of the Moon:
+
+### 1. The Giant-Impact Hypothesis (Theia Impact)
+Currently favored by astronomers, this is the standard model for lunar origins. It proposes that approximately 4.5 billion years ago, a Mars-sized protoplanet called **Theia** collided with the early proto-Earth in an oblique or ""glancing blow."" This massive impact ejected a large amount of debris from both bodies into orbit around Earth. Over time, this debris ring accreted and coalesced to form the Moon.
+*   **Evidence:** The model explains the Moon's relatively small iron core (Theia's core merged with Earth's) and its initial molten state (a magma ocean). It also accounts for the high angular momentum of the Earth-Moon system.
+*   **Challenges:** The biggest hurdle is that lunar rock samples brought back by Apollo astronauts have nearly identical oxygen and titanium isotopic ratios to Earth’s mantle. If Theia was a separate, distant protoplanet, it should have had a different chemical signature.
+
+To address these discrepancies, scientists have proposed several variations of the giant-impacts hypothesis:
+
+### 2. Derivatives of the Giant-Impact Model
+*   **The Synestia Hypothesis:** Proposed in 2018, computer modeling suggests a collision could have spun the early Earth so fast that it formed a temporary mass of vaporized rock called a ""synestia"" (shaped like a biconcave doughnut). As this structure cooled over about 100 years, it accreted the Moon and reformed the Earth.
+*   **The Equilibration Hypothesis:** This theory suggests that after the impact, Earth and the proto-lunar disk were surrounded by a common silicate vapor atmosphere. Intense convective stirring homogenized the materials between Earth and the forming Moon so thoroughly that they end up looking chemically identical.
+*   **Multiple Impacts Model:** Instead of one single massive collision, this model (supported since 2004) suggests a ""violent rain"" of smaller asteroids (1–100 km wide) repeatedly bombarded the early Earth over millions of years. This series of impacts blasted enough rocky debris into orbit to form moonlets that eventually merged into the single Moon we see today.
+*   **Merger of Two Planets:** To explain isotopic similarities, this 2012 hypothesis posits that two very large bodies (each five times the size of Mars) collided and re-collided, creating a vast disk of mixed debris that ultimately formed both Earth and the Moon.
+
+### 3. Traditional Alternative Hypotheses
+Before the dominance of the giant-impact model, other theories were more prominent but have since been largely discredited by modern data:
+*   **The Capture Theory:** This proposed that the Moon formed elsewhere in the Solar System and was later captured by Earth’s gravity. While it explains some orbital characteristics, it fails to explain how the gravitational drag would have been sufficient to capture such a large body without a primitive atmosphere. Furthermore, it does not adequately explain why the Moon and Earth share identical isotopic ratios.
+*   **The Fission Hypothesis:** Proposed in 1879 by George Darwin (Charles Darwin’s son), this theory suggests that a rapidly spinning early Earth literally spun off a piece of its mass to form the Moon (once thought to correspond to the Pacific Ocean basin). It is now considered discredited, as the ocean floor is far too young to represent such an ancient scar.
+*   **The Accretion (Co-formation) Hypothesis:** This suggests Earth and the Moon formed together side-by-side from the same primordial accretion disk. The primary flaw in this model is that it cannot adequately explain why the Moon has a disproportionately small iron core compared to Earth.
+
+### 4. Radical Alternatives
+*   **Nuclear Explosion Hypothesis:** A more unconventional theory suggests the Moon formed from the nuclear explosion of actinides (like uranium and thorium) concentrated in the early Earth’s core, creating a natural supercritical nuclear reactor that ejected the material into orbit. While this explains some elemental similarities, it is not widely accepted within mainstream astrophysics.
+
+Ultimately, while the **Giant-Impact Hypothesis** remains the leading explanation—particularly with modern variations like *Synestia* and *Multiple Impacts* to account for chemical inconsistencies—the exact mechanics of how Earth and its Moon came to share such a unique geological bond continue to be an active area of astrogeological research.
+
+Sources:
+- [Origin of the Moon] (id: 38058647)
+- [Giant-impact hypothesis] (id: 51143)",48.044,3,47.958,3,0.086,1,2,"[{""id"": ""38058647"", ""title"": ""Origin of the Moon""}, {""id"": ""51143"", ""title"": ""Giant-impact hypothesis""}]",
+85,pre_2026,complex,Compare the contributions of Isaac Newton and Albert Einstein to physics.,"Isaac Newton and Albert Einstein are arguably the two most significant figures in the history of physics. While separated by nearly three centuries, their contributions are deeply connected—Einstein’s revolutionary theories essentially corrected, expanded, and superseded the foundational framework that Newton established, yet built upon it mathematically and conceptually.
+
+**1. Gravity and the Nature of Space-Time**
+Sir Isaac Newton is celebrated for formulating the laws of motion and the law of universal gravitation, first published in his 1687 work *Philosophiæ Naturalis Principia Mathematica*. This achievement represented the ""first great unification in physics,"" establishing that the same forces governing a falling apple on Earth (terrestrial mechanics) also dictated the orbits of planets (celestial mechanics). He successfully derived Kepler’s laws of planetary motion and accounted for tides, effectively eradicating doubt about the heliocentric Solar System [Isaac Newton]. His laws remained the dominant scientific viewpoint for centuries.
+
+Albert Einstein revolutionized this paradigm with his theory of General Relativity in 1915. Extending his earlier work on Special Relativity, Einstein reimagined gravitation not as a force acting at a distance, but as the curvature of a four-dimensional spacetime fabric. This geometric theory explained phenomena that Newtonian physics could not, most notably the anomalous precession of Mercury's perihelion and the gravitational deflection of light (confirmed by Arthur Eddington in 1919). While Einstein’s mathematics became essential for understanding extreme speeds and massive gravitational fields, Newton's laws remain excellent approximations for low-speed phenomena today [Albert Einstein].
+
+**2. The Nature of Light and Quantum Mechanics**
+Newton was a pioneer in optics. Using prisms, he demonstrated that color is an intrinsic property of light by separating white light into a spectrum and recombining it. To overcome the chromatic aberration inherent in lens-based telescopes, he built the first functional reflecting telescope (the Newtonian telescope) [Isaac Newton]. His later work, *Opticks*, introduced the concept of a ""black body"" and proposed that light was composed of particles, known as corpuscles.
+
+Decades later, Albert Einstein provided crucial validation for the particulate nature of light, laying one of the cornerstones of quantum mechanics. In 1905, his explanation of the photoelectric effect—showing that light energy is quantized into discrete packets (photons)—proved that light behaves as particles under certain circumstances. This discovery earned him the 1921 Nobel Prize in Physics. Furthermore, Einstein’s work on radiation introduced the concepts of spontaneous and stimulated emission, which formed the theoretical basis for later developments in quantum optics and the invention of lasers [Albert Einstein].
+
+**3. Mathematical Foundations and Methodology**
+Both physicists were masters of mathematics, though they applied it differently to describe reality. Newton co-formulated infinitesimal calculus (which he termed ""fluxions"") alongside Gottfried Wilhelm Leibniz. He developed a geometric form of this calculus to solve dynamic physical problems and pioneered vector analysis, allowing forces and velocities to be treated as directed quantities [Isaac Newton].
+
+Einstein utilized advanced mathematics—specifically Riemannian geometry with the help of mathematician Marcel Grossmann—to formulate the field equations of General Relativity [Albert Einstein]. Additionally, while Newton heavily relied on empirical observation and experimental setups (such as calculating the solar mass or creating a precursor to the wind tunnel), Einstein's genius uniquely combined mathematical rigor with ""thought experiments"" (Gedankenexperiments) that allowed him to visualize physical consequences without laboratory equipment.
+
+**4. The Pursuit of Unification**
+Both physicists dedicated years toward unifying the fundamental forces of nature under single, elegant frameworks. Newton unified celestial and terrestrial mechanics into one coherent system. At the end of his life, Einstein attempted to devise a ""unified field theory"" that would merge gravity and electromagnetism into a single geometric framework. While ultimately unsuccessful during his lifetime, it inspired modern physics' ongoing search for a Theory of Everything [Albert Einstein].
+
+**Conclusion**
+Ultimately, Isaac Newton provided the architectural foundation of classical mechanics and optics, proving the universe operated by understandable mathematical laws. Albert Einstein expanded those dimensions, revealing that space, time, and gravity are far more interconnected and malleable than previously thought. Modern physics stands on the shoulders of both; Newton explains everyday reality just as profoundly as Einstein describes the cosmos at its most extreme.
+
+Sources:
+- [Isaac Newton] (id: 14627)
+- [Albert Einstein] (id: 736)",101.857,5,101.661,6,0.195,4,2,"[{""id"": ""14627"", ""title"": ""Isaac Newton""}, {""id"": ""736"", ""title"": ""Albert Einstein""}]",
+86,pre_2026,complex,What were the key events and outcome of the Cuban Missile Crisis?,"Based on the available Wikipedia article text, here are the key events and outcomes of the Cuban Missile Crisis:
+
+### Key Events (Lead-up and Confrontation)
+*   **Background Factors:** Following the 1959 Cuban Revolution, U.S.-Cuban relations deteriorated rapidly. After the failed CIA-led Bay of Pigs Invasion in April 1961 and a subsequent U.S. campaign of terrorist sabotage against Cuba (Operation Mongoose), Premier Fidel Castro felt secure only by deepening his alliance with the Soviet Union. Simultaneously, U.S. nuclear missiles (Thor and Jupiter) were deployed in Turkey, Italy, and the United Kingdom within striking range of Moscow.
+*   **Secret Deployment (Operation Anadyr):** Concerned about a potential Cuban drift toward China and a U.S. invasion, Premier Nikita Khrushchev agreed to secretly place Soviet nuclear missiles on Cuban soil starting in July 1962. The operation involved extensive military deception (*maskirovka*), including sending troops with winter gear for the tropical Caribbean climate.
+*   **Diplomatic Misdirection:** Throughout September 1962, the Soviet Union publicly claimed it was only supplying defensive weapons to Cuba, even after warning that any U.S. attack on the island would be considered an act of war. 
+*   **Discovery (October 14):** A U-2 spy plane piloted by Major Richard Heyser captured photographic evidence of construction sites for SS-4 medium-range ballistic missiles in western Cuba.
+*   **EXCMM Formation and Deliberation (October 16):** President John F. Kennedy convened the Executive Committee of the National Security Council (EXCOMM) to discuss responses. Options ranged from a full-scale invasion to aerial strikes or diplomacy, though U.S. military leaders preferred an immediate attack.
+*   **The ""Quarantine"" Announced (October 22):** To avoid the formal implications of an act of war under international law, Kennedy announced a naval ""quarantine"" (blockade) to prevent further Soviet ships from reaching Cuba with offensive weapons.
+
+### Outcome and Resolution
+*   **Public Agreement:** An agreement was reached between Kennedy and Khrushchev in which the Soviets agreed to dismantle their offensive weapons in Cuba under United Nations verification. In exchange, the United States provided a public declaration agreeing never to invade Cuba again.
+*   **Secret Missile Trade:** Behind the scenes, the United States secretly agreed to dismantle its own offensive weapons deployed to Turkey (and Italy) and withdrew them over the following year. Thor missile emplacements in the UK were disbanded by August 1963.
+*   **Conclusion of the Crisis:** The U.S. naval quarantine remained in place until November 20, 1962, after which it was formally ended once all offensive Soviet missiles and bombers had been withdrawn from Cuba.
+*   **Geopolitical Aftermath:** 
+    *   The near-apocalyptic nature of the crisis led to the establishment of a direct communication link between Washington and Moscow (the ""hotline"") to prevent future miscalculations.
+    *   It resulted in several agreements that reduced U.S.–Soviet tensions for several years.
+    *   However, the resolution was politically damaging for Soviet leadership because the withdrawal of U.S. missiles from Turkey had been kept secret from the world. The Soviet elite viewed the outcome as a humiliating concession, which contributed to Nikita Khrushchev losing power just two years later.
+
+Sources:
+- [Cuban Missile Crisis]",69.878,3,69.792,2,0.085,1,1,"[{""id"": ""6827"", ""title"": ""Cuban Missile Crisis""}]",
+87,pre_2026,complex,How did the printing press affect the spread of information in Europe?,"Following its invention by Johannes Gutenberg around 1440, the printing press fundamentally revolutionized the spread of information in Europe through mass communication, a dramatic reduction in costs, and the rapid cross-border dissemination of ideas. Its effects reshaped European society in several key ways:
+
+*   **Mass Production and Accessibility:** Prior to the press, knowledge was limited by hand-copying, which could produce only a handful of pages a day. Mechanized printing allowed a single press to produce up to 3,600 pages daily. This efficiency sharply reduced unit costs and led to an explosion in literacy; by 1500, presses across roughly 270 European cities had produced over 20 million copies of texts.
+*   **Religious and Political Reform:** The press allowed ideas to cross borders rapidly without the mediation of traditional authorities like the Church or monarchy. During the Reformation, Martin Luther's tracts were distributed in hundreds of thousands of copies within a very short period, with short pamphlets serving as an effective vehicle for new doctrines and political arguments. This rapid spread eventually led governments and religious leaders to attempt strict censorship and licensing systems.
+*   **The Rise of Vernacular Languages:** As printing expanded, books increasingly replaced Latin with vernacular languages. This shift not only broadened access to learning but also helped standardize the spelling and syntax of national languages, moving society from a communal ""hearing public"" to an individualistic ""reading public.""
+*   **Standardization of Texts:** Because every printed copy of a text was identical, precise citation became possible. The exact wording of authors gained unprecedented importance—something that had not been the case in earlier eras where scribal copies varied between cities. This reliability also popularized standard reading aids like page numbers, tables of contents, and indices.
+*   **The Scientific Revolution:** The press allowed natural philosophers to distribute discoveries quickly across wide geographical ranges, enabling scholars to build upon each other's observations more efficiently than through handwritten letters. Crucially, it allowed for the exact reproduction of visual data—such as anatomical plates, star charts, and botanical illustrations—which helped replace degenerated hand-copied images with accurate records.
+*   **The Birth of Modern Media:** The demand for up-to-date information led to the publication of news pamphlets. This eventually spawned the first scheduled weekly newspapers in Northern Europe by the early 17th century, creating a new medium for conveying current events and public affairs.
+
+Sources:
+- [Printing press]",54.16,3,54.066,2,0.094,1,1,"[{""id"": ""23295"", ""title"": ""Printing press""}]",
+88,pre_2026,complex,What are the main differences between Lamarck's and Darwin's theories of evolution?,"Based on Wikipedia's articles on **Lamarckism**, **Darwinism**, and the **History of evolutionary thought**, there are four main differences between Jean-Baptiste Lamarck's and Charles Darwin's theories of evolution:
+
+**1. Mechanism of Adaptation: Use/Disuse vs. Natural Selection**
+The most distinct difference lies in how organisms adapt to their environments.
+*   **Lamarck (Inheritance of Acquired Characteristics):** Lamarck proposed that an organism can pass on physical characteristics it acquired during its lifetime through ""use or disuse"" [Lamarckism]. For example, he theorized that giraffes developed long necks because their ancestors stretched them to reach high leaves; this lengthened neck was then inherited by their offspring [Lamarckism].
+*   **Darwin (Natural Selection):** Darwin proposed that variations already exist within a population. Individuals with favorable inherited traits are better suited to survive and reproduce, while others perish. It is the selection of these pre-existing traits, rather than an individual stretching or changing its body during life [Darwinism].
+
+**2. Inheritance Model: Soft vs. Hard Inheritance**
+*   **Lamarck:** Lamarck advocated for ""soft inheritance,"" believing that physiological changes acquired by parents (due to their environment or behaviors like a blacksmith building muscle) would be conserved and passed directly to offspring [Lamarckism].
+*   **Darwin:** Darwin’s theory relies on the survival of specific inherited variations to explain evolutionary change, though it is noted that Darwin himself later proposed his own mechanism called *pangenesis*, which somewhat aligned with Lamarckian soft inheritance. However, introductory textbooks and modern biology primarily contrast Lamarck’s direct acquisition with Darwin's selectionism [Darwinism].
+
+**3. Directionality: The Ladder of Progress vs. The Branching Tree**
+*   **Lamarck:** Lamarck viewed evolution as having a linear direction or an innate drive towards greater complexity, known as *orthogenesis*. He envisioned life progressing up a ladder toward perfection [Lamarckism].
+*   **Darwin:** In contrast, Darwin proposed ""common descent"" and a branching tree of life. He argued that different species share common ancestors and diverge based on adaptation to specific environments, rather than following a predetermined path toward higher complexity [History of evolutionary thought].
+
+**4. Philosophical Basis: Vitalism vs. Mechanism**
+*   **Lamarck:** Historians note that Lamarck’s framework was grounded in **vitalism**; he viewed living matter as possessing a ""latent, vitalistic potential"" and innate force to organize itself [Lamarckism].
+*   **Darwin:** Darwin viewed evolution through a more **mechanistic** lens, describing biological processes as the result of external environmental pressures and competition rather than an internal drive [Darwinism].
+
+**Sources:**
+- Lamarckism (id: 187588)
+- Darwinism (id: 8411)
+- History of evolutionary thought (id: 21501970)",80.436,5,80.273,5,0.162,2,3,"[{""id"": ""187588"", ""title"": ""Lamarckism""}, {""id"": ""8411"", ""title"": ""Darwinism""}]",
+89,pre_2026,complex,How did the construction of the Panama Canal impact global trade?,"The construction of the Panama Canal has been one of the most transformative developments in global maritime history, fundamentally altering trade routes, shipping economics, and international commerce patterns. Based on Wikipedia records, the impact can be categorized into several key areas:
+
+**1. Reduction in Time, Distance, and Risk**
+The primary impact was the elimination of the need for ships to travel around the southernmost tip of South America. The canal allows vessels to move between the Atlantic and Pacific oceans via its locks and Gatun Lake, avoiding the hazardous and lengthy routes through the **Drake Passage**, the **Strait of Magellan**, or the **Beagle Channel** [Article Title: Panama Canal]. 
+*   This shortcut shortened maritime communication in time and distance significantly. For example, it reduced transit time between New York City and San Francisco from nearly two months to just a few days, saving thousands of miles of travel [Article Title: Suez Canal] (Note: While the specific NYC-SF mileage often cites ~8,000 miles saved in other historical contexts, the Wikipedia record emphasizes that it decisively ""invigorates maritime and economic transportation"").
+
+**2. Trade Volume and Global Flow**
+Since its inauguration on August 15, 1914, the volume of trade moving through the canal has grown exponentially:
+*   **Traffic Growth:** Annual traffic increased from approximately 1,000 ships in 1914 to 14,702 vessels by 2008 (totaling 333.7 million PC/UMS tons). By 2012, more than 815,000 vessels had passed through altogether [Article Title: Panama Canal].
+*   **Top Users:** In 2012, the top five users of the canal were recorded as the United States, China, Chile, Japan, and South Korea. The United States is frequently cited as moving a significant percentage of its East Coast exports to Asian markets through this route [Article Title: Panama Canal].
+
+**3. Shifts in Regional Economic Powers**
+The opening of the canal caused immediate and drastic shifts in global trade patterns, often to the detriment of ports that relied on the old circumnavigation routes:
+*   **Impact on South America:** In 1914, the canal's opening caused a ""severe drop in traffic along Chilean ports,"" as maritime trade routes shifted away from Cape Horn. This negatively affected the burgeoning sheep farming business in southern Patagonia and the economies of the Falkland Islands [Article Title: Panama Canal].
+*   **Boost to Asia-Pacific and East Coast Trade:** The canal provided a vital impetus for economic expansion in remote regions, linking Atlantic and Pacific economies far more effectively than the railroad or ocean-going vessels alone could manage [Article Title: Panama Canal].
+
+**4. Capacity Expansion (The 2016 Neopanamax Era)**
+In June 2016, the completion of a third set of wider locks radically changed the scale of global shipping moving through the isthmus:
+*   **Neopanamax Ships:** The expansion allowed for the transit of ""New Panamax"" (or Neopanamax) vessels, which are roughly 50% larger and can carry over twice as much cargo as the previous Panamax ships [Article Title: Panama Canal expansion project].
+*   **Increased Throughput:** By early 2018 (roughly 20 months after opening), nearly 3,000 Neopanamax ships had crossed during their first phase of operation. The new locks allow for the transit of massive container vessels and Liquid Natural Gas (LNG) carriers that can dock on both US coasts without transshipping [Article Title: Panama Canal expansion project].
+
+**5. Vulnerability as a Global Bottleneck**
+Despite its utility, the canal's operations highlight the fragility of global supply chains. Because the locks operate using gravity-fed freshwater from Gatun Lake and Lake Alajuela rather than direct seawater intake, the canal is highly vulnerable to climate fluctuations:
+*   **Drought Constraints:** The waterway relies heavily on annual rainfall; low water levels during droughts limit the number of ships that can transit daily (reducing capacity) or force large vessels to carry lighter loads [Article Title: Panama Canal]. This dependency means that periods of heavy rainfall deficits across the isthmus can instantly constrict global trade volumes and spike maritime shipping prices.
+
+Sources:
+- [Panama Canal] (id: 24849)
+- [Panama Canal expansion project] (id: 5485042)
+- [Suez Canal] (id: 29323)
+- [Panamax] (id: 504868)",120.313,8,119.912,7,0.401,6,1,"[{""id"": ""24849"", ""title"": ""Panama Canal""}]",
+90,pre_2026,complex,Compare the space programs of the United States and the Soviet Union during the Cold War.,"The Space Race was a defining feature of the Cold War, characterized by fierce technological and ideological competition between the United States and the Soviet Union. Driven by developments in ballistic missile technology following World War II and fueled by mutual suspicion, both nations invested heavily in achieving superiority in spaceflight.
+
+### Origins and Leadership
+Both programs traced their roots to the German V-2 rocket (Aggregat-4) developed during WWII. 
+*   **The United States:** Through Operation Paperclip, the U.S. recruited Wernher von Braun and over 100 of his key engineers, along with numerous V-2 rockets and production facilities. This team initially worked for the U.S. Army at the Redstone Arsenal in Huntsville, Alabama, developing intercontinental ballistic missiles (ICBMs) like the Jupiter-C and Atlas [Article Space Race].
+*   **The Soviet Union:** The USSR captured A-4 rocket production facilities in Germany and brought back some German technicians to help build early Soviet rockets (the R-1). Crucial leadership came from Sergei Korolev, who oversaw the development of everything from early liquid-fuel experiments to the massive R-7 Semyorka—the world's first ICBM, which subsequently became the foundation for the Soviet Union's entire human spaceflight program [Article Space Race].
+
+### Organization and Secrecy
+A stark difference existed between the organizational structures of the two superpowers:
+*   **U.S. (Civilian Oversight):** Initially, U.S. efforts were fragmented across the Army, Navy, and Air Force. However, following the ""Sputnik crisis"" and public fear that the USSR had achieved a technological lead, President Dwight D. Eisenhower worked with Congress to pass the National Aeronautics and Space Act of 1958. This created NASA as a civilian agency to coordinate non-military space activities, unifying scientists like von Braun under a single national goal [Article Creation of NASA].
+*   **The Soviet Union (State Secrecy):** The Soviet space program was a top state secret. Korolev’s design bureau (OKB-1) was subordinated to the Ministry of General Machine Building and given random identifiers to confuse foreign observers. Successes were kept hidden until they occurred, and even failures were rarely reported publicly, creating a ""space curtain"" that made Western analysts mistakenly believe Soviet launches had vastly superior capabilities compared to reality [Article Space Race].
+
+### Early Achievements: Satellites and Robotics
+The Soviet Union initially held a commanding lead in the late 1950s:
+*   **Sputnik Crisis:** The USSR launched *Sputnik 1*, the first artificial satellite, on October 4, 1957. This caused shockwaves in the West, famously leading President Eisenhower to accelerate American plans. Conversely, the U.S. suffered a humiliating public failure with its ""Project Vanguard"" rocket, which exploded seconds after liftoff and was mockingly dubbed ""Flopnik"" by the press [Article Space Race].
+*   **American Recovery:** The U.S. quickly regrouped, and on January 31, 1958, von Braun’s team successfully launched *Explorer 1* using a Jupiter-C rocket derived from military missiles. 
+*   **Planetary Probes:** Both sides aggressively explored the Moon and other planets robotically. Soviet probes like Luna 2 (the first object to impact another celestial body) and Luna 3 (which returned the first images of the far side of the Moon in 1959) preceded successful American lunar attempts [Article Space Race].
+
+### Human Spaceflight: From Orbit to the Moon
+Human spaceflight highlighted both the Soviet lead and the ultimate U.S. response:
+*   **Soviet Dominance:** On April 12, 1961, Yuri Gagarin became the first human to orbit the Earth aboard Vostok 1. This victory pushed U.S. President John F. Kennedy to dramatically raise the stakes on May 25, 1961, by committing the United States to landing a man on the Moon and returning him safely before the end of the decade [Article Space Race].
+*   **The Apollo Response:** To achieve his goal, Kennedy authorized the massive Apollo program. The U.S. focused heavily on developing the Saturn V rocket—a super heavy-lift vehicle capable of sending humans to the lunar surface. 
+*   **Shifting Priorities:** Meanwhile, the Soviet Union attempted to beat the Americans to the Moon with their own N1 launch vehicle, but a series of spectacular failures forced the USSR to abandon crewed lunar landings entirely. Instead, they pivoted expertise toward space stations (the Salyut and later Mir programs) and continued to achieve robotic success on Venus and Mars [Article Space Race].
+
+### Conclusion
+The competition ultimately culminated in the Apollo-Soyuz Test Project of 1975, where a spacecraft docked with another for the first time, symbolizing a shift from confrontation to cooperation. While the USSR won the early race by achieving the ""firsts"" in satellites and human spaceflight, the United States won the ultimate prize—putting humans on the Moon—and cemented its technological prestige through the Apollo program.
+
+Sources:
+- Space Race
+- Creation of NASA",89.091,3,88.915,4,0.176,3,1,"[{""id"": ""84237"", ""title"": ""Space Race""}]",
+91,pre_2026,complex,What were the main causes and consequences of the French Revolution?,"The French Revolution (1789–1799) was sparked by interconnected social, economic, political, and cultural factors, leading to profound consequences both within France and across the globe.
+
+### Main Causes
+
+**Financial and Economic Crisis:** By the late 1780s, France faced a severe debt crisis stemming largely from costly foreign interventions, including the Seven Years' War (which cost 1.8 billion livres) and the American War of Independence (costing 1.3 billion livres), more than double the Crown's annual revenue in some years [Causes of the French Revolution]. The nation's taxation system was archaic: while the First Estate (clergy) and Second Estate (nobility, together just 2% of the population) enjoyed widespread tax exemptions, the Third Estate (the remaining 98%) bore the entire tax burden under the maxim, ""The nobles fight; the clergy pray, and the people pay"" [Causes of the French Revolution]. Tax farming further distorted revenue collection, and France faced interest rates twice as high as Britain's. Worsening agricultural conditions also played a role: poor harvests in 1787–1788—some scholars suggest triggered by volcanic cooling from Iceland's 1783 Laki eruption—caused bread prices to surge by 88% while real wages fell by 25%, devastating peasants and urban workers alike [Causes of the French Revolution] [French Revolution].
+
+**Social Inequality:** French society was rigidly divided into three estates. The Third Estate included everyone from wealthy merchants and lawyers to landless laborers and peasants, who owned only 35% of the land but paid heavy feudal dues to noble landlords [Causes of the French Revolution]. Meanwhile, a rising bourgeoisie sought social mobility by purchasing governmental offices or marrying nobles—a process that caused resentment among traditional aristocrats who blocked their ascent, creating significant tension between elites at the cusp of revolution [Causes of the French Revolution] [French Revolution].
+
+**Political Stagnation and Resistance to Reform:** France was a *de jure* absolute monarchy, but by Louis XVI's reign, the monarchy had weakened considerably. Regional parlements (supreme courts dominated by nobility) repeatedly blocked fiscal reform proposals designed to tax the privileged estates, leaving the Crown unable to collect sufficient revenue [Causes of the French Revolution] [French Revolution]. In 1788, with half of state revenue going toward debt servicing alone, Louis XVI was forced to call the Estates General—its first meeting since 1614—to approve new taxes [French Revolution].
+
+**Cultural and Ideological Change:** The Enlightenment profoundly shaped French political thought. Intellectuals like Voltaire, Rousseau, and Locke inspired public debates on liberty, equality, democracy, and the rights of citizens; soldiers returning from the American War of Independence further championed these principles in France [Causes of the French Revolution]. By 1789, pamphlets published at the rate of 25 per week fueled popular demands for constitutional government, as seen in works like Abbé Sieyès's influential *What Is the Third Estate?* [French Revolution] [Causes of the French Revolution].
+
+### Main Consequences
+
+**Transformations within France:** The Revolution dismantled the *Ancien Régime*, abolishing feudalism and all noble privileges through decrees in August 1789. It placed the Catholic Church under state control, confiscated church lands, and introduced a new paper currency [French Revolution]. The *Declaration of the Rights of Man and of the Citizen* codified principles of legal equality, freedom of speech, and popular sovereignty [French Revolution]. Power shifted massively to Paris with centralized bureaucracy, and politics became permanently polarized into ""left"" (revolution supporters) and ""right"" (conservatives)—a divide that persists globally [Influence of the French Revolution].
+
+**Impact on Europe:** France unleashed two decades of near-continuous warfare as coalitions formed to resist revolutionary expansion. Napoleon's conquests spread revolutionary ideals across much of continental Europe by:
+* Abolishing feudal privileges, guilds, serfdom, and Jewish ghettos 
+* Introducing the Napoleonic Code (equal legal rights, merit-based bureaucracy)
+* Establishing modernized administrative systems, unified weights/measures, and reduced trade barriers
+* Sparking modern nationalism as subjects in conquered territories (Germany, Italy, Poland, Switzerland, Belgium) identified with revolutionary ideals and sought to emulate them [Influence of the French Revolution]
+
+**Global Influence:** Napoleon's invasion of Egypt introduced Middle Eastern elites to concepts of constitutionalism, parliamentarianism, legal equality, and ethnic nationalism, which later influenced 19th-century reformers such as Ottoman Sultan Selim III [Influence of the French Revolution]. The Revolution's ideals of liberty and popular sovereignty inspired anti-colonial movements in Latin America and reshaped diplomatic relations worldwide.
+
+**Demographic and Cultural Shifts:** Thousands of Royalists, clergy, and nobles—over 10,000 *émigrés*—fled France for neighboring regions and abroad to escape violence, dispersing French culture while prompting new immigration restrictions in countries like Britain [Influence of the French Revolution]. The Terror claimed approximately 16,000 legal executions between 1793–1794 before being halted by the Thermidorian Reaction [French Revolution].
+
+**Long-term Political Legacy:** Although Napoleon was defeated in 1814 and the Bourbon monarchy briefly restored, the Revolution's core achievements proved irreversible: absolute monarchy could not return, and principles of equality before the law, secular governance, and civic nationalism became embedded permanently in European political culture [Influence of the French Revolution]. The concepts of ""left"" and ""right,"" originally used to describe factions in the National Assembly, remain central to global politics today.
+
+Sources:
+- French Revolution (id: 11188)
+- Causes of the French Revolution (id: 415418)
+- Influence of the French Revolution (id: 42631401)",76.506,5,76.333,5,0.171,2,3,"[{""id"": ""11188"", ""title"": ""French Revolution""}, {""id"": ""415418"", ""title"": ""Causes of the French Revolution""}, {""id"": ""42631401"", ""title"": ""Influence of the French Revolution""}]",
+92,pre_2026,complex,How does the greenhouse effect contribute to climate change?,"Based on the ""Greenhouse effect"" article, the greenhouse effect contributes to climate change through a process known as the **enhanced greenhouse effect**, which is driven by human activities that increase the concentration of heat-trapping gases in the atmosphere. 
+
+Here is how this process works:
+
+*   **The Basic Mechanism:** The Sun's shortwave radiation passes through the atmosphere and heats the Earth's surface. In response, the surface emits longwave thermal radiation (heat). Greenhouse gases—such as carbon dioxide ($CO_2$) and methane—absorb this longwave radiation that is trying to escape into space. This absorption reduces the rate at which the planet cools off, effectively trapping heat.
+*   **The ""Enhanced"" Effect:** While the natural greenhouse effect is necessary to keep Earth habitable, human activities have drastically increased the amount of greenhouse gases in the atmosphere. The burning of fossil fuels, cement production, and tropical deforestation have caused $CO_2$ levels to rise from about 313 parts per million (ppm) in 1960 to over 400 ppm by 2013—levels that exceed geological record maxima found in ice cores. 
+*   **Energy Imbalance:** Because these gases prevent heat from escaping, they create an ""Earth's energy imbalance"" (EEI). This means the power of the sunlight absorbed by Earth exceeds the power of longwave radiation it emits back into space. 
+*   **Global Warming and Climate Shifts:** As a result of this imbalance, thermal energy is accumulating in the climate system. According to measurements, over 90% of this retained energy goes into warming the oceans, with smaller amounts heating the land and atmosphere. This accumulation of heat has led to global average surface temperatures increasing steadily since the Industrial Revolution, thereby driving long-term shifts in weather patterns and climate conditions.",43.385,3,43.312,2,0.074,1,1,"[{""id"": ""12395"", ""title"": ""Greenhouse effect""}]",
+93,pre_2026,complex,Compare the reigns of Elizabeth I and Queen Victoria of England.,"Based on the Wikipedia articles retrieved, here is a comparison of the reigns of Elizabeth I and Queen Victoria:
+
+### **Length and Timeline**
+**Elizabeth I** reigned for 44 years, from 1558 to 1603, as the last and longest-reigning monarch of the House of Tudor. Her era is historically known as the Elizabethan era [Article: Elizabeth I].
+
+**Queen Victoria** enjoyed a much longer reign of 63 years and 216 days (20 June 1837 to 22 January 1901), which was longer than any predecessor until Elizabeth II surpassed her. Her tenure constitutes the Victorian era [Article: Queen Victoria], [Article: Victorian era].
+
+### **Religion**
+Elizabeth I faced a deeply divided religious landscape following the deaths of Protestant Edward VI and Catholic Mary I. She established the ""Elizabethan Religious Settlement,"" naming herself Supreme Governor of the Church of England, which blended Protestantism with certain Catholic traditions to achieve stability [Article: Elizabeth I]. The Pope excommunicated her in 1570, releasing Catholics from their allegiance to her and leading to internal conspiracies (foiled by spymaster Francis Walsingham), culminating in the execution of her rival Mary, Queen of Scots [Article: Elizabeth I].
+
+Victoria ruled during a period where Britain was officially Protestant but religious tolerance grew. She valued strict moral standards characteristic of Victorian society. Unlike Elizabeth's childless status—inspiring the ""Virgin Queen"" cult and leaving no direct heir—Victoria married Prince Albert in 1840, had nine children who married into European royalty (earning her the nickname ""Grandmother of Europe""), and successfully managed dynastic alliances [Article: Queen Victoria], [Article: Victorian era].
+
+### **Government and Parliament**
+Elizabeth I ruled during an era where ""Parliament was not yet strong enough to challenge royal absolutism"" [Article: Elizabethan era]. She relied heavily on trusted counsellors like William Cecil (later Baron Burghley) and maintained a delicate balance with Parliament, often refusing to name an heir or marry despite political pressure, famously telling an unruly House of Commons that even beggar-woman single status was preferable to the constraints of marriage as queen [Article: Elizabeth I].
+
+By contrast, Victoria governed as a constitutional monarch in an era of significant democratic reform. She oversaw the expansion of the electoral franchise through multiple Reform Acts (1832, 1867, and 1884) that helped put Britain on ""the path towards becoming a democracy"" [Article: Victorian era]. She worked with numerous Prime Ministers over her lifetime, including Lord Melbourne, Robert Peel, Benjamin Disraeli, and William Gladstone. While she attempted to influence ministerial appointments privately (such as during the 1839 ""bedchamber crisis""), she ultimately operated within evolving constitutional limits [Article: Queen Victoria].
+
+### **The British Empire**
+Elizabeth I's reign saw England begin its transformation into a naval power. The defeated Spanish Armada in 1588 marked a turning point against Habsburg Spain, and English privateers like Francis Drake and Sir Walter Raleigh began raiding Spanish holdings [Article: Elizabeth I]. Exploration and trans-Atlantic trade increased during her time, though formal empire-building was only just beginning [Article: Elizabethan era].
+
+Victoria's reign witnessed the British Empire reach its absolute zenith. Britain was ""predominant in power in the world,"" participating in the ""Scramble for Africa"" and conflicts in Asia under the broad peace known as Pax Britannica [Article: Victorian era]. In 1876, Parliament granted Victoria the additional title of Empress of India after the British government took direct control following the Indian Rebellion of 1857 [Article: Queen Victoria], [Article: Victorian era].
+
+### **Cultural and Social Context**
+The Elizabethan era is widely depicted by historians as a ""golden age in English history"" and a cultural high point, representing ""the apogee of the English Renaissance"" with the flourishing of writers like William Shakespeare and Christopher Marlowe [Article: Elizabethan era]. It was also notably free from internal civil wars during her reign, unlike the turbulent periods before and after [Article: Elizabeth I], [Article: Elizabethan era].
+
+The Victorian era was defined by rapid industrialization, urbanization, and scientific growth. Britain became known as the ""workshop of the world"" with massive advances in engineering, communications (telegraphs, railways), and science (notably Darwin's theories) [Article: Victorian era]. Socially, a rapidly growing middle class replaced the aristocracy as the dominant cultural force, promoting strict moral codes, while simultaneously dealing with severe social issues like child labour, public health crises from slum housing, and the Great Famine in Ireland during the 1840s (which led to Victoria being labeled the ""Famine Queen"" by some) [Article: Victorian era]. Following her personal tragedy—the death of Albert in 1861—Victoria entered a period of deep seclusion known as being the ""Widow of Windsor."" Her withdrawal temporarily boosted British republicanism, but her popularity recovered dramatically later in life through her Golden and Diamond Jubilees [Article: Queen Victoria].
+
+Sources:
+- Elizabeth I (id: 10128)
+- Elizabethan era (id: 46947)
+- Queen Victoria (id: 47923)
+- Victorian era (id: 32798)",87.137,3,86.978,6,0.159,3,3,"[{""id"": ""10128"", ""title"": ""Elizabeth I""}, {""id"": ""47923"", ""title"": ""Queen Victoria""}, {""id"": ""32798"", ""title"": ""Victorian era""}]",
+94,pre_2026,complex,What were the major achievements of the Apollo program?,"The major achievements of the **Apollo program (1961–1972)** include fulfilling President John F. Kennedy's national goal of landing humans on the Moon before the end of the decade and achieving significant milestones in human space exploration.
+
+Key accomplishments based on the Apollo records include:
+
+*   **Landing Humans on the Moon:** The program achieved its primary objective with the **Apollo 11 mission** (July 20, 1969), when Neil Armstrong and Buzz Aldrin became the first humans to walk on the lunar surface. In total, the program completed six successful lunar landings, including Apollo 12 through Apollo 17, resulting in twelve people walking on the Moon. The last of these missions was Apollo 17 in December 1972.
+*   **Orbiting Other Celestial Bodies:** **Apollo 8** holds the distinction of being the first crewed mission to leave low Earth orbit and orbit another celestial body (the Moon).
+*   **Scientific Exploration:** The program brought back significant quantities of lunar samples, greatly contributing to the geological understanding of the Moon. Apollo missions also deployed various scientific instruments on the lunar surface and in orbit.
+*   **Crisis Management and Survival:** A major achievement in risk management was the successful return of the **Apollo 13** crew after an oxygen tank exploded en route to the Moon. The astronauts used the Lunar Module as a ""lifeboat"" to survive the critical failure and returned safely to Earth.
+*   **Technological Advancement:** The program spurred major advancements in avionics, telecommunications, and computing technology incidental to rocketry and life support systems. It also led to the development of large-scale infrastructure, including the Kennedy Space Center and the Johnson Space Center.
+*   **Global Scale and Mobilization:** At its peak, the program employed roughly 400,000 people and required the participation of over 20,000 industrial firms, representing the largest single peacetime mobilization of resources in U.S. history up to that point.
+
+Sources:
+- Apollo program (id: 1461)",48.249,3,48.167,2,0.082,1,1,"[{""id"": ""1461"", ""title"": ""Apollo program""}]",
+95,pre_2026,complex,How did the Black Death affect medieval European society?,"The Black Death (1346–1353), caused by the bacterium *Yersinia pestis*, radically transformed medieval European society across nearly every dimension. It killed between 30% and 60% of Europe's population—roughly one-third to one-half—and in some regions, depopulation reached 70% or higher [Consequences of the Black Death]. The population did not fully recover its pre-plague size until the 16th century [Black Death].
+
+### Economic Effects
+The catastrophic reduction in the workforce fundamentally altered Europe's economic landscape. Because labor was suddenly scarce, survivors found their bargaining power increased dramatically:
+* **Wages and Employment:** Labor wages shot up, with some estimates showing farm wages in England doubling between 1350 and 1450 [Consequences of the Black Death].
+* **End of Serfdom in the West:** In Western Europe, the massive population loss led to a severe shortage of agricultural laborers and caused the demise of the manorial system and serfdom by around 1500. Land became plentiful relative to workers, allowing peasants more freedom to move to new areas [Consequences of the Black Death].
+* **Land Redistribution:** Vast tracts of farmland left untended were converted to pasture, increasing meat production. Inheritance laws changed so that both sons and daughters could inherit property, breaking from the previous primogeniture system [Consequences of the Black Death].
+* **Eastern Europe Contrast:** By contrast, Eastern European rulers reacted to the labor shortage by imposing stricter laws tying peasants even more tightly to the land, reversing some of Western trends [Consequences of the Black Death].
+
+To protect their position, elites tried to freeze wages at pre-plague levels. In England, the Ordinance of Labourers (1349) and Statute of Labourers (1351) prohibited workers from demanding higher pay or leaving their jobs, but these laws were poorly enforced and ultimately contributed to social unrest and rebellions like the 1381 Peasants' Revolt [Consequences of the Black Death].
+
+### Social Upheavals
+* **Social Mobility:** The breakdown of feudal obligations allowed for increased social mobility. For many survivors, the 15th century became a ""golden age"" of prosperity with high wages and plentiful land before population growth eventually reversed these gains [Consequences of the Black Death].
+* **Religious Persecution:** Lacking scientific explanations, Europeans blamed various scapegoats. Jews were widely accused of poisoning wells, leading to massacres that destroyed over 60 major Jewish communities across Europe by 1351 and sparked more than 350 separate massacres [Consequences of the Black Death]. Other persecuted groups included beggars, pilgrims, lepers, and Romani people [Consequences of the Black Death].
+* **Flagellant Movement:** Extreme religious fanaticism emerged, including the flagellants, who practiced public self-flogging in hopes of winning God's mercy [Consequences of the Black Death].
+
+### Religious Impact
+The plague devastated the Catholic Church's workforce, as monasteries were particularly hard-hit. This shortage was filled by hasty and often inexperienced clergy, weakening the overall quality of the priesthood. The crisis also opened new opportunities for laywomen to take on more extensive roles in local parishes [Consequences of the Black Death].
+
+### Cultural and Artistic Transformations
+European culture turned profoundly morbid afterward:
+* **Literature:** Contemporary chroniclers like Giovanni Boccaccio (who wrote *The Decameron*), Petrarch, and Geoffrey Chaucer documented the horrors of the plague. Their real-life experiences helped spawn a new wave of gritty realist literature as vernacular education flourished [Black Death in medieval culture]. The 15th century also saw Christine de Pizan become the first woman in Europe to support herself by writing [Black Death in medieval culture].
+* **Visual Art:** Medieval art turned dark, reflecting widespread pessimism. Two major motifs originated: the *Danse Macabre* (Dance of Death), showing skeletons leading figures of all social classes to the grave to remind viewers that death spares no one, and ""Three Living Meet the Three Dead"" [Consequences of the Black Death].
+* **Architecture:** Architecture responded in two directions—a revived Greco-Roman classicism and an elaboration of Gothic verticality. In Northern Europe, early painting (such as by Jan van Eyck) reached unprecedented precise realism, likely influenced by a ""tough realism"" forged through shared devastation [Consequences of the Black Death], [Black Death in medieval culture].
+
+### Medical Developments
+While the plague exposed the severe limitations of 14th-century medicine—leavers were at a loss to explain or treat it—it also prompted positive change. Post-plague medical practice placed greater emphasis on anatomical investigations and dealt directly with examining the human body in states of sickness, while surgeons gained increased professional status [Consequences of the Black Death].
+
+Sources:
+- [Black Death] (id: 4501)
+- [Consequences of the Black Death] (id: 4807194)
+- [Black Death in medieval culture] (id: 20155472)",58.049,4,57.95,4,0.098,1,3,"[{""id"": ""4807194"", ""title"": ""Consequences of the Black Death""}, {""id"": ""4501"", ""title"": ""Black Death""}, {""id"": ""20155472"", ""title"": ""Black Death in medieval culture""}]",
+96,pre_2026,complex,What are the main arguments in the debate over the authorship of Shakespeare's plays?,"Based on the Wikipedia article on the **Shakespeare authorship question**, the debate centers on whether William Shakespeare of Stratford-upon-Avon or other individuals (known as ""Anti-Stratfordians"") wrote the works attributed to him. While scholarly consensus overwhelmingly rejects alternative theories, the debate persists in popular culture due to divergent views on what constitutes ""acceptable evidence"" for authorship.
+
+### Arguments Against Shakespeare’s Authorship
+Anti-Stratfordian arguments generally rely on circumstantial evidence and biographical interpretations of literary texts (""rhetoric of accumulation""). The primary points raised against the Stratford man include:
+
+*   **Lack of Formal Education and ""Cultured"" Background:** Critics point out that there are no surviving school records proving Shakespeare’s education at King’s New School in Stratford. They note that his father was a glover who signed documents with marks, suggesting an illiterate environment where young William would not have acquired the extensive vocabulary (estimated at 17,500–29,000 words) or knowledge of foreign languages seen in the plays.
+*   **Gaps in the Historical Record:** Anti-Stratfordians argue that the lack of Shakespeare’s personal papers, letters, book ownership records, or signed literary manuscripts is highly suspicious. They suggest this absence indicates an organized effort by government officials to expunge traces of the true author's identity. 
+*   **Aristocratic Knowledge:** Because the plays display intimate familiarity with Elizabethan court politics, royal lineage, and aristocratic sports (hunting, falconry, tennis), critics claim only a court insider could have written them. They argue Shakespeare’s background as a tradesman’s son makes this impossible.
+*   **The ""Stigma of Print"":** Theorists often propose that highly educated aristocrats wrote the plays but used Shakespeare as a front man (or ""pseudonym"") to avoid the social disgrace associated with commercial theater or printing in a rigid class system. Inconsistent contemporary spellings of his surname—such as placing a hyphen between ""Shake"" and ""Spear""—are sometimes cited as evidence that he was a pen name used to hide the real author's identity.
+*   **Alternative Candidates:** Proponents argue for various candidates, most notably **Sir Francis Bacon**, **Edward de Vere (17th Earl of Oxford)**, **William Stanley (6th Earl of Derby)**, and **Christopher Marlowe**. Over 80 individuals have been proposed as the true author over the years.
+
+### Arguments Supporting Shakespeare’s Authorship
+Most academic scholars and literary historians consider alternative theories fringe movements, relying on standard historical methodology applicable to authors of his era:
+
+*   **Direct Documentary Evidence:** The historical record explicitly attributes the works to a William Shakespeare via title pages in plays and quarto editions, government records (such as the Stationers' Register), and court documents. 
+*   **Contemporary Testimony:** Several of Shakespeare's contemporaries recognized him as the author while he was alive. For example, Francis Meres listed him among England's greatest playwrights in 1598, and John Davies of Hereford referred to him explicitly as ""Mr."" in 1611—honoring him as a gentleman following his father receiving a coat of arms.
+*   **Fellow Actors and Playwrights:** Shakespeare's associates consistently recognized him as the author. In the First Folio (1623), his fellow actors John Heminges and Henry Condell published his plays to preserve the memory of their ""worthy Friend, & Fellow."" Playwright Ben Jonson also explicitly identified him as the author of the works he knew.
+*   **Rejection of Biographical Fallacies:** Scholars argue that anti-Stratfordian methods are logically unsound because they assume fiction directly reflects the author's biography (the ""autobiographical fallacy""). 
+*   **Standard Attributions:** The lack of surviving personal letters or manuscripts is attributed to the low survival rate of Elizabethan documents rather than conspiracy—a logical error known as *argumentum ex silentio*. Furthermore, scholars point out that other successful and highly educated playwrights of the era, such as Christopher Marlowe and Ben Jonson, did not possess aristocratic titles but were fully recognized as writers without needing pseudonyms.
+
+Sources:
+- [Shakespeare authorship question] (id: 31635665)",59.52,3,59.435,2,0.085,1,1,"[{""id"": ""31635665"", ""title"": ""Shakespeare authorship question""}]",
+97,pre_2026,complex,Compare the causes of the American and French Revolutions.,"While both the American Revolution (1775–1783) and the French Revolution (1789–1799) were driven by Enlightenment ideals of liberty and popular sovereignty, they were triggered by divergent economic and political issues. The American Revolution was primarily a struggle for independence from an external imperial power that had infringed upon traditional colonial rights, whereas the French Revolution was a radical internal overhaul of a deeply unequal domestic social structure and a failing monarchy.
+
+**Shared Ideological Roots: The Enlightenment**
+Both revolutions were heavily influenced by **Age of the Enlightenment** thinkers such as John Locke, Jean-Jacques Rousseau, and Montesquieu. Concepts like natural rights, the social contract, and representative government inspired intellectuals in both nations to challenge established authorities [Influence of the American Revolution on the French Revolution].
+
+**Distinct Causes and Grievances**
+*   **American Revolution:** The primary cause was a conflict over political identity and representation within an empire. Following the **French and Indian War**, the British Parliament imposed new taxes (like the Stamp Act and Townshend Acts) to pay war debts, arguing that the colonies should help fund their own defense. Americans responded with the slogan ""no taxation without representation,"" claiming these measures violated their rights as Englishmen [American Revolution]. The rebellion was also fueled by a desire to protect long-standing local self-governance (""salutary neglect"") against new British attempts at tighter control and military occupation [American Revolution].
+*   **French Revolution:** The primary cause was severe internal systemic failure. French society was divided into rigid social classes called the **Estates**. The first two estates (clergy and nobility, 2% of the population) held most wealth and political power while largely being exempt from taxes. Conversely, the Third Estate (commoners, including the wealthy bourgeoisie and peasant farmers) bore the entire tax burden [Causes of the French Revolution]. Widespread resentment was exacerbated by poor harvests that caused massive spikes in the price of bread, leading to famine and unrest [Causes of the French Revolution]. 
+
+**The Critical Interconnection: American Debt and French Rebellion**
+A direct causal link exists between the two revolutions. France’s financial support of the American colonies in their war against Britain cost the French crown approximately **1.3 billion livres**, drastically worsening an already crippling national debt [Influence of the American Revolution on the French Revolution]. To solve this fiscal crisis, King Louis XVI was forced to call the **Estates-General** for the first time since 1614 to authorize new taxes. This political maneuver failed, allowing third-estate delegates to seize power and effectively triggering the French Revolution [Influence of the American Revolution on the French Revolution][Causes of the French Revolution].
+
+**Divergent Goals**
+Ultimately, the differing causes led to different revolutionary goals:
+*   The **Americans rebelled against an external force** (the British Empire) with the intent of maintaining their way of life and establishing a new federal republic based on existing local traditions.
+*   The **French revolutionaries turned inward**, seeking a ""thorough make-over"" of their society to destroy the *Ancien Régime*, abolish the feudal estate system, and replace an absolute monarchy [Influence of the American Revolution on the French Revolution][Causes of the French Revolution].
+
+Sources:
+- American Revolution (American Revolution)
+- Causes of the French Revolution (Causes of the French Revolution)
+- Influence of the American Revolution on the French Revolution (Influence of the American Revolution on the French Revolution)",87.119,3,86.964,6,0.155,3,3,"[{""id"": ""415418"", ""title"": ""Causes of the French Revolution""}, {""id"": ""80423707"", ""title"": ""Influence of the American Revolution on the French Revolution""}, {""id"": ""1973"", ""title"": ""American Revolution""}]",
+98,pre_2026,complex,How did Mendel's experiments lay the foundation for modern genetics?,"Based on the provided Wikipedia articles, Gregor Mendel’s foundational role in genetics is defined by the following key developments:
+
+*   **Proving Discrete Inheritance (The ""Factors""):** Between 1856 and 1863, Mendel conducted rigorous hybridization experiments on 28,000 pea plants (*Pisum sativum*). At a time when most biologists, including Charles Darwin's contemporaries, believed in ""blending inheritance"" (where parental traits average out like paints), Mendel showed that traits remained intact across generations. He demonstrated that crossing true-breeding varieties resulted in specific patterns—for example, the reappearance of recessive traits (like green seeds) in a predictable 1:3 ratio in the second generation. To explain this, he coined the terms ""dominant"" and ""recessive"" and established that traits are dictated by discrete, invisible units, which he called ""factors""—now known as genes ([Gregor Mendel]).
+*   **Establishing the Laws of Inheritance:** From his work on seven distinct plant characteristics, Mendel formulated two core principles: the **Law of Segregation** and the **Law of Independent Assortment**, collectively known as Mendelian inheritance. These laws provided a mathematical framework for how heritable traits are passed from parents to offspring ([Gregor Mendel], [Mendelian inheritance]).
+*   **Transitioning to Classical Genetics (1900):** Published in 1866, Mendel's work was largely ignored during his lifetime because his conceptual leap was too advanced for the prevailing biometric and blending theories. However, in 1900, Hugo de Vries, Carl Correns, and Erich von Tschermak independently rediscovered his paper. This catalyzed a shift from studying external appearances (phenotypes) to understanding the internal logic of heredity (genotypes). The concepts were further cemented when Thomas Hunt Morgan integrated them with the Boveri–Sutton chromosome theory in 1915, establishing classical genetics ([Mendelian inheritance], [History of genetics]).
+*   **Fusing Inheritance with Evolution:** Geneticists like William Bateson championed Mendel's theories against statistical schools of thought. Later, researchers such as R.A. Fisher mathematically combined Mendelian inheritance with Darwin’s theory of natural selection. This synthesis in the 1930s and 1940s established population genetics and formed the bedrock of modern evolutionary biology ([Mendelian inheritance], [Gregor Mendel]).
+*   **Laying the Groundwork for Molecular Genetics:** The fundamental conclusion that traits were controlled by discrete ""factors"" drove researchers in the mid-20th century to investigate the physical nature of these units. This line of inquiry eventually led to the identification of DNA as the genetic material and, subsequently, to the discovery of its double-helix structure, marking the birth of the modern era of molecular genetics ([History of genetics]).",68.669,4,68.571,3,0.098,2,1,"[{""id"": ""12562"", ""title"": ""Gregor Mendel""}]",
+99,pre_2026,complex,What factors contributed to the outbreak of the First World War?,"According to historical analysis, the outbreak of World War I was the result of a complex web of long-term structural factors combined with immediate triggers in the summer of 1914.
+
+### **Immediate Causes: The July Crisis**
+The direct spark that ignited the war was the **assassination of Archduke Franz Ferdinand**, the heir to the Austro-Hungarian throne, and his wife Sophie on June 28, 1914. 
+*   **Perpetrators:** The shooting in Sarajevo was carried out by Gavrilo Princip, a Bosnian Serb nationalist supported by the ""Black Hand,"" a secret society tied to Serbia.
+*   **The Casus Belli:** Austria-Hungary viewed the assassination as an existential challenge and used it as a justification (*casus belli*) for war against Serbia. This triggered the **""July Crisis,""** a diplomatic escalation where local conflict between Austria-Hungary and Serbia rapidly drew in larger powers through their respective alliance systems (Russia siding with Serbia; Germany backing Austria-Hungary; France and Britain eventually joining Russia).
+
+### **Long-Term Structural Factors**
+Scholars identify several deep-seated issues that created an environment of hostility:
+*   **Power Vacuum:** The declining power of the Ottoman Empire (""the Sick Man of Europe"") created a power vacuum in the Balkans, leading to fierce competition between Austria-Hungary and Russia for influence over the region.
+*   **A Complex Web of Alliances:** By 1914, Europe was polarized into two rival camps: the Triple Alliance (Germany, Austria-Hungary, Italy) and the Triple Entente (Britain, France, and Russia). This meant a local conflict could quickly escalate into a general European war.
+*   **Militarism and Arms Races:** An intense arms race, particularly between Britain and Germany over naval superiority, heightened tensions. There was also a prevailing ""cult of the offensive,"" where military planning (such as rapid mobilization schedules) often dictated diplomatic decisions.
+*   **Nationalism:** Unresolved territorial disputes fueled nationalism. In France, ""revanchism"" sought to regain territory lost to Germany in 1871. In the Balkans, Slavic nationalism threatened the stability of multi-ethnic empires like Austria-Hungary.
+*   **Imperial Rivalries:** Competition for colonies created diplomatic clashes, famously seen during the Moroccan Crises (1905–06 and 1911), which deepened suspicions and aligned France and Britain closer against Germany.
+
+### **The Shift in Balance of Power**
+Decades of conflict—such as the Balkan Wars (1912–13) and the Italo-Turkish War—had shifted the balance of power, making leaders feel that a war for dominance was inevitable or necessary before their rivals became too strong.
+
+Sources:
+- Causes of World War I",44.804,3,44.714,2,0.09,1,1,"[{""id"": ""1318008"", ""title"": ""Causes of World War I""}]",
+100,pre_2026,complex,How did the discovery of the structure of DNA change biology?,"The discovery of the DNA double-helix structure by James Watson and Francis Crick in 1953—based on critical X-ray crystallography work by Rosalind Franklin, along with contributions from Maurice Wilkins, Raymond Gosling, and Erwin Chargaff—is widely considered one of the most important scientific discoveries of the 20th century. Its impact transformed biology in several fundamental ways:
+
+*1. The Birth of Molecular Biology:* Before this discovery, while scientists knew genes were located on chromosomes, their chemical nature and mechanism of action remained an ""obscure zone"" or mystery. The double-helix model provided a physical and chemical basis for understanding nucleic acids as the primary substance of biological inheritance, effectively creating a new scientific discipline—molecular biology—at the intersection of genetics, biochemistry, physics, and chemistry [[History of molecular biology]], [[Molecular biology]].
+
+*2. A Blueprint for Heredity:* The elegant double-helix structure answered a fundamental mystery of how genetic instructions are stored inside organisms and passed from one generation to the next. It established the realization that genes are chemically defined functional parts of DNA molecules, replacing vague conceptual models with concrete atomic-level understanding [[Molecular Structure...]].
+
+*3. Mechanism for Replication:* The complementary base-pairing rule (adenine always pairing with thymine, and guanine with cytosine) immediately suggested a simple self-copying mechanism. This led to the confirmation in 1958 by the Meselson-Stahl experiment that DNA replication is ""semiconservative""—where two new DNA molecules are formed from one original, preserving a template through every cell division [[History of molecular biology]], [[Molecular biology]].
+
+*4. The Central Dogma and Genetic Code:* The structural discoveries enabled Francis Crick to propose the ""central dogma"" of molecular biology: the flow of genetic information moves irreversibly from DNA to RNA to proteins [[History of molecular biology]]. This paved the way for discovering that sequences of three nucleotides (codons) dictate specific amino acids, allowing scientists to decipher the full genetic code between 1961 and 1965 [[Molecular biology]], [[History of molecular biology]].
+
+*5. Medical Diagnosis and Personalized Treatment:* With the ability to sequence and compare DNA, modern medicine can diagnose diseases by identifying mutated DNA sequences responsible for cancer and genetic disorders. It allowed physicians to characterize antibody repertoires and move toward highly individualized treatments based on a patient's specific genetic makeup [[DNA sequencing]].
+
+*6. Revolutionary Biotechnologies:* The structural knowledge of the double helix sparked the development of foundational laboratory techniques used today across numerous fields. These include DNA sequencing, the polymerase chain reaction (PCR) for rapidly copying DNA, molecular cloning for isolating genes, and Southern/Northern/Western blotting for probing specific genetic sequences [[Molecular biology]], [[DNA sequencing]].
+
+*7. Forensics and Agriculture:* The ability to analyze unique DNA signatures revolutionized forensic biology, allowing individuals to be identified precisely at crime scenes or in paternity disputes. In agriculture, it enabled the creation of genetically modified organisms (GMOs) and advanced breeding techniques through precise genetic characterization [[DNA sequencing]].
+
+*8. Evolutionary Biology:* Molecular biologists now routinely use DNA sequences to trace evolutionary histories with high precision. Comparing genomes across species allows scientists to build detailed family trees (phylogenetics), study population genetics, and understand the molecular mechanisms of evolution over immense spans of time [[Molecular biology]].
+
+In summary, the discovery of the DNA double helix shifted biology from observing whole organisms down to understanding the atomic-level chemical machinery that generates life. It provided the literal ""book code"" by which all complex life functions, setting off an ongoing scientific and technological revolution.
+
+Sources:
+- [History of molecular biology] (id: 4173711)
+- [Molecular Biology] (id: 19200)
+- [Nucleic acid double helix] (id: 2091495)
+- [Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid] (id: 2661507)
+- [DNA sequencing] (id: 1158125)",142.456,9,142.152,9,0.305,6,3,"[{""id"": ""4173711"", ""title"": ""History of molecular biology""}, {""id"": ""19200"", ""title"": ""Molecular biology""}, {""id"": ""2091495"", ""title"": ""Nucleic acid double helix""}]",
