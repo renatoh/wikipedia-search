@@ -16,6 +16,7 @@ Usage:
 """
 
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -40,7 +41,7 @@ from the results of your tool calls, not from your own knowledge.
 
 Tools:
 - `wikipedia_search(query, top_k)` — returns {id, title, snippet}. The \
-snippet is just the article's first ~300 words.
+snippet is just the article's first ~500 words.
 - `wikipedia_get(id)` — returns the full article text.
 
 Workflow:
@@ -53,6 +54,9 @@ Citations:
 - End the answer with a "Sources:" section listing each article you used:
   Sources:
   - [Article Title] (id: 12345)"""
+
+# Matches the `(id: 12345)` citations the system prompt asks for.
+CITATION_ID_RE = re.compile(r"\bid:\s*(\d+)", re.IGNORECASE)
 
 def load_properties(path: Path) -> dict[str, str]:
     """Parse a simple key=value properties file. Blank lines and lines
@@ -77,7 +81,7 @@ TOOLS = [
             "description": (
                 "Hybrid (BM25 + kNN) search over the Wikipedia index. "
                 "Returns the top-K articles as {id, title, snippet}. "
-                "IMPORTANT: the snippet is only the first ~300 words. "
+                "IMPORTANT: the snippet is only the first ~500 words. "
                 "Wikipedia article leads are often stale (e.g. written "
                 "before an event happened). If a hit's title matches your "
                 "topic, call `wikipedia_get(id)` for the full article "
@@ -130,8 +134,9 @@ class AgenticSearch:
         search_service: SearchService | None = None,
         client: OpenAI | None = None,
         model: str | None = None,
-        max_iterations: int = 8,
-        snippet_words: int = 300,
+        max_iterations: int = 5,
+        snippet_words: int = 500,
+        nudge: bool = False,
     ):
         self.search = search_service or SearchService()
         if client is None:
@@ -141,6 +146,9 @@ class AgenticSearch:
         self.model = model
         self.max_iterations = max_iterations
         self.snippet_words = snippet_words
+        # When True, force a drill-in: if the model tries to finalize after
+        # only searching, inject a nudge and loop once. Off by default.
+        self.nudge = nudge
         self.last_trace: list[dict] = []
         self.last_total_seconds: float = 0.0
         self._t_start: float = 0.0
@@ -172,6 +180,12 @@ class AgenticSearch:
                 articles.append(fetched)
         return articles
 
+    def _unverified_citations(self, answer: str) -> list[str]:
+        """Ids cited as `(id: …)` in `answer` that the agent never fetched
+        with wikipedia_get this turn."""
+        fetched = {str(a.get("id")) for a in self.relevant_articles}
+        return sorted(set(CITATION_ID_RE.findall(answer)) - fetched)
+
     def _log_relevant(self, verbose: bool) -> None:
         """Record total elapsed time and, when verbose, print the consolidated
         relevant-article(s) + timing summary. Called at each exit of ask() so
@@ -189,8 +203,8 @@ class AgenticSearch:
 
     def _first_words(self, text: str, n: int) -> str:
         """Return the first n whitespace-delimited words of `text`. Cheap
-        approximation of the article's lead section — 300 words is roughly
-        the median Wikipedia lead length."""
+        approximation of the article's lead section (a few hundred words
+        covers most Wikipedia leads)."""
         words = (text or "").split()
         return " ".join(words[:n])
 
@@ -276,6 +290,8 @@ class AgenticSearch:
         did_search = False
         did_get = False
         nudged_already = False
+        # The citation check gets one retry per turn, same as the nudge.
+        citation_retried = False
         # Fresh trace for this turn — the caller (e.g. the web UI) can
         # inspect `agent.last_trace` after ask() returns to render it.
         self.last_trace: list[dict] = []
@@ -311,9 +327,9 @@ class AgenticSearch:
 
             tool_calls = message.tool_calls or []
             if not tool_calls:
-                # Mechanical guard: don't let the model finalize an answer
-                # after only searching. Force one drill-in attempt.
-                if did_search and not did_get and not nudged_already:
+                # Mechanical guard (opt-in via self.nudge): don't let the
+                # model finalize after only searching. Force one drill-in.
+                if self.nudge and did_search and not did_get and not nudged_already:
                     self.last_trace.append({"kind": "guard", "text": (
                         "guard: model tried to finalize without wikipedia_get "
                         "— injecting nudge and looping"
@@ -340,14 +356,32 @@ class AgenticSearch:
                     )
                     nudged_already = True
                     continue
+                content = message.content or ""
+                # Citation guard: if the answer cites articles the agent never
+                # fetched, send it back once to fetch them or drop the claims.
+                unverified = self._unverified_citations(content)
+                if unverified and not citation_retried:
+                    text = f"guard: answer cites unfetched id(s) {unverified} — asking the model to verify"
+                    self.last_trace.append({"kind": "guard", "text": text})
+                    if verbose:
+                        print(f"  · {text}")
+                    self.messages.append({"role": "user", "content": (
+                        f"You cited id(s) {', '.join(unverified)} without "
+                        "fetching them. Call wikipedia_get on each and check "
+                        "your claims, or remove the claims that rely on them."
+                    )})
+                    citation_retried = True
+                    continue
                 self._log_relevant(verbose)
-                if not message.content:
+                if not content:
                     return (
                         "(no answer from model — likely context overflow, "
                         "a timeout, or an upstream error. Try 'Reset agent "
                         "memory' and rephrase the question.)"
                     )
-                return message.content
+                if unverified:
+                    content += f"\n\n⚠️ Unverified source(s), never fetched: {', '.join(unverified)}"
+                return content
 
             for call in tool_calls:
                 try:
@@ -480,10 +514,10 @@ def _repl() -> None:
             continue
 
         try:
-            start = timeit.timeit()
+            start = time.perf_counter()
             print("start!!")
             answer = agent.ask(question, verbose=True)
-            print(f"\nassistant> {answer}\n in {timeit.timeit()-start}")
+            print(f"\nassistant> {answer}\n in {time.perf_counter()-start}")
         except Exception as e:
             print(f"error: {e}\n")
 
